@@ -1804,7 +1804,6 @@
         "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/PATENTS",
         "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/derp/xdp/headers/LICENSE.BSD-2-Clause",
         "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/internal/godown/github.com/go-json-experiment/json/LICENSE",
-        "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/license_test.go",
         "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/tempfork/spf13/cobra/LICENSE.txt"
       ]
     },

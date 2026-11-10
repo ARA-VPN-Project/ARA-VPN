@@ -18,7 +18,7 @@ case "$expected" in ''|*[!0-9a-f]*) die 'invalid SHA-256' ;; esac
 [ "${#expected}" = 64 ] || die 'expected a 64-character manifest SHA-256'
 case "$role" in
     client) packages='ara-engine ara' ;;
-    edge) packages='ara-engine ara-edge' ;;
+    edge) packages='ara-engine ara ara-edge' ;;
     control) packages='ara-control' ;;
     server) packages='ara-engine ara-edge ara-control' ;;
     *) die 'choose client, edge, control or server' ;;

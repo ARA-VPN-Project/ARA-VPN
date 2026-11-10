@@ -12,8 +12,8 @@ command -v curl >/dev/null 2>&1 || die 'install curl first'
 command -v sha256sum >/dev/null 2>&1 || die 'sha256sum is required'
 arch=$(dpkg --print-architecture)
 case "$arch" in
-    amd64) manifest=1f46ba72afddbb1792e64d6efaedbc81dfe228495beea3478209c1526a6113b2 ;;
-    armhf) manifest=f0a11b29a593e766bb7bd04bdfb7c0afa98f061d2f6d407d3e819d7771aee9e8 ;;
+    amd64) manifest=c4c5dbf7c100c879c5b17771824371b8cad4c7b136e20ab3fecfa24452ece54d ;;
+    armhf) manifest=63de090b3dcf6d3881cf161e6729a6d4699e9eb03ade6072bffa06b7c4aa6638 ;;
     *) die 'this release contains amd64 and armhf packages only' ;;
 esac
 base=https://github.com/ARA-VPN-Project/ARA-VPN/releases/download/v0.1.1
@@ -22,5 +22,5 @@ trap 'rm -rf "$stage"' EXIT
 trap 'exit 1' HUP INT TERM
 curl -q --fail --silent --show-error --location --proto '=https' --proto-redir '=https' \
     --connect-timeout 10 --max-time 300 "$base/install.sh" -o "$stage/install.sh"
-printf '%s  %s\n' 'bb122aa3f3a437fe90770a18acba39672039b4381f73cc3401d6eb88b08d9ced' "$stage/install.sh" | sha256sum -c - >/dev/null || die 'installer checksum mismatch'
+printf '%s  %s\n' '1bc0d38fc3cb73befff913d1e02b201183f773db7dc8c61738d3c0d9a3f7c4b7' "$stage/install.sh" | sha256sum -c - >/dev/null || die 'installer checksum mismatch'
 sh "$stage/install.sh" "$base" 0.1.1 "$manifest" "$role" "$mode"

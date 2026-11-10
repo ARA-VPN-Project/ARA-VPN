@@ -22,8 +22,6 @@
         "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/symbolize/LICENSE",
         "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/xdg_user_dirs/LICENSE",
         "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/build/android/incremental_install/third_party/AndroidHiddenApiBypass/LICENSE",
-        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/components/cronet/license/license_type.py",
-        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/components/cronet/license/license_utils.py",
         "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/net/third_party/mozilla_security_manager/LICENSE",
         "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/net/third_party/mozilla_win/LICENSE",
         "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/net/third_party/quiche/src/LICENSE",

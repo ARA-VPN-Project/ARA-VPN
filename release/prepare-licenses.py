@@ -104,7 +104,7 @@ def main():
                 if not relative or name.endswith('/'):
                     continue
                 base = pathlib.PurePosixPath(relative).name
-                if re.match(r'^(licen[cs]e|copying|notice|copyright|patents)([._-].*)?$', base, re.I):
+                if re.match(r'^(licen[cs]e|copying|notice|copyright|patents)([._-].*)?$', base, re.I) and pathlib.PurePosixPath(relative).suffix.lower() not in {'.go', '.py', '.c', '.h', '.cc', '.rs', '.js', '.sh'}:
                     destination = ROOT/'licenses/third-party'/path/version/relative
                     destination.parent.mkdir(parents=True, exist_ok=True)
                     destination.write_bytes(z.read(name))

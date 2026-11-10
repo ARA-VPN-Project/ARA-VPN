@@ -7,6 +7,7 @@
 <a href="https://github.com/ARA-VPN-Project/ARA-VPN/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ARA-VPN-Project/ARA-VPN?style=flat-square&amp;color=2563eb"></a>
 <a href="LICENSE"><img alt="AGPL-3.0-or-later" src="https://img.shields.io/badge/license-AGPL--3.0--or--later-16866d?style=flat-square"></a>
 <a href="docs/GETTING_STARTED.md"><img alt="Debian native" src="https://img.shields.io/badge/platform-Debian-a81d33?style=flat-square"></a>
+<a href="docs/ACCEPTANCE_0.1.1.md"><img alt="amd64: Intel and AMD 64-bit, native Debian tested" src="https://img.shields.io/badge/amd64-Intel_%2F_AMD_64--bit-2563eb?style=flat-square"></a>
 <a href="docs/ACCEPTANCE_0.1.1.md"><img alt="ARMv7 user-mode emulation" src="https://img.shields.io/badge/ARMv7-tested_under_QEMU-536789?style=flat-square"></a>
 </p>
 
@@ -90,6 +91,18 @@ flowchart LR
 <p align="center"><img src="docs/screenshots/configuration-mobile.png" width="280" alt="Имена и ограничения конфигураций на телефоне">&nbsp;&nbsp;<img src="docs/screenshots/signin-mobile.png" width="280" alt="Вход в панель на телефоне"></p>
 
 Скриншоты сняты на тестовой установке, без паролей и действующих клиентских QR. [Вся галерея →](docs/SCREENSHOTS.md)
+
+## Процессоры и платформы
+
+| Архитектура | Где используется | Статус 0.1.1 |
+|---|---|---|
+| **amd64 / x86‑64** | Обычные 64-битные Intel и AMD, большинство VPS и мини-ПК | Готовые .deb, native Debian и реальные подключения проверены |
+| **armhf / ARMv7** | 32-битные ARM-устройства с ARMv7 | Готовые .deb; тесты и трафик через Edge/Exit проверены под QEMU |
+| **arm64 / AArch64** | 64-битные ARM-серверы и платы | Цель сборки предусмотрена; проверенных пакетов в этом выпуске нет |
+
+ARMv7-эмуляция не подменяет испытание физического устройства. Серверная платформа
+этого выпуска — Debian; сторонний VPN-клиент на телефоне или компьютере является
+отдельной программой.
 
 ## Начать
 

@@ -28,6 +28,12 @@
 - Node availability, latency, traffic history and bounded segment speed tests.
 - A web UI in Russian/English and CLI/API for repeatable administration.
 
+## Architectures
+
+- **amd64 / x86-64 (Intel and AMD 64-bit):** native Debian packages and real runtime qualification.
+- **armhf / ARMv7:** packages, tests and real payload through emulated Edge/Exit under QEMU user mode.
+- **arm64 / AArch64:** a build target exists; qualified release packages are not included in 0.1.1.
+
 ## Install
 
 ```sh
