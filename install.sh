@@ -27,7 +27,7 @@ trap 'rm -rf "$stage"' EXIT
 trap 'exit 1' HUP INT TERM
 curl -q --fail --silent --show-error --location --proto '=https' --proto-redir '=https' \
     --connect-timeout 10 --max-time 300 "$base/install.sh" -o "$stage/install.sh"
-printf '%s  %s\n' '1bc0d38fc3cb73befff913d1e02b201183f773db7dc8c61738d3c0d9a3f7c4b7' "$stage/install.sh" | sha256sum -c - >/dev/null || die 'installer checksum mismatch'
+printf '%s  %s\n' 'be9f5db5ccb3283bb59920815e03a33963516380c56c07d8992768aa77cf33fc' "$stage/install.sh" | sha256sum -c - >/dev/null || die 'installer checksum mismatch'
 if [ "$mode" = --setup-panel ]; then
     sh "$stage/install.sh" "$base" 0.1.1 "$manifest" "$role" "$mode" </dev/tty
 else

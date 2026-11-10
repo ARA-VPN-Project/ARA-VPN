@@ -68,7 +68,7 @@ for package in $packages; do
     case "$current" in
         "ii  $version"|'') ;;
         'ii '*) die "installed $package has a different version; use the signed ARA updater" ;;
-        'rc '*) ;;
+        'rc '*|'un '*|'pn '*) ;; # known not-installed/purged states are safe for a fresh install
         *) die "package $package is in a partial state; inspect dpkg before continuing" ;;
     esac
     file="${package}_${version}_${arch}.deb"
