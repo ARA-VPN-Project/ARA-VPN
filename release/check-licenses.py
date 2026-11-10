@@ -24,7 +24,13 @@ def main():
   for name,data in helper.members(deb):
    if not name.startswith('data.tar'):continue
    with tarfile.open(fileobj=io.BytesIO(data)) as t:
+    directories={'.'}
     for m in t:
+     normalized=m.name.removeprefix('./').rstrip('/')
+     if not normalized:continue
+     parent=str(pathlib.PurePosixPath(normalized).parent)
+     assert parent in directories, 'directory precedes its parent in Debian payload: '+deb.name+':'+normalized
+     if m.isdir():directories.add(normalized)
      if not m.isfile():continue
      path=m.name.removeprefix('./');label=deb.name+':'+path
      if label in binary_hashes:

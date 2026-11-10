@@ -12,8 +12,8 @@ command -v curl >/dev/null 2>&1 || die 'install curl first'
 command -v sha256sum >/dev/null 2>&1 || die 'sha256sum is required'
 arch=$(dpkg --print-architecture)
 case "$arch" in
-    amd64) manifest=c4c5dbf7c100c879c5b17771824371b8cad4c7b136e20ab3fecfa24452ece54d ;;
-    armhf) manifest=63de090b3dcf6d3881cf161e6729a6d4699e9eb03ade6072bffa06b7c4aa6638 ;;
+    amd64) manifest=d72b8bf8696dab1b334cb089898732dcb460c51ec4bd11bbb564287cb3244130 ;;
+    armhf) manifest=fed4ef1eee34f37a381865e957de3bbe4ca854fb22343f58bc40267c15fa4f62 ;;
     *) die 'this release contains amd64 and armhf packages only' ;;
 esac
 # curl | sudo sh leaves stdin at EOF. Use the controlling terminal for the
