@@ -5,6 +5,7 @@
 
 <p align="center">
 <a href="https://github.com/ARA-VPN-Project/ARA-VPN/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ARA-VPN-Project/ARA-VPN?style=flat-square&amp;color=2563eb"></a>
+<a href="https://github.com/ARA-VPN-Project/ARA-VPN/actions/workflows/verify.yml"><img alt="CI" src="https://github.com/ARA-VPN-Project/ARA-VPN/actions/workflows/verify.yml/badge.svg"></a>
 <a href="LICENSE"><img alt="AGPL-3.0-or-later" src="https://img.shields.io/badge/license-AGPL--3.0--or--later-16866d?style=flat-square"></a>
 <a href="docs/GETTING_STARTED.md"><img alt="Debian native" src="https://img.shields.io/badge/platform-Debian-a81d33?style=flat-square"></a>
 <a href="docs/ACCEPTANCE_0.1.1.md"><img alt="amd64: Intel and AMD 64-bit, native Debian tested" src="https://img.shields.io/badge/amd64-Intel_%2F_AMD_64--bit-2563eb?style=flat-square"></a>
