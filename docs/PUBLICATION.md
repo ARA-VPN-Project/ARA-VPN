@@ -14,7 +14,7 @@ BOOTSTRAP-SHA256SUMS, RELEASE-SHA256SUMS, исходники ARA и отчёт �
 Обязательные отдельные source-ассеты: THIRD-PARTY-SOURCES.tar.gz и
 NAIVEPROXY-SOURCES-72a06c9f.tar.gz. Они предоставляются бесплатно рядом с бинарниками.
 
-Корневой install.sh в репозитории — короткий version-pinned launcher. Ассет
+Корневой install.sh в main — поддерживаемый launcher с закреплённой версией payload. Ассет
 install.sh в Release — проверяемый Debian bootstrap. Launcher проверяет SHA-256
 bootstrap и передаёт pinned manifest; bootstrap проверяет SHA-256 и идентичность
 каждого пакета. Это разные уровни установки с одинаковым именем файла.

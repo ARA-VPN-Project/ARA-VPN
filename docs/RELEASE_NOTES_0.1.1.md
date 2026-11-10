@@ -21,7 +21,7 @@
 ## Установить
 
 ```sh
-curl -q -fsSL --proto '=https' --proto-redir '=https' https://raw.githubusercontent.com/ARA-VPN-Project/ARA-VPN/v0.1.1/install.sh | sudo sh
+curl -q -fsSL --proto '=https' --proto-redir '=https' https://raw.githubusercontent.com/ARA-VPN-Project/ARA-VPN/main/install.sh | sudo sh
 ```
 
 Нужен Debian с systemd и curl. Мастер принимает домен **или IP**, предлагает

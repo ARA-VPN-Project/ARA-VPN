@@ -4,7 +4,7 @@
 <p align="center"><strong>Своя VPN-сеть для доступа к нужным сервисам.</strong><br>Вход рядом с вами. Выход там, где нужно. Управление в одной панели.</p>
 
 <p align="center">
-<a href="https://github.com/ARA-VPN-Project/ARA-VPN/releases/latest"><img alt="Release" src="https://img.shields.io/github/v/release/ARA-VPN-Project/ARA-VPN?style=flat-square&amp;color=2563eb"></a>
+<a href="https://github.com/ARA-VPN-Project/ARA-VPN/releases/latest"><img alt="Release" src="https://img.shields.io/badge/release-v0.1.1-2563eb?style=flat-square"></a>
 <a href="https://github.com/ARA-VPN-Project/ARA-VPN/actions/workflows/verify.yml"><img alt="CI" src="https://github.com/ARA-VPN-Project/ARA-VPN/actions/workflows/verify.yml/badge.svg"></a>
 <a href="LICENSE"><img alt="AGPL-3.0-or-later" src="https://img.shields.io/badge/license-AGPL--3.0--or--later-16866d?style=flat-square"></a>
 <a href="docs/GETTING_STARTED.md"><img alt="Debian native" src="https://img.shields.io/badge/platform-Debian-a81d33?style=flat-square"></a>
@@ -110,7 +110,7 @@ ARMv7-эмуляция не подменяет испытание физичес
 Нужен **Debian с systemd** на сервере выбранной роли. Основная проверенная платформа — Debian 13 amd64; ARMv7 проверен в user-mode эмуляции. Подготовьте доступ к консоли и выберите свободные порты.
 
 ```sh
-curl -q -fsSL --proto '=https' --proto-redir '=https' https://raw.githubusercontent.com/ARA-VPN-Project/ARA-VPN/v0.1.1/install.sh | sudo sh
+curl -q -fsSL --proto '=https' --proto-redir '=https' https://raw.githubusercontent.com/ARA-VPN-Project/ARA-VPN/main/install.sh | sudo sh
 ```
 
 Мастер попросит домен **или IP**, предложит порт панели **29445** и поможет выбрать TLS: свой сертификат, локальный сертификат или ACME для домена. После настройки он покажет полную секретную ссылку панели, логин и первоначальный пароль. По умолчанию панель привязана к loopback; удалённый доступ включается явно.

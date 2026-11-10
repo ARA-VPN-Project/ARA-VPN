@@ -37,7 +37,7 @@
 ## Install
 
 ```sh
-curl -q -fsSL --proto '=https' --proto-redir '=https' https://raw.githubusercontent.com/ARA-VPN-Project/ARA-VPN/v0.1.1/install.sh | sudo sh
+curl -q -fsSL --proto '=https' --proto-redir '=https' https://raw.githubusercontent.com/ARA-VPN-Project/ARA-VPN/main/install.sh | sudo sh
 ```
 
 Use Debian with systemd. The main qualified platform is Debian 13 amd64; ARMv7 has user-mode QEMU qualification. The wizard accepts a hostname or IP, proposes panel port **29445**, configures the selected TLS mode and prints the full private panel URL, username and initial password. Loopback is the default bind; remote exposure is an explicit choice.

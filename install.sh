@@ -16,6 +16,11 @@ case "$arch" in
     armhf) manifest=63de090b3dcf6d3881cf161e6729a6d4699e9eb03ade6072bffa06b7c4aa6638 ;;
     *) die 'this release contains amd64 and armhf packages only' ;;
 esac
+# curl | sudo sh leaves stdin at EOF. Use the controlling terminal for the
+# interactive wizard, and reject non-interactive setup before installing.
+if [ "$mode" = --setup-panel ]; then
+    ( : </dev/tty ) 2>/dev/null || die 'interactive setup requires a terminal; use --check for unattended verification'
+fi
 base=https://github.com/ARA-VPN-Project/ARA-VPN/releases/download/v0.1.1
 stage=$(mktemp -d)
 trap 'rm -rf "$stage"' EXIT
@@ -23,4 +28,8 @@ trap 'exit 1' HUP INT TERM
 curl -q --fail --silent --show-error --location --proto '=https' --proto-redir '=https' \
     --connect-timeout 10 --max-time 300 "$base/install.sh" -o "$stage/install.sh"
 printf '%s  %s\n' '1bc0d38fc3cb73befff913d1e02b201183f773db7dc8c61738d3c0d9a3f7c4b7' "$stage/install.sh" | sha256sum -c - >/dev/null || die 'installer checksum mismatch'
-sh "$stage/install.sh" "$base" 0.1.1 "$manifest" "$role" "$mode"
+if [ "$mode" = --setup-panel ]; then
+    sh "$stage/install.sh" "$base" 0.1.1 "$manifest" "$role" "$mode" </dev/tty
+else
+    sh "$stage/install.sh" "$base" 0.1.1 "$manifest" "$role" "$mode"
+fi
