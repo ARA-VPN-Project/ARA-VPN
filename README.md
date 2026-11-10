@@ -135,7 +135,7 @@ curl -q -fsSL --proto '=https' --proto-redir '=https' https://raw.githubusercont
 
 [Установка](docs/GETTING_STARTED.md) · [Сценарии](docs/USE_CASES.md) · [Консоль и инструкции агентам](docs/AGENT_QUICKSTART.md) · [Протоколы](docs/PROTOCOLS.md) · [Приёмка](docs/ACCEPTANCE_0.1.1.md) · [Проверка публичного комплекта](docs/PUBLICATION_SECURITY_0.1.1.md) · [Сообщить о проблеме](https://github.com/ARA-VPN-Project/ARA-VPN/issues)
 
-**0.1.1 принята в согласованном native Debian объёме.** Docker runtime, физический ARMv7 и полевые DPI-замеры не объявляются пройденными. Это не меняет доступные функции и не заменяет проверку вашей топологии. [Точная матрица результатов →](docs/ACCEPTANCE_0.1.1.md)
+**0.1.1 принята в согласованном native Debian объёме.** [Настоящая установка с GitHub: PASS](docs/PUBLIC_INSTALL_0.1.1.md). Docker runtime, физический ARMv7 и полевые DPI-замеры не объявляются пройденными. Это не меняет доступные функции и не заменяет проверку вашей топологии. [Точная матрица результатов →](docs/ACCEPTANCE_0.1.1.md)
 
 ## Лицензия
 

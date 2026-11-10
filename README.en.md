@@ -56,7 +56,7 @@ A domain is optional, but clients must trust your certificate. A public DNS name
 
 ARA orchestrates standard transports; it is not a new VPN protocol. Client ingress capabilities differ from inter-node transport capabilities. A successful subscription fetch is not proof of a working tunnel. Test egress, limits and failures in your own topology. No universal censorship/DPI bypass is promised.
 
-0.1.1 is accepted within its documented native Debian scope. An independent sing-box client was used for interoperability checks. Docker runtime, physical ARMv7 and individual mobile applications are not claimed as separately qualified. [Acceptance report](docs/ACCEPTANCE_0.1.1.md).
+0.1.1 is accepted within its documented native Debian scope. [Actual clean installation from GitHub passed](docs/PUBLIC_INSTALL_0.1.1.md). An independent sing-box client was used for interoperability checks. Docker runtime, physical ARMv7 and individual mobile applications are not claimed as separately qualified. [Acceptance report](docs/ACCEPTANCE_0.1.1.md).
 
 ## License
 

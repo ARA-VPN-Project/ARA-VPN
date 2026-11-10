@@ -52,11 +52,13 @@ arm64 является целью сборки, но проверенных па
 Docker runtime и физический ARMv7 отдельно не квалифицированы. Возможности
 клиентского входа и межсерверного транспорта различаются. [Матрица протоколов](https://github.com/ARA-VPN-Project/ARA-VPN/blob/v0.1.1/docs/PROTOCOLS.md).
 
-[**Начать с руководства →**](https://github.com/ARA-VPN-Project/ARA-VPN/blob/v0.1.1/docs/GETTING_STARTED.md) ·
+[**Начать с руководства →**](https://github.com/ARA-VPN-Project/ARA-VPN/blob/main/docs/GETTING_STARTED.md) ·
 [Сценарии](https://github.com/ARA-VPN-Project/ARA-VPN/blob/v0.1.1/docs/USE_CASES.md) ·
 [Скриншоты](https://github.com/ARA-VPN-Project/ARA-VPN/blob/v0.1.1/docs/SCREENSHOTS.md) ·
-[English](https://github.com/ARA-VPN-Project/ARA-VPN/blob/v0.1.1/README.en.md)
+[English](https://github.com/ARA-VPN-Project/ARA-VPN/blob/main/README.en.md)
 
 Собственный код — AGPL-3.0-or-later; сторонние лицензии сохранены. Вместе с
 бинарниками публикуются исходники ARA, Go-модулей/движка и нативной части.
 Проверяйте RELEASE-SHA256SUMS. [Приёмка и границы](https://github.com/ARA-VPN-Project/ARA-VPN/blob/v0.1.1/docs/ACCEPTANCE_0.1.1.md).
+
+**Публичная установка проверена:** GitHub → apt/dpkg → мастер → HTTPS-вход → сохранение данных после restart. [Отчёт](https://github.com/ARA-VPN-Project/ARA-VPN/blob/main/docs/PUBLIC_INSTALL_0.1.1.md).
