@@ -1,0 +1,45 @@
+[Unit]
+Description=ARA VPN control plane (loopback management)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ara-control
+Group=ara-control
+# Port is configurable for hosts where 127.0.0.1:8080 is taken by another
+# service: set ARA_CONTROL_LISTEN in /etc/default/ara-control (values from
+# the file override the Environment= default; systemd does not support
+# shell-style ${VAR:-default} expansion in ExecStart).
+Environment=ARA_CONTROL_LISTEN=127.0.0.1:8080
+EnvironmentFile=-/etc/default/ara-control
+ExecStart=/usr/bin/ara-control --state-dir /var/lib/ara-control --listen ${ARA_CONTROL_LISTEN}
+Restart=on-failure
+RestartSec=5
+
+# Hardening: this process manages a local DB and a loopback API only.
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+CapabilityBoundingSet=
+AmbientCapabilities=
+PrivateTmp=yes
+PrivateDevices=yes
+ReadWritePaths=/var/lib/ara-control
+RestrictAddressFamilies=AF_UNIX AF_INET
+LimitNOFILE=8192
+
+[Install]
+WantedBy=multi-user.target

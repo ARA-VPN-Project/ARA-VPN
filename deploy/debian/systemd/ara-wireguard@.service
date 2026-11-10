@@ -1,0 +1,17 @@
+[Unit]
+Description=ARA VPN WireGuard backbone (%I)
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/etc/ara-edge/backbones/wireguard/%i.conf
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/lib/ara/wireguard-backbone up %i
+ExecStop=/usr/lib/ara/wireguard-backbone down %i
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectHome=yes
+
+[Install]
+WantedBy=multi-user.target

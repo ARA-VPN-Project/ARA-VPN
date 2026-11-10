@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "exits": [
+    { "id": "ru-edge-exit", "country": "RU", "priority": 0, "role": "ru" },
+    { "id": "nl-a", "country": "NL", "priority": 1, "role": "foreign" },
+    { "id": "nl-b", "country": "NL", "priority": 2, "role": "foreign" }
+  ],
+  "current_foreign_id": "nl-a",
+  "access_down": false
+}

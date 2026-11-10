@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "account_id": "acc-example",
+  "device_id": "dev-laptop",
+  "account": {
+    "rate": {
+      "download_bps": 100000000,
+      "upload_bps": 50000000,
+      "download_burst_bytes": 33554432,
+      "upload_burst_bytes": 16777216
+    },
+    "total_bytes": 536870912000
+  },
+  "device": {
+    "rate": {
+      "download_bps": 50000000,
+      "upload_bps": 25000000
+    },
+    "total_bytes": 107374182400
+  },
+  "period": { "kind": "monthly", "tz": "Europe/Moscow" }
+}

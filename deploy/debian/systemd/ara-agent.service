@@ -1,0 +1,47 @@
+[Unit]
+Description=ARA VPN local agent
+Documentation=file:///usr/share/doc/ara-agent/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ara-agent
+Group=ara-agent
+ExecStart=/usr/bin/ara-agent --state-dir /var/lib/ara-agent
+Restart=on-failure
+RestartSec=5
+
+# Hardening (systemd.exec). Verified against the installed systemd version
+# in the packaging test; PrivateDevices must stay OFF because the TUN data
+# plane needs /dev/net/tun (docs/SECURITY.md).
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+# B40: the TUN data plane needs exactly ONE capability — CAP_NET_ADMIN
+# (create/configure the owned TUN) — granted as an ambient capability to
+# the dedicated non-root service user; AF_NETLINK is required for route
+# event subscription. Everything else stays bounded; the panel/CLI never
+# run with these privileges.
+CapabilityBoundingSet=CAP_NET_ADMIN
+AmbientCapabilities=CAP_NET_ADMIN
+PrivateTmp=yes
+PrivateDevices=no
+ReadWritePaths=/var/lib/ara-agent
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6 AF_NETLINK
+LimitNOFILE=16384
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,23 @@
+ARA VPN
+Copyright (C) 2026 ARA VPN contributors.
+
+ARA-authored source code, scripts and documentation in this distribution are
+licensed under the GNU Affero General Public License, version 3 or (at your
+option) any later version (SPDX: AGPL-3.0-or-later), unless a file explicitly
+states another license. See LICENSE for the complete, unmodified license.
+
+This program is distributed WITHOUT ANY WARRANTY, including implied warranties
+of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See LICENSE.
+
+Third-party components retain their original copyrights and licenses. The ARA
+license does not replace their terms. Exact component notices are preserved in
+licenses/third-party; the binary-derived inventory is licenses/INVENTORY.json.
+The separately distributed sing-box transport engine remains GPL-3.0-or-later;
+its original license notice and full GPL text are included under licenses/.
+
+Public source archives accompany release binaries; see SOURCES.md. Do not
+include private keys, passwords, subscription tokens or operational data in
+source distributions. Source obligations concern program source, not user data.
+
+ARA VPN branding identifies this project. This notice does not claim ownership
+of third-party components or their names. See TRADEMARKS.md.

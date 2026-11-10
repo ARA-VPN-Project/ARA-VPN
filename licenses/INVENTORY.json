@@ -1,0 +1,2891 @@
+{
+  "format": 1,
+  "ara_license": "AGPL-3.0-or-later",
+  "method": "union of embedded Go build information in all release Debian binaries; h1 verified module source archives",
+  "binaries": [
+    {
+      "binary": "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+      "sha256": "50a7d804babbf66d70242cc456df92ed57ab5e19826feb3ab4cc8e7a80dc2267",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara-control\n\tmod\taravpn\t(devel)\t\n\tdep\tgithub.com/dustin/go-humanize\tv1.0.1\th1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=\n\tdep\tgithub.com/google/go-containerregistry\tv0.20.7\th1:24VGNpS0IwrOZ2ms2P1QE3Xa5X9p4phx0aUgzYzHW6I=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/opencontainers/go-digest\tv1.0.0\th1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=\n\tdep\tgithub.com/remyoudompheng/bigfft\tv0.0.0-20230129092748-24d4a6f8daec\th1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=\n\tdep\tgithub.com/secure-systems-lab/go-securesystemslib\tv0.11.0\th1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=\n\tdep\tgithub.com/sigstore/protobuf-specs\tv0.5.0\th1:F8YTI65xOHw70NrvPwJ5PhAzsvTnuJMGLkA4FIkofAY=\n\tdep\tgithub.com/sigstore/sigstore\tv1.10.6\th1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=\n\tdep\tgithub.com/theupdateframework/go-tuf/v2\tv2.4.2\th1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=\n\tdep\tgolang.org/x/crypto\tv0.58.0\th1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=\n\tdep\tgolang.org/x/net\tv0.61.0\th1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=\n\tdep\tgolang.org/x/sys\tv0.49.0\th1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=\n\tdep\tgolang.org/x/term\tv0.47.0\th1:cpyOwQkr2Nzxe2p6KnrTG7Ei2wtzjsuSjhpXXepZ/BM=\n\tdep\tgolang.org/x/text\tv0.43.0\th1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=\n\tdep\tgoogle.golang.org/genproto/googleapis/api\tv0.0.0-20250825161204-c5933d9347a5\th1:BIRfGDEjiHRrk0QKZe3Xv2ieMhtgRGeLcZQ0mIVn4EY=\n\tdep\tgoogle.golang.org/protobuf\tv1.36.11\th1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=\n\tdep\tmodernc.org/libc\tv1.75.6\th1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=\n\tdep\tmodernc.org/mathutil\tv1.7.1\th1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=\n\tdep\tmodernc.org/memory\tv1.12.1\th1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=\n\tdep\tmodernc.org/sqlite\tv1.58.0\th1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=\n\tdep\trsc.io/qr\tv0.2.0\th1:6vBLea5/NRMVTz8V66gipeLycZMl/+UlFmk8DvqQ6WY=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=amd64\n\tbuild\tGOOS=linux\n\tbuild\tGOAMD64=v1\n"
+    },
+    {
+      "binary": "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+      "sha256": "718cdccfe18dff8bb192580ffa709db3ba44d178a4f223fe3034854ee6dce613",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara-control\n\tmod\taravpn\t(devel)\t\n\tdep\tgithub.com/dustin/go-humanize\tv1.0.1\th1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=\n\tdep\tgithub.com/google/go-containerregistry\tv0.20.7\th1:24VGNpS0IwrOZ2ms2P1QE3Xa5X9p4phx0aUgzYzHW6I=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/opencontainers/go-digest\tv1.0.0\th1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=\n\tdep\tgithub.com/remyoudompheng/bigfft\tv0.0.0-20230129092748-24d4a6f8daec\th1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=\n\tdep\tgithub.com/secure-systems-lab/go-securesystemslib\tv0.11.0\th1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=\n\tdep\tgithub.com/sigstore/protobuf-specs\tv0.5.0\th1:F8YTI65xOHw70NrvPwJ5PhAzsvTnuJMGLkA4FIkofAY=\n\tdep\tgithub.com/sigstore/sigstore\tv1.10.6\th1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=\n\tdep\tgithub.com/theupdateframework/go-tuf/v2\tv2.4.2\th1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=\n\tdep\tgolang.org/x/crypto\tv0.58.0\th1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=\n\tdep\tgolang.org/x/net\tv0.61.0\th1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=\n\tdep\tgolang.org/x/sys\tv0.49.0\th1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=\n\tdep\tgolang.org/x/term\tv0.47.0\th1:cpyOwQkr2Nzxe2p6KnrTG7Ei2wtzjsuSjhpXXepZ/BM=\n\tdep\tgolang.org/x/text\tv0.43.0\th1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=\n\tdep\tgoogle.golang.org/genproto/googleapis/api\tv0.0.0-20250825161204-c5933d9347a5\th1:BIRfGDEjiHRrk0QKZe3Xv2ieMhtgRGeLcZQ0mIVn4EY=\n\tdep\tgoogle.golang.org/protobuf\tv1.36.11\th1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=\n\tdep\tmodernc.org/libc\tv1.75.6\th1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=\n\tdep\tmodernc.org/mathutil\tv1.7.1\th1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=\n\tdep\tmodernc.org/memory\tv1.12.1\th1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=\n\tdep\tmodernc.org/sqlite\tv1.58.0\th1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=\n\tdep\trsc.io/qr\tv0.2.0\th1:6vBLea5/NRMVTz8V66gipeLycZMl/+UlFmk8DvqQ6WY=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=arm\n\tbuild\tGOOS=linux\n\tbuild\tGOARM=7\n"
+    },
+    {
+      "binary": "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+      "sha256": "e8666dd0f5c802f7f2e42e8357845965be5c7c517ccb0839efe3a41145177639",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara-edge\n\tmod\taravpn\t(devel)\t\n\tdep\tgithub.com/dustin/go-humanize\tv1.0.1\th1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/remyoudompheng/bigfft\tv0.0.0-20230129092748-24d4a6f8daec\th1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=\n\tdep\tgolang.org/x/net\tv0.61.0\th1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=\n\tdep\tgolang.org/x/sys\tv0.49.0\th1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=\n\tdep\tgolang.org/x/text\tv0.43.0\th1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=\n\tdep\tmodernc.org/libc\tv1.75.6\th1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=\n\tdep\tmodernc.org/mathutil\tv1.7.1\th1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=\n\tdep\tmodernc.org/memory\tv1.12.1\th1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=\n\tdep\tmodernc.org/sqlite\tv1.58.0\th1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=amd64\n\tbuild\tGOOS=linux\n\tbuild\tGOAMD64=v1\n"
+    },
+    {
+      "binary": "ara-edge_0.1.1_amd64.deb:usr/bin/ara-testpoint",
+      "sha256": "93b6793212801fa788d9162af4c7f88b2a73746485f176d648c3f64416fd3302",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara-testpoint\n\tmod\taravpn\t(devel)\t\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=amd64\n\tbuild\tGOOS=linux\n\tbuild\tGOAMD64=v1\n"
+    },
+    {
+      "binary": "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+      "sha256": "d0584cd1fda65038fee65da5e3841cf07001438bd4914532a5cf779e82d15ec1",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara-edge\n\tmod\taravpn\t(devel)\t\n\tdep\tgithub.com/dustin/go-humanize\tv1.0.1\th1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/remyoudompheng/bigfft\tv0.0.0-20230129092748-24d4a6f8daec\th1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=\n\tdep\tgolang.org/x/net\tv0.61.0\th1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=\n\tdep\tgolang.org/x/sys\tv0.49.0\th1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=\n\tdep\tgolang.org/x/text\tv0.43.0\th1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=\n\tdep\tmodernc.org/libc\tv1.75.6\th1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=\n\tdep\tmodernc.org/mathutil\tv1.7.1\th1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=\n\tdep\tmodernc.org/memory\tv1.12.1\th1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=\n\tdep\tmodernc.org/sqlite\tv1.58.0\th1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=arm\n\tbuild\tGOOS=linux\n\tbuild\tGOARM=7\n"
+    },
+    {
+      "binary": "ara-edge_0.1.1_armhf.deb:usr/bin/ara-testpoint",
+      "sha256": "c1346c3c09ab226c854081cd75d10b1cb5b7d0bb5f42391e86116e74f573c4e6",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara-testpoint\n\tmod\taravpn\t(devel)\t\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=arm\n\tbuild\tGOOS=linux\n\tbuild\tGOARM=7\n"
+    },
+    {
+      "binary": "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+      "sha256": "1264361b5f8868c8768f7555d3e77e20118bf503c41ac08bb290a0d99056aa3a",
+      "toolchain": "go1.26.10",
+      "build_information": "\tpath\tgithub.com/sagernet/sing-box/cmd/sing-box\n\tmod\tgithub.com/sagernet/sing-box\tv1.14.4\t\n\tdep\tfilippo.io/edwards25519\tv1.2.0\th1:crnVqOiS4jqYleHd9vaKZ+HKtHfllngJIiOpNpoJsjo=\n\tdep\tgithub.com/RyuaNerin/go-krypto\tv1.3.0\th1:smavTzSMAx8iuVlGb4pEwl9MD2qicqMzuXR2QWp2/Pg=\n\tdep\tgithub.com/ajg/form\tv1.5.1\th1:t9c7v8JUKu/XxOGBU0yjNpaMloxGEJhUkqFRq0ibGeU=\n\tdep\tgithub.com/anchore/go-lzo\tv0.1.0\th1:NgAacnzqPeGH49Ky19QKLBZEuFRqtTG9cdaucc3Vncs=\n\tdep\tgithub.com/andybalholm/brotli\tv1.1.0\th1:eLKJA0d02Lf0mVpIDgYnqXcUn0GqVmEFny3VuID1U3M=\n\tdep\tgithub.com/anmitsu/go-shlex\tv0.0.0-20200514113438-38f4b401e2be\th1:9AeTilPcZAjCFIImctFaOjnTIavg87rW78vTPkQqLI8=\n\tdep\tgithub.com/anthropics/anthropic-sdk-go\tv1.26.0\th1:oUTzFaUpAevfuELAP1sjL6CQJ9HHAfT7CoSYSac11PY=\n\tdep\tgithub.com/anytls/sing-anytls\tv0.0.11\th1:w8e9Uj1oP3m4zxkyZDewPk0EcQbvVxb7Nn+rapEx4fc=\n\tdep\tgithub.com/axiomhq/hyperloglog\tv0.0.0-20240319100328-84253e514e02\th1:bXAPYSbdYbS5VTy92NIUbeDI1qyggi+JYh5op9IFlcQ=\n\tdep\tgithub.com/caddyserver/certmagic\tv0.25.3-0.20260421143802-60d9d8b415d6\th1:LYSB6VgWzKtNrcxElw3c97BP40Oc7bizKxA9K1Vi/5k=\n\tdep\tgithub.com/caddyserver/zerossl\tv0.1.5\th1:dkvOjBAEEtY6LIGAHei7sw2UgqSD6TrWweXpV7lvEvE=\n\tdep\tgithub.com/clipperhouse/uax29/v2\tv2.2.0\th1:ChwIKnQN3kcZteTXMgb1wztSgaU+ZemkgWdohwgs8tY=\n\tdep\tgithub.com/coder/websocket\tv1.8.14\th1:9L0p0iKiNOibykf283eHkKUHHrpG7f65OE3BhhO7v9g=\n\tdep\tgithub.com/coreos/go-iptables\tv0.7.1-0.20240112124308-65c67c9f46e6\th1:8h5+bWd7R6AYUslN6c6iuZWTKsKxUFDlpnmilO6R2n0=\n\tdep\tgithub.com/coreos/go-oidc/v3\tv3.17.0\th1:hWBGaQfbi0iVviX4ibC7bk8OKT5qNr4klBaCHVNvehc=\n\tdep\tgithub.com/creack/pty\tv1.1.24\th1:bJrF4RRfyJnbTJqzRLHzcGaZK1NeM5kTC9jGgovnR1s=\n\tdep\tgithub.com/cretz/bine\tv0.2.0\th1:8GiDRGlTgz+o8H9DSnsl+5MeBK4HsExxgl6WgzOCuZo=\n\tdep\tgithub.com/database64128/netx-go\tv0.1.1\th1:dT5LG7Gs7zFZBthFBbzWE6K8wAHjSNAaK7wCYZT7NzM=\n\tdep\tgithub.com/database64128/tfo-go/v2\tv2.3.2\th1:UhZMKiMq3swZGUiETkLBDzQnZBPSAeBMClpJGlnJ5Fw=\n\tdep\tgithub.com/dgryski/go-camellia\tv0.0.0-20191119043421-69a8a13fb23d\th1:CPqTNIigGweVPT4CYb+OO2E6XyRKFOmvTHwWRLgCAlE=\n\tdep\tgithub.com/dgryski/go-metro\tv0.0.0-20180109044635-280f6062b5bc\th1:8WFBn63wegobsYAX0YjD+8suexZDga5CctH4CCTx2+8=\n\tdep\tgithub.com/ebitengine/purego\tv0.10.0\th1:QIw4xfpWT6GWTzaW5XEKy3HXoqrJGx1ijYHzTF0/ISU=\n\tdep\tgithub.com/florianl/go-nfqueue/v2\tv2.1.0\th1:Fywt30TY/evxyDySpXjxQ1jsRW7nQbLpOhELqpr4068=\n\tdep\tgithub.com/fsnotify/fsnotify\tv1.9.0\th1:2Ml+OJNzbYCTzsxtv8vKSFD9PbJjmhYF14k/jKC7S9k=\n\tdep\tgithub.com/fxamacker/cbor/v2\tv2.9.0\th1:NpKPmjDBgUfBms6tr6JZkTHtfFGcMKsw3eGcmD/sapM=\n\tdep\tgithub.com/gaissmai/bart\tv0.26.1\th1:+w4rnLGNlA2GDVn382Tfe3jOsK5vOr5n4KmigJ9lbTo=\n\tdep\tgithub.com/go-chi/chi/v5\tv5.2.5\th1:Eg4myHZBjyvJmAFjFvWgrqDTXFyOzjj7YIm3L3mu6Ug=\n\tdep\tgithub.com/go-chi/render\tv1.0.3\th1:AsXqd2a1/INaIfUSKq3G5uA8weYx20FOsM7uSoCyyt4=\n\tdep\tgithub.com/go-jose/go-jose/v4\tv4.1.3\th1:CVLmWDhDVRa6Mi/IgCgaopNosCaHz7zrMeF9MlZRkrs=\n\tdep\tgithub.com/go4org/hashtriemap\tv0.0.0-20251130024219-545ba229f689\th1:0psnKZ+N2IP43/SZC8SKx6OpFJwLmQb9m9QyV9BC2f8=\n\tdep\tgithub.com/gobwas/httphead\tv0.1.0\th1:exrUm0f4YX0L7EBwZHuCF4GDp8aJfVeBrlLQrs6NqWU=\n\tdep\tgithub.com/gobwas/pool\tv0.2.1\th1:xfeeEhW7pwmX8nuLVlqbzVc7udMDrwetjEv+TZIz1og=\n\tdep\tgithub.com/godbus/dbus/v5\tv5.2.2\th1:TUR3TgtSVDmjiXOgAAyaZbYmIeP3DPkld3jgKGV8mXQ=\n\tdep\tgithub.com/gofrs/uuid/v5\tv5.5.1\th1:z1Ce19/JwNidXpy3tOQc3241lnJLKdKyq/xlNvlD4Ng=\n\tdep\tgithub.com/golang/groupcache\tv0.0.0-20241129210726-2c02b8208cf8\th1:f+oWsMOmNPc8JmEHVZIycC7hBoQxHH9pNKQORJNozsQ=\n\tdep\tgithub.com/google/btree\tv1.1.3\th1:CVpQJjYgC4VbzxeGVHfvZrv1ctoYCAI8vbl07Fcxlyg=\n\tdep\tgithub.com/google/certificate-transparency-go\tv1.3.2\th1:9ahSNZF2o7SYMaKaXhAumVEzXB2QaayzII9C8rv7v+A=\n\tdep\tgithub.com/google/gopacket\tv1.1.19\th1:ves8RnFZPGiFnTS0uPQStjwru6uO6h+nlr9j6fL7kF8=\n\tdep\tgithub.com/google/nftables\tv0.2.1-0.20240414091927-5e242ec57806\th1:wG8RYIyctLhdFk6Vl1yPGtSRtwGpVkWyZww1OCil2MI=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/hashicorp/yamux\tv0.1.2\th1:XtB8kyFOyHXYVFnwT5C3+Bdo8gArse7j2AQ0DA0Uey8=\n\tdep\tgithub.com/hdevalence/ed25519consensus\tv0.2.0\th1:37ICyZqdyj0lAZ8P4D1d1id3HqbbG1N3iBb1Tb4rdcU=\n\tdep\tgithub.com/huin/goupnp\tv1.3.0\th1:UvLUlWDNpoUdYzb2TCn+MuTWtcjXKSza2n6CBdQ0xXc=\n\tdep\tgithub.com/insomniacslk/dhcp\tv0.0.0-20260220084031-5adc3eb26f91\th1:u9i04mGE3iliBh0EFuWaKsmcwrLacqGmq1G3XoaM7gY=\n\tdep\tgithub.com/jackpal/go-nat-pmp\tv1.0.2\th1:KzKSgb7qkJvOUTqYl9/Hg/me3pWgBmERKrTGD7BdWus=\n\tdep\tgithub.com/jsimonetti/rtnetlink\tv1.4.1\th1:JfD4jthWBqZMEffc5RjgmlzpYttAVw1sdnmiNaPO3hE=\n\tdep\tgithub.com/klauspost/compress\tv1.19.1\th1:VsB4HPswih7mmZ8WleSFQ75c/Ui1M4trX5oAsJnhSlk=\n\tdep\tgithub.com/klauspost/cpuid/v2\tv2.3.0\th1:S4CRMLnYUhGeDFDqkGriYKdfoFlDnMtqTiI/sFzhA9Y=\n\tdep\tgithub.com/koron/go-ssdp\tv0.0.4\th1:1IDwrghSKYM7yLf7XCzbByg2sJ/JcNOZRXS2jczTwz0=\n\tdep\tgithub.com/kr/fs\tv0.1.0\th1:Jskdu9ieNAYnjxsi0LbQp1ulIKZV1LAFgK1tWhpZgl8=\n\tdep\tgithub.com/libdns/acmedns\tv0.5.0\th1:5pRtmUj4Lb/QkNJSl1xgOGBUJTWW7RjpNaIhjpDXjPE=\n\tdep\tgithub.com/libdns/alidns\tv1.0.6\th1:/Ii428ty6WHFJmE24rZxq2taq++gh7rf9jhgLfp8PmM=\n\tdep\tgithub.com/libdns/cloudflare\tv0.2.2\th1:XWHv+C1dDcApqazlh08Q6pjytYLgR2a+Y3xrXFu0vsI=\n\tdep\tgithub.com/libdns/libdns\tv1.1.1\th1:wPrHrXILoSHKWJKGd0EiAVmiJbFShguILTg9leS/P/U=\n\tdep\tgithub.com/libp2p/go-nat\tv1.0.1-0.20250821073202-01afc089f138\th1:YohuNPT/1k3VcThCQlBZ43PCPWPfMRS1zcxWBF2SLK8=\n\tdep\tgithub.com/libp2p/go-netroute\tv0.2.1\th1:V8kVrpD8GK0Riv15/7VN6RbUQ3URNZVosw7H2v9tksU=\n\tdep\tgithub.com/logrusorgru/aurora\tv2.0.3+incompatible\th1:tOpm7WcpBTn4fjmVfgpQq0EfczGlG91VSDkswnjF5A8=\n\tdep\tgithub.com/mattn/go-runewidth\tv0.0.27\th1:Feg/Oou5zI/wnpgDF6omIU0OokC9GxLC/WRknhVlIR0=\n\tdep\tgithub.com/mdlayher/netlink\tv1.11.2\th1:HKh2jqe+omdSWcQ88nrT7INE61B0NXfiSPFdgL4YbNI=\n\tdep\tgithub.com/mdlayher/socket\tv0.6.0\th1:ScZPaAGyO1icQnbFrhPM8mnXyMu9qukC1K4ZoM2IQKU=\n\tdep\tgithub.com/metacubex/utls\tv1.8.7\th1:Cp+yWkNTFkSihETgGWq34hlVFds5HpYWVOR1xovUVTs=\n\tdep\tgithub.com/mholt/acmez/v3\tv3.1.6\th1:eGVQNObP0pBN4sxqrXeg7MYqTOWyoiYpQqITVWlrevk=\n\tdep\tgithub.com/miekg/dns\tv1.1.72\th1:vhmr+TF2A3tuoGNkLDFK9zi36F2LS+hKTRW0Uf8kbzI=\n\tdep\tgithub.com/mitchellh/go-ps\tv1.0.0\th1:i6ampVEEF4wQFF+bkYfwYgY+F/uYJDktmvLPf7qIgjc=\n\tdep\tgithub.com/openai/openai-go/v3\tv3.26.0\th1:bRt6H/ozMNt/dDkN4gobnLqaEGrRGBzmbVs0xxJEnQE=\n\tdep\tgithub.com/oschwald/maxminddb-golang\tv1.13.1\th1:G3wwjdN9JmIK2o/ermkHM+98oX5fS+k5MbwsmL4MRQE=\n\tdep\tgithub.com/pierrec/lz4/v4\tv4.1.26\th1:GrpZw1gZttORinvzBdXPUXATeqlJjqUG/D87TKMnhjY=\n\tdep\tgithub.com/pion/dtls/v3\tv3.1.5\th1:9xJtVsHwMYeSjPp5Hh1FTis4DchnQWtnOa5o+6ygqfc=\n\tdep\tgithub.com/pion/logging\tv0.2.4\th1:tTew+7cmQ+Mc1pTBLKH2puKsOvhm32dROumOZ655zB8=\n\tdep\tgithub.com/pion/transport/v4\tv4.0.2\th1:ifYlPqNwsy6aKQ9y8yzxXlHae5431ZrH2avkD/Rn6Tk=\n\tdep\tgithub.com/pires/go-proxyproto\tv0.8.1\th1:9KEixbdJfhrbtjpz/ZwCdWDD2Xem0NZ38qMYaASJgp0=\n\tdep\tgithub.com/pkg/sftp\tv1.13.10\th1:+5FbKNTe5Z9aspU88DPIKJ9z2KZoaGCu6Sr6kKR/5mU=\n\tdep\tgithub.com/quic-go/qpack\tv0.6.0\th1:g7W+BMYynC1LbYLSqRt8PBg5Tgwxn214ZZR34VIOjz8=\n\tdep\tgithub.com/safchain/ethtool\tv0.3.0\th1:gimQJpsI6sc1yIqP/y8GYgiXn/NjgvpM0RNoWLVVmP0=\n\tdep\tgithub.com/sagernet/bbolt\tv0.0.0-20260915102804-500ee1e84832\th1:KDXMGbzqLmDdKcld0T3wuMuqf1iezZq+DemgtZ/vhtQ=\n\tdep\tgithub.com/sagernet/cors\tv1.2.1\th1:Cv5Z8y9YSD6Gm+qSpNrL3LO4lD3eQVvbFYJSG7JCMHQ=\n\tdep\tgithub.com/sagernet/cronet-go\tv0.0.0-20260912104727-0d28acc44093\th1:CsvsLVIli53L6nzgEpyRjjWnRRhTds4D3eh5sEnF5Sw=\n\tdep\tgithub.com/sagernet/cronet-go/all\tv0.0.0-20260912104727-0d28acc44093\th1:1lRUqrLcBz0Q0r/xvyiXS5hZwH5pOq6Lwb4dqbSqJfs=\n\tdep\tgithub.com/sagernet/cronet-go/lib/linux_amd64\tv0.0.0-20260912104006-c10c03c318db\th1:yNdO+HC5OkgKgwqVYd49FRVt5A2jfxsyrSKrf2uM0aM=\n\tdep\tgithub.com/sagernet/fswatch\tv0.1.2\th1:/TT7k4mkce1qFPxamLO842WjqBgbTBiXP2mlUjp9PFk=\n\tdep\tgithub.com/sagernet/gliderssh\tv0.3.4-0.20261023092853-e0cad6d28647\th1:k4Yg+5FnI1CIYc25zxHJJ1A5JDr/VULxw0Bs5U7fpsY=\n\tdep\tgithub.com/sagernet/gvisor\tv0.0.0-20260727.0-sing-box-mod.1\th1:IdQ7yTKkB2wv8txwshxUroPlO4npOYAV71xb7xQ7Lys=\n\tdep\tgithub.com/sagernet/netlink\tv0.0.0-20260814022025-64455d367bbf\th1:b/3rm+KvxzuYRcnMdLq/hmcqX6/2B8k24l6SDHL2Piw=\n\tdep\tgithub.com/sagernet/nftables\tv0.3.0-mod.4\th1:vnOtcDYeSXv2e5RoRuGH0lrpttQFJ8iC4ICS2nhlDSo=\n\tdep\tgithub.com/sagernet/quic-go\tv0.61.0-sing-box-mod.12\th1:9/USaaiONHFeqBePb+4C/A0MBM2dmxED49UGBpHLHS4=\n\tdep\tgithub.com/sagernet/sing\tv0.9.7-0.20261023115459-5dc452e537bf\th1:qWlGERjsI0F1I9e1W5Z/ARk/9KEN7xIas6e2QHEypUM=\n\tdep\tgithub.com/sagernet/sing-cloudflared\tv0.1.4-0.20261021152903-2d40d788fcf6\th1:cedQ/AnIVZXNS0RbV5E6xXbLan7Qu8rOj7+B1kvb7fs=\n\tdep\tgithub.com/sagernet/sing-mux\tv0.3.10-0.20260929204512-caf09fe32475\th1:aG0DqHEOjax7DyfE1GTAXZotOg3QGVCz3/8rCSua2kg=\n\tdep\tgithub.com/sagernet/sing-openconnect\tv0.1.1-0.20260929151225-cbd68c45de58\th1:WOPVlvbw3zGl4IzpRcfqB901blgDKuiplVrpptf/TOY=\n\tdep\tgithub.com/sagernet/sing-openvpn\tv0.1.1-0.20261020061838-432d37b47c92\th1:bMFGGGy7Kp+3ffTfPshTN3vmcyiDJP+ZTNCdP8B4KYo=\n\tdep\tgithub.com/sagernet/sing-quic\tv0.7.2-0.20261020082049-7e0a5869a5f4\th1:QuhAb8QW0pKYmSvfj/nK91libunBwVJiWb852yidlxI=\n\tdep\tgithub.com/sagernet/sing-shadowsocks\tv0.2.9-0.20260929204512-65740e0f0e3e\th1:LKgE/uuqp/D2kgxYViOz8vf4slaCUfpFywXjtuwD5gU=\n\tdep\tgithub.com/sagernet/sing-shadowsocks2\tv0.2.2-0.20260929152114-a69d1086332b\th1:VH65QNqSHat2b+N3Rlzo5Qe44gRmQGwzY5atuy3D0A8=\n\tdep\tgithub.com/sagernet/sing-shadowtls\tv0.2.2-0.20260928201441-a9c0127d5c99\th1:l/tdZjaoDp3iqEG4NVrFHtphy1+Qjt9bpWAgNbF8iGg=\n\tdep\tgithub.com/sagernet/sing-snell\tv0.0.0-20260904135315-bc5a12ac736f\th1:tbTCI+iis5sTmua7a6Q7vebcSRURok/LGgnEafnQAsc=\n\tdep\tgithub.com/sagernet/sing-tun\tv0.9.7-0.20261023115432-040db71fcd33\th1:0+op+qbxh/M/JsqIG8tkEwPM+5pZtBeicf1ciMxp4OI=\n\tdep\tgithub.com/sagernet/sing-usbip\tv0.0.0-20260817040617-28bd42667eca\th1:5wA+IE0Fq1CGVLOgSpm0gKKZ03HzugcJ2JyhmDqeX6A=\n\tdep\tgithub.com/sagernet/sing-vmess\tv0.2.9-0.20261019223527-a0c58542bd9d\th1:K93710Sq6/TFl3GVs+NclQ3I+KPXFLluSsUFC0Sm0N8=\n\tdep\tgithub.com/sagernet/smux\tv1.5.50-sing-box-mod.1\th1:XkJcivBC9V4wBjiGXIXZ229aZCU1hzcbp6kSkkyQ478=\n\tdep\tgithub.com/sagernet/tailscale\tv1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9\th1:Phb4IDqGdP2Wg8VDComdDy2uMg1ZN3gs0kpJHp6C8O8=\n\tdep\tgithub.com/sagernet/wireguard-go\tv0.0.8-0.20261022215841-e4d85ef2ed38\th1:VruOdZAjG+nQi//y9YYL8Pf18+SymIkzBoxNt5gUzuY=\n\tdep\tgithub.com/sagernet/ws\tv0.0.0-20231204124109-acfe8907c854\th1:6uUiZcDRnZSAegryaUGwPC/Fj13JSHwiTftrXhMmYOc=\n\tdep\tgithub.com/smallstep/pkcs7\tv0.1.1\th1:x+rPdt2W088V9Vkjho4KtoggyktZJlMduZAtRHm68LU=\n\tdep\tgithub.com/spf13/cobra\tv1.10.2\th1:DMTTonx5m65Ic0GOoRY2c16WCbHxOOw6xxezuLaBpcU=\n\tdep\tgithub.com/spf13/pflag\tv1.0.10\th1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk=\n\tdep\tgithub.com/tailscale/hujson\tv0.0.0-20260302212456-ecc657c15afd\th1:Rf9uhF1+VJ7ZHqxrG8pJ6YacmHvVCmByDmGbAWCc/gA=\n\tdep\tgithub.com/tailscale/netlink\tv1.1.1-0.20240822203006-4d49adab4de7\th1:uFsXVBE9Qr4ZoF094vE6iYTLDl0qCiKzYXlL6UeWObU=\n\tdep\tgithub.com/tailscale/peercred\tv0.0.0-20250107143737-35a0c7bd7edc\th1:24heQPtnFR+yfntqhI3oAu9i27nEojcQ4NuBQOo5ZFA=\n\tdep\tgithub.com/tailscale/web-client-prebuilt\tv0.0.0-20250124233751-d4cd19a26976\th1:UBPHPtv8+nEAy2PD8RyAhOYvau1ek0HDJqLS/Pysi14=\n\tdep\tgithub.com/tidwall/gjson\tv1.18.0\th1:FIDeeyB800efLX89e5a8Y0BNH+LOngJyGrIWxG2FKQY=\n\tdep\tgithub.com/tidwall/match\tv1.1.1\th1:+Ho715JplO36QYgwN9PGYNhgZvoUSc9X2c80KVTi+GA=\n\tdep\tgithub.com/tidwall/pretty\tv1.2.1\th1:qjsOFOWWQl+N3RsoF5/ssm1pHmJJwhjlSbZ51I6wMl4=\n\tdep\tgithub.com/tidwall/sjson\tv1.2.5\th1:kLy8mja+1c9jlljvWTlSazM7cKDRfJuR/bOJhcY5NcY=\n\tdep\tgithub.com/tjfoc/gmsm\tv1.4.1\th1:aMe1GlZb+0bLjn+cKTPEvvn9oUEBlJitaZiiBwsbgho=\n\tdep\tgithub.com/u-root/uio\tv0.0.0-20240224005618-d2acac8f3701\th1:pyC9PaHYZFgEKFdlp3G8RaCKgVpHZnecvArXvPXcFkM=\n\tdep\tgithub.com/vishvananda/netns\tv0.0.5\th1:DfiHV+j8bA32MFM7bfEunvT8IAqQ/NzSJHtcmW5zdEY=\n\tdep\tgithub.com/x448/float16\tv0.8.4\th1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=\n\tdep\tgithub.com/youmark/pkcs8\tv0.0.0-20240726163527-a2c0da244d78\th1:ilQV1hzziu+LLM3zUTJ0trRztfwgjqKnBWNtSRkbmwM=\n\tdep\tgithub.com/zeebo/blake3\tv0.2.4\th1:KYQPkhpRtcqh0ssGYcKLG1JYvddkEA8QwCM/yBqhaZI=\n\tdep\tgo.uber.org/multierr\tv1.11.0\th1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=\n\tdep\tgo.uber.org/zap\tv1.27.1\th1:08RqriUEv8+ArZRYSTXy1LeBScaMpVSTBhCeaZYfMYc=\n\tdep\tgo.uber.org/zap/exp\tv0.3.0\th1:6JYzdifzYkGmTdRR59oYH+Ng7k49H9qVpWwNSsGJj3U=\n\tdep\tgo4.org/mem\tv0.0.0-20240501181205-ae6ca9944745\th1:Tl++JLUCe4sxGu8cTpDzRLd3tN7US4hOxG5YpKCzkek=\n\tdep\tgo4.org/netipx\tv0.0.0-20231129151722-fdeea329fbba\th1:0b9z3AuHCjxk0x/opv64kcgZLBseWJUpBw5I82+2U4M=\n\tdep\tgolang.org/x/crypto\tv0.54.0\th1:YLIA59K4fiNzHzjnZt2tUJQjQtUWfWbeHBqKtk3eScw=\n\tdep\tgolang.org/x/exp\tv0.0.0-20260410095643-746e56fc9e2f\th1:W3F4c+6OLc6H2lb//N1q4WpJkhzJCK5J6kUi1NTVXfM=\n\tdep\tgolang.org/x/mod\tv0.37.0\th1:vF1DjpVEshcIqoEaauuHebaLk1O1forxjxBaVn884JQ=\n\tdep\tgolang.org/x/net\tv0.57.0\th1:K5+3DljvIuDG9/Jv9rvyMywYNFCQ9RSUY6OOTTkT+tE=\n\tdep\tgolang.org/x/oauth2\tv0.36.0\th1:peZ/1z27fi9hUOFCAZaHyrpWG5lwe0RJEEEeH0ThlIs=\n\tdep\tgolang.org/x/sync\tv0.22.0\th1:SZjpbeLmrCk4xhRSZFNZW5gFUeCeFgjekvI/+gfScek=\n\tdep\tgolang.org/x/sys\tv0.47.0\th1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs=\n\tdep\tgolang.org/x/term\tv0.45.0\th1:NwWyBmoJCbfTHpxrWoZ9C6/VxOf7ic219I8xZZFdrf0=\n\tdep\tgolang.org/x/text\tv0.40.0\th1:Ub2Z6/xjgF1WrYQz2nuITOEegKFtiIy+rieRJ5lHZKs=\n\tdep\tgolang.org/x/time\tv0.15.0\th1:bbrp8t3bGUeFOx08pvsMYRTCVSMk89u4tKbNOZbp88U=\n\tdep\tgolang.zx2c4.com/wireguard/wgctrl\tv0.0.0-20241231184526-a9ab2273dd10\th1:3GDAcqdIg1ozBNLgPy4SLT84nfcBjr6rhGtXYtrkWLU=\n\tdep\tgoogle.golang.org/genproto/googleapis/rpc\tv0.0.0-20251202230838-ff82c1b0f217\th1:gRkg/vSppuSQoDjxyiGfN4Upv/h/DQmIR10ZU8dh4Ww=\n\tdep\tgoogle.golang.org/grpc\tv1.79.1\th1:zGhSi45ODB9/p3VAawt9a+O/MULLl9dpizzNNpq7flY=\n\tdep\tgoogle.golang.org/protobuf\tv1.36.11\th1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=\n\tdep\tlukechampine.com/blake3\tv1.3.0\th1:sJ3XhFINmHSrYCgl958hscfIa3bw8x4DqMP3u1YvoYE=\n\tdep\tzombiezen.com/go/capnproto2\tv2.18.2+incompatible\th1:v3BD1zbruvffn7zjJUU5Pn8nZAB11bhZSQC4W+YnnKo=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-tags=with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_naive_outbound,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0,with_purego\n\tbuild\t-trimpath=true\n\tbuild\tDefaultGODEBUG=cryptocustomrand=1,httpservecontentmaxranges=1,tlssecpmlkem=0,urlstrictcolons=0\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=amd64\n\tbuild\tGOOS=linux\n\tbuild\tGOAMD64=v1\n\tbuild\tvcs=git\n\tbuild\tvcs.revision=c005f35300ce76427dc285481ec5695f5b179cd2\n\tbuild\tvcs.time=2026-10-23T14:39:13Z\n\tbuild\tvcs.modified=false\n"
+    },
+    {
+      "binary": "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box",
+      "sha256": "03a2798795bdd481a17ea76d08d2dcb9b2919d6799e64d5163c522274843d846",
+      "toolchain": "go1.26.10",
+      "build_information": "\tpath\tgithub.com/sagernet/sing-box/cmd/sing-box\n\tmod\tgithub.com/sagernet/sing-box\tv1.14.4\t\n\tdep\tfilippo.io/edwards25519\tv1.2.0\th1:crnVqOiS4jqYleHd9vaKZ+HKtHfllngJIiOpNpoJsjo=\n\tdep\tgithub.com/RyuaNerin/go-krypto\tv1.3.0\th1:smavTzSMAx8iuVlGb4pEwl9MD2qicqMzuXR2QWp2/Pg=\n\tdep\tgithub.com/ajg/form\tv1.5.1\th1:t9c7v8JUKu/XxOGBU0yjNpaMloxGEJhUkqFRq0ibGeU=\n\tdep\tgithub.com/anchore/go-lzo\tv0.1.0\th1:NgAacnzqPeGH49Ky19QKLBZEuFRqtTG9cdaucc3Vncs=\n\tdep\tgithub.com/andybalholm/brotli\tv1.1.0\th1:eLKJA0d02Lf0mVpIDgYnqXcUn0GqVmEFny3VuID1U3M=\n\tdep\tgithub.com/anmitsu/go-shlex\tv0.0.0-20200514113438-38f4b401e2be\th1:9AeTilPcZAjCFIImctFaOjnTIavg87rW78vTPkQqLI8=\n\tdep\tgithub.com/anthropics/anthropic-sdk-go\tv1.26.0\th1:oUTzFaUpAevfuELAP1sjL6CQJ9HHAfT7CoSYSac11PY=\n\tdep\tgithub.com/anytls/sing-anytls\tv0.0.11\th1:w8e9Uj1oP3m4zxkyZDewPk0EcQbvVxb7Nn+rapEx4fc=\n\tdep\tgithub.com/axiomhq/hyperloglog\tv0.0.0-20240319100328-84253e514e02\th1:bXAPYSbdYbS5VTy92NIUbeDI1qyggi+JYh5op9IFlcQ=\n\tdep\tgithub.com/caddyserver/certmagic\tv0.25.3-0.20260421143802-60d9d8b415d6\th1:LYSB6VgWzKtNrcxElw3c97BP40Oc7bizKxA9K1Vi/5k=\n\tdep\tgithub.com/caddyserver/zerossl\tv0.1.5\th1:dkvOjBAEEtY6LIGAHei7sw2UgqSD6TrWweXpV7lvEvE=\n\tdep\tgithub.com/clipperhouse/uax29/v2\tv2.2.0\th1:ChwIKnQN3kcZteTXMgb1wztSgaU+ZemkgWdohwgs8tY=\n\tdep\tgithub.com/coder/websocket\tv1.8.14\th1:9L0p0iKiNOibykf283eHkKUHHrpG7f65OE3BhhO7v9g=\n\tdep\tgithub.com/coreos/go-iptables\tv0.7.1-0.20240112124308-65c67c9f46e6\th1:8h5+bWd7R6AYUslN6c6iuZWTKsKxUFDlpnmilO6R2n0=\n\tdep\tgithub.com/coreos/go-oidc/v3\tv3.17.0\th1:hWBGaQfbi0iVviX4ibC7bk8OKT5qNr4klBaCHVNvehc=\n\tdep\tgithub.com/creack/pty\tv1.1.24\th1:bJrF4RRfyJnbTJqzRLHzcGaZK1NeM5kTC9jGgovnR1s=\n\tdep\tgithub.com/cretz/bine\tv0.2.0\th1:8GiDRGlTgz+o8H9DSnsl+5MeBK4HsExxgl6WgzOCuZo=\n\tdep\tgithub.com/database64128/netx-go\tv0.1.1\th1:dT5LG7Gs7zFZBthFBbzWE6K8wAHjSNAaK7wCYZT7NzM=\n\tdep\tgithub.com/database64128/tfo-go/v2\tv2.3.2\th1:UhZMKiMq3swZGUiETkLBDzQnZBPSAeBMClpJGlnJ5Fw=\n\tdep\tgithub.com/dgryski/go-camellia\tv0.0.0-20191119043421-69a8a13fb23d\th1:CPqTNIigGweVPT4CYb+OO2E6XyRKFOmvTHwWRLgCAlE=\n\tdep\tgithub.com/dgryski/go-metro\tv0.0.0-20180109044635-280f6062b5bc\th1:8WFBn63wegobsYAX0YjD+8suexZDga5CctH4CCTx2+8=\n\tdep\tgithub.com/florianl/go-nfqueue/v2\tv2.1.0\th1:Fywt30TY/evxyDySpXjxQ1jsRW7nQbLpOhELqpr4068=\n\tdep\tgithub.com/fsnotify/fsnotify\tv1.9.0\th1:2Ml+OJNzbYCTzsxtv8vKSFD9PbJjmhYF14k/jKC7S9k=\n\tdep\tgithub.com/fxamacker/cbor/v2\tv2.9.0\th1:NpKPmjDBgUfBms6tr6JZkTHtfFGcMKsw3eGcmD/sapM=\n\tdep\tgithub.com/gaissmai/bart\tv0.26.1\th1:+w4rnLGNlA2GDVn382Tfe3jOsK5vOr5n4KmigJ9lbTo=\n\tdep\tgithub.com/go-chi/chi/v5\tv5.2.5\th1:Eg4myHZBjyvJmAFjFvWgrqDTXFyOzjj7YIm3L3mu6Ug=\n\tdep\tgithub.com/go-chi/render\tv1.0.3\th1:AsXqd2a1/INaIfUSKq3G5uA8weYx20FOsM7uSoCyyt4=\n\tdep\tgithub.com/go-jose/go-jose/v4\tv4.1.3\th1:CVLmWDhDVRa6Mi/IgCgaopNosCaHz7zrMeF9MlZRkrs=\n\tdep\tgithub.com/go4org/hashtriemap\tv0.0.0-20251130024219-545ba229f689\th1:0psnKZ+N2IP43/SZC8SKx6OpFJwLmQb9m9QyV9BC2f8=\n\tdep\tgithub.com/gobwas/httphead\tv0.1.0\th1:exrUm0f4YX0L7EBwZHuCF4GDp8aJfVeBrlLQrs6NqWU=\n\tdep\tgithub.com/gobwas/pool\tv0.2.1\th1:xfeeEhW7pwmX8nuLVlqbzVc7udMDrwetjEv+TZIz1og=\n\tdep\tgithub.com/godbus/dbus/v5\tv5.2.2\th1:TUR3TgtSVDmjiXOgAAyaZbYmIeP3DPkld3jgKGV8mXQ=\n\tdep\tgithub.com/gofrs/uuid/v5\tv5.5.1\th1:z1Ce19/JwNidXpy3tOQc3241lnJLKdKyq/xlNvlD4Ng=\n\tdep\tgithub.com/golang/groupcache\tv0.0.0-20241129210726-2c02b8208cf8\th1:f+oWsMOmNPc8JmEHVZIycC7hBoQxHH9pNKQORJNozsQ=\n\tdep\tgithub.com/google/btree\tv1.1.3\th1:CVpQJjYgC4VbzxeGVHfvZrv1ctoYCAI8vbl07Fcxlyg=\n\tdep\tgithub.com/google/certificate-transparency-go\tv1.3.2\th1:9ahSNZF2o7SYMaKaXhAumVEzXB2QaayzII9C8rv7v+A=\n\tdep\tgithub.com/google/gopacket\tv1.1.19\th1:ves8RnFZPGiFnTS0uPQStjwru6uO6h+nlr9j6fL7kF8=\n\tdep\tgithub.com/google/nftables\tv0.2.1-0.20240414091927-5e242ec57806\th1:wG8RYIyctLhdFk6Vl1yPGtSRtwGpVkWyZww1OCil2MI=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/hashicorp/yamux\tv0.1.2\th1:XtB8kyFOyHXYVFnwT5C3+Bdo8gArse7j2AQ0DA0Uey8=\n\tdep\tgithub.com/hdevalence/ed25519consensus\tv0.2.0\th1:37ICyZqdyj0lAZ8P4D1d1id3HqbbG1N3iBb1Tb4rdcU=\n\tdep\tgithub.com/huin/goupnp\tv1.3.0\th1:UvLUlWDNpoUdYzb2TCn+MuTWtcjXKSza2n6CBdQ0xXc=\n\tdep\tgithub.com/insomniacslk/dhcp\tv0.0.0-20260220084031-5adc3eb26f91\th1:u9i04mGE3iliBh0EFuWaKsmcwrLacqGmq1G3XoaM7gY=\n\tdep\tgithub.com/jackpal/go-nat-pmp\tv1.0.2\th1:KzKSgb7qkJvOUTqYl9/Hg/me3pWgBmERKrTGD7BdWus=\n\tdep\tgithub.com/jsimonetti/rtnetlink\tv1.4.1\th1:JfD4jthWBqZMEffc5RjgmlzpYttAVw1sdnmiNaPO3hE=\n\tdep\tgithub.com/klauspost/compress\tv1.19.1\th1:VsB4HPswih7mmZ8WleSFQ75c/Ui1M4trX5oAsJnhSlk=\n\tdep\tgithub.com/klauspost/cpuid/v2\tv2.3.0\th1:S4CRMLnYUhGeDFDqkGriYKdfoFlDnMtqTiI/sFzhA9Y=\n\tdep\tgithub.com/koron/go-ssdp\tv0.0.4\th1:1IDwrghSKYM7yLf7XCzbByg2sJ/JcNOZRXS2jczTwz0=\n\tdep\tgithub.com/kr/fs\tv0.1.0\th1:Jskdu9ieNAYnjxsi0LbQp1ulIKZV1LAFgK1tWhpZgl8=\n\tdep\tgithub.com/libdns/acmedns\tv0.5.0\th1:5pRtmUj4Lb/QkNJSl1xgOGBUJTWW7RjpNaIhjpDXjPE=\n\tdep\tgithub.com/libdns/alidns\tv1.0.6\th1:/Ii428ty6WHFJmE24rZxq2taq++gh7rf9jhgLfp8PmM=\n\tdep\tgithub.com/libdns/cloudflare\tv0.2.2\th1:XWHv+C1dDcApqazlh08Q6pjytYLgR2a+Y3xrXFu0vsI=\n\tdep\tgithub.com/libdns/libdns\tv1.1.1\th1:wPrHrXILoSHKWJKGd0EiAVmiJbFShguILTg9leS/P/U=\n\tdep\tgithub.com/libp2p/go-nat\tv1.0.1-0.20250821073202-01afc089f138\th1:YohuNPT/1k3VcThCQlBZ43PCPWPfMRS1zcxWBF2SLK8=\n\tdep\tgithub.com/libp2p/go-netroute\tv0.2.1\th1:V8kVrpD8GK0Riv15/7VN6RbUQ3URNZVosw7H2v9tksU=\n\tdep\tgithub.com/logrusorgru/aurora\tv2.0.3+incompatible\th1:tOpm7WcpBTn4fjmVfgpQq0EfczGlG91VSDkswnjF5A8=\n\tdep\tgithub.com/mattn/go-runewidth\tv0.0.27\th1:Feg/Oou5zI/wnpgDF6omIU0OokC9GxLC/WRknhVlIR0=\n\tdep\tgithub.com/mdlayher/netlink\tv1.11.2\th1:HKh2jqe+omdSWcQ88nrT7INE61B0NXfiSPFdgL4YbNI=\n\tdep\tgithub.com/mdlayher/socket\tv0.6.0\th1:ScZPaAGyO1icQnbFrhPM8mnXyMu9qukC1K4ZoM2IQKU=\n\tdep\tgithub.com/metacubex/utls\tv1.8.7\th1:Cp+yWkNTFkSihETgGWq34hlVFds5HpYWVOR1xovUVTs=\n\tdep\tgithub.com/mholt/acmez/v3\tv3.1.6\th1:eGVQNObP0pBN4sxqrXeg7MYqTOWyoiYpQqITVWlrevk=\n\tdep\tgithub.com/miekg/dns\tv1.1.72\th1:vhmr+TF2A3tuoGNkLDFK9zi36F2LS+hKTRW0Uf8kbzI=\n\tdep\tgithub.com/mitchellh/go-ps\tv1.0.0\th1:i6ampVEEF4wQFF+bkYfwYgY+F/uYJDktmvLPf7qIgjc=\n\tdep\tgithub.com/openai/openai-go/v3\tv3.26.0\th1:bRt6H/ozMNt/dDkN4gobnLqaEGrRGBzmbVs0xxJEnQE=\n\tdep\tgithub.com/oschwald/maxminddb-golang\tv1.13.1\th1:G3wwjdN9JmIK2o/ermkHM+98oX5fS+k5MbwsmL4MRQE=\n\tdep\tgithub.com/pierrec/lz4/v4\tv4.1.26\th1:GrpZw1gZttORinvzBdXPUXATeqlJjqUG/D87TKMnhjY=\n\tdep\tgithub.com/pion/dtls/v3\tv3.1.5\th1:9xJtVsHwMYeSjPp5Hh1FTis4DchnQWtnOa5o+6ygqfc=\n\tdep\tgithub.com/pion/logging\tv0.2.4\th1:tTew+7cmQ+Mc1pTBLKH2puKsOvhm32dROumOZ655zB8=\n\tdep\tgithub.com/pion/transport/v4\tv4.0.2\th1:ifYlPqNwsy6aKQ9y8yzxXlHae5431ZrH2avkD/Rn6Tk=\n\tdep\tgithub.com/pires/go-proxyproto\tv0.8.1\th1:9KEixbdJfhrbtjpz/ZwCdWDD2Xem0NZ38qMYaASJgp0=\n\tdep\tgithub.com/pkg/sftp\tv1.13.10\th1:+5FbKNTe5Z9aspU88DPIKJ9z2KZoaGCu6Sr6kKR/5mU=\n\tdep\tgithub.com/quic-go/qpack\tv0.6.0\th1:g7W+BMYynC1LbYLSqRt8PBg5Tgwxn214ZZR34VIOjz8=\n\tdep\tgithub.com/safchain/ethtool\tv0.3.0\th1:gimQJpsI6sc1yIqP/y8GYgiXn/NjgvpM0RNoWLVVmP0=\n\tdep\tgithub.com/sagernet/bbolt\tv0.0.0-20260915102804-500ee1e84832\th1:KDXMGbzqLmDdKcld0T3wuMuqf1iezZq+DemgtZ/vhtQ=\n\tdep\tgithub.com/sagernet/cors\tv1.2.1\th1:Cv5Z8y9YSD6Gm+qSpNrL3LO4lD3eQVvbFYJSG7JCMHQ=\n\tdep\tgithub.com/sagernet/fswatch\tv0.1.2\th1:/TT7k4mkce1qFPxamLO842WjqBgbTBiXP2mlUjp9PFk=\n\tdep\tgithub.com/sagernet/gliderssh\tv0.3.4-0.20261023092853-e0cad6d28647\th1:k4Yg+5FnI1CIYc25zxHJJ1A5JDr/VULxw0Bs5U7fpsY=\n\tdep\tgithub.com/sagernet/gvisor\tv0.0.0-20260727.0-sing-box-mod.1\th1:IdQ7yTKkB2wv8txwshxUroPlO4npOYAV71xb7xQ7Lys=\n\tdep\tgithub.com/sagernet/netlink\tv0.0.0-20260814022025-64455d367bbf\th1:b/3rm+KvxzuYRcnMdLq/hmcqX6/2B8k24l6SDHL2Piw=\n\tdep\tgithub.com/sagernet/nftables\tv0.3.0-mod.4\th1:vnOtcDYeSXv2e5RoRuGH0lrpttQFJ8iC4ICS2nhlDSo=\n\tdep\tgithub.com/sagernet/quic-go\tv0.61.0-sing-box-mod.12\th1:9/USaaiONHFeqBePb+4C/A0MBM2dmxED49UGBpHLHS4=\n\tdep\tgithub.com/sagernet/sing\tv0.9.7-0.20261023115459-5dc452e537bf\th1:qWlGERjsI0F1I9e1W5Z/ARk/9KEN7xIas6e2QHEypUM=\n\tdep\tgithub.com/sagernet/sing-cloudflared\tv0.1.4-0.20261021152903-2d40d788fcf6\th1:cedQ/AnIVZXNS0RbV5E6xXbLan7Qu8rOj7+B1kvb7fs=\n\tdep\tgithub.com/sagernet/sing-mux\tv0.3.10-0.20260929204512-caf09fe32475\th1:aG0DqHEOjax7DyfE1GTAXZotOg3QGVCz3/8rCSua2kg=\n\tdep\tgithub.com/sagernet/sing-openconnect\tv0.1.1-0.20260929151225-cbd68c45de58\th1:WOPVlvbw3zGl4IzpRcfqB901blgDKuiplVrpptf/TOY=\n\tdep\tgithub.com/sagernet/sing-openvpn\tv0.1.1-0.20261020061838-432d37b47c92\th1:bMFGGGy7Kp+3ffTfPshTN3vmcyiDJP+ZTNCdP8B4KYo=\n\tdep\tgithub.com/sagernet/sing-quic\tv0.7.2-0.20261020082049-7e0a5869a5f4\th1:QuhAb8QW0pKYmSvfj/nK91libunBwVJiWb852yidlxI=\n\tdep\tgithub.com/sagernet/sing-shadowsocks\tv0.2.9-0.20260929204512-65740e0f0e3e\th1:LKgE/uuqp/D2kgxYViOz8vf4slaCUfpFywXjtuwD5gU=\n\tdep\tgithub.com/sagernet/sing-shadowsocks2\tv0.2.2-0.20260929152114-a69d1086332b\th1:VH65QNqSHat2b+N3Rlzo5Qe44gRmQGwzY5atuy3D0A8=\n\tdep\tgithub.com/sagernet/sing-shadowtls\tv0.2.2-0.20260928201441-a9c0127d5c99\th1:l/tdZjaoDp3iqEG4NVrFHtphy1+Qjt9bpWAgNbF8iGg=\n\tdep\tgithub.com/sagernet/sing-snell\tv0.0.0-20260904135315-bc5a12ac736f\th1:tbTCI+iis5sTmua7a6Q7vebcSRURok/LGgnEafnQAsc=\n\tdep\tgithub.com/sagernet/sing-tun\tv0.9.7-0.20261023115432-040db71fcd33\th1:0+op+qbxh/M/JsqIG8tkEwPM+5pZtBeicf1ciMxp4OI=\n\tdep\tgithub.com/sagernet/sing-usbip\tv0.0.0-20260817040617-28bd42667eca\th1:5wA+IE0Fq1CGVLOgSpm0gKKZ03HzugcJ2JyhmDqeX6A=\n\tdep\tgithub.com/sagernet/sing-vmess\tv0.2.9-0.20261019223527-a0c58542bd9d\th1:K93710Sq6/TFl3GVs+NclQ3I+KPXFLluSsUFC0Sm0N8=\n\tdep\tgithub.com/sagernet/smux\tv1.5.50-sing-box-mod.1\th1:XkJcivBC9V4wBjiGXIXZ229aZCU1hzcbp6kSkkyQ478=\n\tdep\tgithub.com/sagernet/tailscale\tv1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9\th1:Phb4IDqGdP2Wg8VDComdDy2uMg1ZN3gs0kpJHp6C8O8=\n\tdep\tgithub.com/sagernet/wireguard-go\tv0.0.8-0.20261022215841-e4d85ef2ed38\th1:VruOdZAjG+nQi//y9YYL8Pf18+SymIkzBoxNt5gUzuY=\n\tdep\tgithub.com/sagernet/ws\tv0.0.0-20231204124109-acfe8907c854\th1:6uUiZcDRnZSAegryaUGwPC/Fj13JSHwiTftrXhMmYOc=\n\tdep\tgithub.com/smallstep/pkcs7\tv0.1.1\th1:x+rPdt2W088V9Vkjho4KtoggyktZJlMduZAtRHm68LU=\n\tdep\tgithub.com/spf13/cobra\tv1.10.2\th1:DMTTonx5m65Ic0GOoRY2c16WCbHxOOw6xxezuLaBpcU=\n\tdep\tgithub.com/spf13/pflag\tv1.0.10\th1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk=\n\tdep\tgithub.com/tailscale/hujson\tv0.0.0-20260302212456-ecc657c15afd\th1:Rf9uhF1+VJ7ZHqxrG8pJ6YacmHvVCmByDmGbAWCc/gA=\n\tdep\tgithub.com/tailscale/netlink\tv1.1.1-0.20240822203006-4d49adab4de7\th1:uFsXVBE9Qr4ZoF094vE6iYTLDl0qCiKzYXlL6UeWObU=\n\tdep\tgithub.com/tailscale/peercred\tv0.0.0-20250107143737-35a0c7bd7edc\th1:24heQPtnFR+yfntqhI3oAu9i27nEojcQ4NuBQOo5ZFA=\n\tdep\tgithub.com/tailscale/web-client-prebuilt\tv0.0.0-20250124233751-d4cd19a26976\th1:UBPHPtv8+nEAy2PD8RyAhOYvau1ek0HDJqLS/Pysi14=\n\tdep\tgithub.com/tidwall/gjson\tv1.18.0\th1:FIDeeyB800efLX89e5a8Y0BNH+LOngJyGrIWxG2FKQY=\n\tdep\tgithub.com/tidwall/match\tv1.1.1\th1:+Ho715JplO36QYgwN9PGYNhgZvoUSc9X2c80KVTi+GA=\n\tdep\tgithub.com/tidwall/pretty\tv1.2.1\th1:qjsOFOWWQl+N3RsoF5/ssm1pHmJJwhjlSbZ51I6wMl4=\n\tdep\tgithub.com/tidwall/sjson\tv1.2.5\th1:kLy8mja+1c9jlljvWTlSazM7cKDRfJuR/bOJhcY5NcY=\n\tdep\tgithub.com/tjfoc/gmsm\tv1.4.1\th1:aMe1GlZb+0bLjn+cKTPEvvn9oUEBlJitaZiiBwsbgho=\n\tdep\tgithub.com/u-root/uio\tv0.0.0-20240224005618-d2acac8f3701\th1:pyC9PaHYZFgEKFdlp3G8RaCKgVpHZnecvArXvPXcFkM=\n\tdep\tgithub.com/vishvananda/netns\tv0.0.5\th1:DfiHV+j8bA32MFM7bfEunvT8IAqQ/NzSJHtcmW5zdEY=\n\tdep\tgithub.com/x448/float16\tv0.8.4\th1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=\n\tdep\tgithub.com/youmark/pkcs8\tv0.0.0-20240726163527-a2c0da244d78\th1:ilQV1hzziu+LLM3zUTJ0trRztfwgjqKnBWNtSRkbmwM=\n\tdep\tgithub.com/zeebo/blake3\tv0.2.4\th1:KYQPkhpRtcqh0ssGYcKLG1JYvddkEA8QwCM/yBqhaZI=\n\tdep\tgo.uber.org/multierr\tv1.11.0\th1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=\n\tdep\tgo.uber.org/zap\tv1.27.1\th1:08RqriUEv8+ArZRYSTXy1LeBScaMpVSTBhCeaZYfMYc=\n\tdep\tgo.uber.org/zap/exp\tv0.3.0\th1:6JYzdifzYkGmTdRR59oYH+Ng7k49H9qVpWwNSsGJj3U=\n\tdep\tgo4.org/mem\tv0.0.0-20240501181205-ae6ca9944745\th1:Tl++JLUCe4sxGu8cTpDzRLd3tN7US4hOxG5YpKCzkek=\n\tdep\tgo4.org/netipx\tv0.0.0-20231129151722-fdeea329fbba\th1:0b9z3AuHCjxk0x/opv64kcgZLBseWJUpBw5I82+2U4M=\n\tdep\tgolang.org/x/crypto\tv0.54.0\th1:YLIA59K4fiNzHzjnZt2tUJQjQtUWfWbeHBqKtk3eScw=\n\tdep\tgolang.org/x/exp\tv0.0.0-20260410095643-746e56fc9e2f\th1:W3F4c+6OLc6H2lb//N1q4WpJkhzJCK5J6kUi1NTVXfM=\n\tdep\tgolang.org/x/mod\tv0.37.0\th1:vF1DjpVEshcIqoEaauuHebaLk1O1forxjxBaVn884JQ=\n\tdep\tgolang.org/x/net\tv0.57.0\th1:K5+3DljvIuDG9/Jv9rvyMywYNFCQ9RSUY6OOTTkT+tE=\n\tdep\tgolang.org/x/oauth2\tv0.36.0\th1:peZ/1z27fi9hUOFCAZaHyrpWG5lwe0RJEEEeH0ThlIs=\n\tdep\tgolang.org/x/sync\tv0.22.0\th1:SZjpbeLmrCk4xhRSZFNZW5gFUeCeFgjekvI/+gfScek=\n\tdep\tgolang.org/x/sys\tv0.47.0\th1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs=\n\tdep\tgolang.org/x/term\tv0.45.0\th1:NwWyBmoJCbfTHpxrWoZ9C6/VxOf7ic219I8xZZFdrf0=\n\tdep\tgolang.org/x/text\tv0.40.0\th1:Ub2Z6/xjgF1WrYQz2nuITOEegKFtiIy+rieRJ5lHZKs=\n\tdep\tgolang.org/x/time\tv0.15.0\th1:bbrp8t3bGUeFOx08pvsMYRTCVSMk89u4tKbNOZbp88U=\n\tdep\tgolang.zx2c4.com/wireguard/wgctrl\tv0.0.0-20241231184526-a9ab2273dd10\th1:3GDAcqdIg1ozBNLgPy4SLT84nfcBjr6rhGtXYtrkWLU=\n\tdep\tgoogle.golang.org/genproto/googleapis/rpc\tv0.0.0-20251202230838-ff82c1b0f217\th1:gRkg/vSppuSQoDjxyiGfN4Upv/h/DQmIR10ZU8dh4Ww=\n\tdep\tgoogle.golang.org/grpc\tv1.79.1\th1:zGhSi45ODB9/p3VAawt9a+O/MULLl9dpizzNNpq7flY=\n\tdep\tgoogle.golang.org/protobuf\tv1.36.11\th1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=\n\tdep\tlukechampine.com/blake3\tv1.3.0\th1:sJ3XhFINmHSrYCgl958hscfIa3bw8x4DqMP3u1YvoYE=\n\tdep\tzombiezen.com/go/capnproto2\tv2.18.2+incompatible\th1:v3BD1zbruvffn7zjJUU5Pn8nZAB11bhZSQC4W+YnnKo=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-tags=with_gvisor,with_quic,with_dhcp,with_wireguard,with_utls,with_acme,with_clash_api,with_tailscale,with_ccm,with_ocm,with_cloudflared,with_usbip,with_openvpn,with_openconnect,badlinkname,tfogo_checklinkname0\n\tbuild\t-trimpath=true\n\tbuild\tDefaultGODEBUG=cryptocustomrand=1,httpservecontentmaxranges=1,tlssecpmlkem=0,urlstrictcolons=0\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=arm\n\tbuild\tGOOS=linux\n\tbuild\tGOARM=7\n\tbuild\tvcs=git\n\tbuild\tvcs.revision=c005f35300ce76427dc285481ec5695f5b179cd2\n\tbuild\tvcs.time=2026-10-23T14:39:13Z\n\tbuild\tvcs.modified=false\n"
+    },
+    {
+      "binary": "ara_0.1.1_amd64.deb:usr/bin/ara",
+      "sha256": "fb943cf9fa4a75a95fcd90950afe7a4cf9da5dc2f76c96e71a4cf0eff1caa61c",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara\n\tmod\taravpn\t(devel)\t\n\tdep\tgithub.com/dustin/go-humanize\tv1.0.1\th1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=\n\tdep\tgithub.com/google/go-containerregistry\tv0.20.7\th1:24VGNpS0IwrOZ2ms2P1QE3Xa5X9p4phx0aUgzYzHW6I=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/opencontainers/go-digest\tv1.0.0\th1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=\n\tdep\tgithub.com/remyoudompheng/bigfft\tv0.0.0-20230129092748-24d4a6f8daec\th1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=\n\tdep\tgithub.com/secure-systems-lab/go-securesystemslib\tv0.11.0\th1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=\n\tdep\tgithub.com/sigstore/protobuf-specs\tv0.5.0\th1:F8YTI65xOHw70NrvPwJ5PhAzsvTnuJMGLkA4FIkofAY=\n\tdep\tgithub.com/sigstore/sigstore\tv1.10.6\th1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=\n\tdep\tgithub.com/theupdateframework/go-tuf/v2\tv2.4.2\th1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=\n\tdep\tgolang.org/x/crypto\tv0.58.0\th1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=\n\tdep\tgolang.org/x/net\tv0.61.0\th1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=\n\tdep\tgolang.org/x/sys\tv0.49.0\th1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=\n\tdep\tgolang.org/x/term\tv0.47.0\th1:cpyOwQkr2Nzxe2p6KnrTG7Ei2wtzjsuSjhpXXepZ/BM=\n\tdep\tgolang.org/x/text\tv0.43.0\th1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=\n\tdep\tgoogle.golang.org/genproto/googleapis/api\tv0.0.0-20250825161204-c5933d9347a5\th1:BIRfGDEjiHRrk0QKZe3Xv2ieMhtgRGeLcZQ0mIVn4EY=\n\tdep\tgoogle.golang.org/protobuf\tv1.36.11\th1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=\n\tdep\tmodernc.org/libc\tv1.75.6\th1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=\n\tdep\tmodernc.org/mathutil\tv1.7.1\th1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=\n\tdep\tmodernc.org/memory\tv1.12.1\th1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=\n\tdep\tmodernc.org/sqlite\tv1.58.0\th1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=\n\tdep\trsc.io/qr\tv0.2.0\th1:6vBLea5/NRMVTz8V66gipeLycZMl/+UlFmk8DvqQ6WY=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=amd64\n\tbuild\tGOOS=linux\n\tbuild\tGOAMD64=v1\n"
+    },
+    {
+      "binary": "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+      "sha256": "d0c1f901d9dd23de731e7dc5dbb10ce05c02fe85f8c75a9ed22b6e825514c230",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara-agent\n\tmod\taravpn\t(devel)\t\n\tdep\tgithub.com/dustin/go-humanize\tv1.0.1\th1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=\n\tdep\tgithub.com/google/go-containerregistry\tv0.20.7\th1:24VGNpS0IwrOZ2ms2P1QE3Xa5X9p4phx0aUgzYzHW6I=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/opencontainers/go-digest\tv1.0.0\th1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=\n\tdep\tgithub.com/remyoudompheng/bigfft\tv0.0.0-20230129092748-24d4a6f8daec\th1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=\n\tdep\tgithub.com/secure-systems-lab/go-securesystemslib\tv0.11.0\th1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=\n\tdep\tgithub.com/sigstore/protobuf-specs\tv0.5.0\th1:F8YTI65xOHw70NrvPwJ5PhAzsvTnuJMGLkA4FIkofAY=\n\tdep\tgithub.com/sigstore/sigstore\tv1.10.6\th1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=\n\tdep\tgithub.com/theupdateframework/go-tuf/v2\tv2.4.2\th1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=\n\tdep\tgolang.org/x/crypto\tv0.58.0\th1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=\n\tdep\tgolang.org/x/net\tv0.61.0\th1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=\n\tdep\tgolang.org/x/sys\tv0.49.0\th1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=\n\tdep\tgolang.org/x/term\tv0.47.0\th1:cpyOwQkr2Nzxe2p6KnrTG7Ei2wtzjsuSjhpXXepZ/BM=\n\tdep\tgolang.org/x/text\tv0.43.0\th1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=\n\tdep\tgoogle.golang.org/genproto/googleapis/api\tv0.0.0-20250825161204-c5933d9347a5\th1:BIRfGDEjiHRrk0QKZe3Xv2ieMhtgRGeLcZQ0mIVn4EY=\n\tdep\tgoogle.golang.org/protobuf\tv1.36.11\th1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=\n\tdep\tmodernc.org/libc\tv1.75.6\th1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=\n\tdep\tmodernc.org/mathutil\tv1.7.1\th1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=\n\tdep\tmodernc.org/memory\tv1.12.1\th1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=\n\tdep\tmodernc.org/sqlite\tv1.58.0\th1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=amd64\n\tbuild\tGOOS=linux\n\tbuild\tGOAMD64=v1\n"
+    },
+    {
+      "binary": "ara_0.1.1_armhf.deb:usr/bin/ara",
+      "sha256": "6b18126037324a05ffb39132ead86c60c5c82dea792d4bfd76508edd68136782",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara\n\tmod\taravpn\t(devel)\t\n\tdep\tgithub.com/dustin/go-humanize\tv1.0.1\th1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=\n\tdep\tgithub.com/google/go-containerregistry\tv0.20.7\th1:24VGNpS0IwrOZ2ms2P1QE3Xa5X9p4phx0aUgzYzHW6I=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/opencontainers/go-digest\tv1.0.0\th1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=\n\tdep\tgithub.com/remyoudompheng/bigfft\tv0.0.0-20230129092748-24d4a6f8daec\th1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=\n\tdep\tgithub.com/secure-systems-lab/go-securesystemslib\tv0.11.0\th1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=\n\tdep\tgithub.com/sigstore/protobuf-specs\tv0.5.0\th1:F8YTI65xOHw70NrvPwJ5PhAzsvTnuJMGLkA4FIkofAY=\n\tdep\tgithub.com/sigstore/sigstore\tv1.10.6\th1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=\n\tdep\tgithub.com/theupdateframework/go-tuf/v2\tv2.4.2\th1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=\n\tdep\tgolang.org/x/crypto\tv0.58.0\th1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=\n\tdep\tgolang.org/x/net\tv0.61.0\th1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=\n\tdep\tgolang.org/x/sys\tv0.49.0\th1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=\n\tdep\tgolang.org/x/term\tv0.47.0\th1:cpyOwQkr2Nzxe2p6KnrTG7Ei2wtzjsuSjhpXXepZ/BM=\n\tdep\tgolang.org/x/text\tv0.43.0\th1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=\n\tdep\tgoogle.golang.org/genproto/googleapis/api\tv0.0.0-20250825161204-c5933d9347a5\th1:BIRfGDEjiHRrk0QKZe3Xv2ieMhtgRGeLcZQ0mIVn4EY=\n\tdep\tgoogle.golang.org/protobuf\tv1.36.11\th1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=\n\tdep\tmodernc.org/libc\tv1.75.6\th1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=\n\tdep\tmodernc.org/mathutil\tv1.7.1\th1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=\n\tdep\tmodernc.org/memory\tv1.12.1\th1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=\n\tdep\tmodernc.org/sqlite\tv1.58.0\th1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=\n\tdep\trsc.io/qr\tv0.2.0\th1:6vBLea5/NRMVTz8V66gipeLycZMl/+UlFmk8DvqQ6WY=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=arm\n\tbuild\tGOOS=linux\n\tbuild\tGOARM=7\n"
+    },
+    {
+      "binary": "ara_0.1.1_armhf.deb:usr/bin/ara-agent",
+      "sha256": "877f690ca43d7f31790df3e910022ebf050f776bb8e28e2801e5cb73edf51e92",
+      "toolchain": "go1.27.3",
+      "build_information": "\tpath\taravpn/cmd/ara-agent\n\tmod\taravpn\t(devel)\t\n\tdep\tgithub.com/dustin/go-humanize\tv1.0.1\th1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=\n\tdep\tgithub.com/google/go-containerregistry\tv0.20.7\th1:24VGNpS0IwrOZ2ms2P1QE3Xa5X9p4phx0aUgzYzHW6I=\n\tdep\tgithub.com/google/uuid\tv1.6.0\th1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=\n\tdep\tgithub.com/opencontainers/go-digest\tv1.0.0\th1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=\n\tdep\tgithub.com/remyoudompheng/bigfft\tv0.0.0-20230129092748-24d4a6f8daec\th1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=\n\tdep\tgithub.com/secure-systems-lab/go-securesystemslib\tv0.11.0\th1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=\n\tdep\tgithub.com/sigstore/protobuf-specs\tv0.5.0\th1:F8YTI65xOHw70NrvPwJ5PhAzsvTnuJMGLkA4FIkofAY=\n\tdep\tgithub.com/sigstore/sigstore\tv1.10.6\th1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=\n\tdep\tgithub.com/theupdateframework/go-tuf/v2\tv2.4.2\th1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=\n\tdep\tgolang.org/x/crypto\tv0.58.0\th1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=\n\tdep\tgolang.org/x/net\tv0.61.0\th1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=\n\tdep\tgolang.org/x/sys\tv0.49.0\th1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=\n\tdep\tgolang.org/x/term\tv0.47.0\th1:cpyOwQkr2Nzxe2p6KnrTG7Ei2wtzjsuSjhpXXepZ/BM=\n\tdep\tgolang.org/x/text\tv0.43.0\th1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=\n\tdep\tgoogle.golang.org/genproto/googleapis/api\tv0.0.0-20250825161204-c5933d9347a5\th1:BIRfGDEjiHRrk0QKZe3Xv2ieMhtgRGeLcZQ0mIVn4EY=\n\tdep\tgoogle.golang.org/protobuf\tv1.36.11\th1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=\n\tdep\tmodernc.org/libc\tv1.75.6\th1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=\n\tdep\tmodernc.org/mathutil\tv1.7.1\th1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=\n\tdep\tmodernc.org/memory\tv1.12.1\th1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=\n\tdep\tmodernc.org/sqlite\tv1.58.0\th1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=\n\tbuild\t-buildmode=exe\n\tbuild\t-compiler=gc\n\tbuild\t-trimpath=true\n\tbuild\tCGO_ENABLED=0\n\tbuild\tGOARCH=arm\n\tbuild\tGOOS=linux\n\tbuild\tGOARM=7\n"
+    }
+  ],
+  "modules": [
+    {
+      "module": "filippo.io/edwards25519",
+      "version": "v1.2.0",
+      "h1": "h1:crnVqOiS4jqYleHd9vaKZ+HKtHfllngJIiOpNpoJsjo=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/filippo.io/edwards25519/@v/v1.2.0.zip",
+      "source_zip_sha256": "98f2d3ca9b88daa031b0fb2fb521b7ea386af1fed61b6f445a20bef7fa381c17",
+      "verified_h1": "h1:crnVqOiS4jqYleHd9vaKZ+HKtHfllngJIiOpNpoJsjo=",
+      "source_archive": "modules/filippo.io/edwards25519/@v/v1.2.0.zip",
+      "notice_files": [
+        "licenses/third-party/filippo.io/edwards25519/v1.2.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/RyuaNerin/go-krypto",
+      "version": "v1.3.0",
+      "h1": "h1:smavTzSMAx8iuVlGb4pEwl9MD2qicqMzuXR2QWp2/Pg=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/!ryua!nerin/go-krypto/@v/v1.3.0.zip",
+      "source_zip_sha256": "4f98d5d243e2706b588fba752dd8a75c0e2e76542a990a3c6494fc0aac3e9a9b",
+      "verified_h1": "h1:smavTzSMAx8iuVlGb4pEwl9MD2qicqMzuXR2QWp2/Pg=",
+      "source_archive": "modules/github.com/!ryua!nerin/go-krypto/@v/v1.3.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/RyuaNerin/go-krypto/v1.3.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/ajg/form",
+      "version": "v1.5.1",
+      "h1": "h1:t9c7v8JUKu/XxOGBU0yjNpaMloxGEJhUkqFRq0ibGeU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/ajg/form/@v/v1.5.1.zip",
+      "source_zip_sha256": "b063b07639670ce9b6a0065b4dc35ef9e4cebc0c601be27f5494a3e6a87eb78b",
+      "verified_h1": "h1:t9c7v8JUKu/XxOGBU0yjNpaMloxGEJhUkqFRq0ibGeU=",
+      "source_archive": "modules/github.com/ajg/form/@v/v1.5.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/ajg/form/v1.5.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/anchore/go-lzo",
+      "version": "v0.1.0",
+      "h1": "h1:NgAacnzqPeGH49Ky19QKLBZEuFRqtTG9cdaucc3Vncs=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/anchore/go-lzo/@v/v0.1.0.zip",
+      "source_zip_sha256": "74e5636203039daeb2339a7953b653d39a1d15c23856e74135e6c5f9fe749216",
+      "verified_h1": "h1:NgAacnzqPeGH49Ky19QKLBZEuFRqtTG9cdaucc3Vncs=",
+      "source_archive": "modules/github.com/anchore/go-lzo/@v/v0.1.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/anchore/go-lzo/v0.1.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/andybalholm/brotli",
+      "version": "v1.1.0",
+      "h1": "h1:eLKJA0d02Lf0mVpIDgYnqXcUn0GqVmEFny3VuID1U3M=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/andybalholm/brotli/@v/v1.1.0.zip",
+      "source_zip_sha256": "61bc9b753662e2101c63bfc9562f660e9ceca9866010948f1aaccb05cf9e263a",
+      "verified_h1": "h1:eLKJA0d02Lf0mVpIDgYnqXcUn0GqVmEFny3VuID1U3M=",
+      "source_archive": "modules/github.com/andybalholm/brotli/@v/v1.1.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/andybalholm/brotli/v1.1.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/anmitsu/go-shlex",
+      "version": "v0.0.0-20200514113438-38f4b401e2be",
+      "h1": "h1:9AeTilPcZAjCFIImctFaOjnTIavg87rW78vTPkQqLI8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/anmitsu/go-shlex/@v/v0.0.0-20200514113438-38f4b401e2be.zip",
+      "source_zip_sha256": "2a5cf7c9a2709f649fd508cbacb2be96e4fba4d534a28a122ee4d7574af40b5e",
+      "verified_h1": "h1:9AeTilPcZAjCFIImctFaOjnTIavg87rW78vTPkQqLI8=",
+      "source_archive": "modules/github.com/anmitsu/go-shlex/@v/v0.0.0-20200514113438-38f4b401e2be.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/anmitsu/go-shlex/v0.0.0-20200514113438-38f4b401e2be/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/anthropics/anthropic-sdk-go",
+      "version": "v1.26.0",
+      "h1": "h1:oUTzFaUpAevfuELAP1sjL6CQJ9HHAfT7CoSYSac11PY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/anthropics/anthropic-sdk-go/@v/v1.26.0.zip",
+      "source_zip_sha256": "9c3249d5270113d5a24a2b5bc65298289a879310bf0930fbd8d0542228029205",
+      "verified_h1": "h1:oUTzFaUpAevfuELAP1sjL6CQJ9HHAfT7CoSYSac11PY=",
+      "source_archive": "modules/github.com/anthropics/anthropic-sdk-go/@v/v1.26.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/anthropics/anthropic-sdk-go/v1.26.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/anytls/sing-anytls",
+      "version": "v0.0.11",
+      "h1": "h1:w8e9Uj1oP3m4zxkyZDewPk0EcQbvVxb7Nn+rapEx4fc=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/anytls/sing-anytls/@v/v0.0.11.zip",
+      "source_zip_sha256": "5b588f1a803956f48efa5ee3b0bc7bd95df894ebb647e383e3ed4660b83589d2",
+      "verified_h1": "h1:w8e9Uj1oP3m4zxkyZDewPk0EcQbvVxb7Nn+rapEx4fc=",
+      "source_archive": "modules/github.com/anytls/sing-anytls/@v/v0.0.11.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/anytls/sing-anytls/v0.0.11/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/axiomhq/hyperloglog",
+      "version": "v0.0.0-20240319100328-84253e514e02",
+      "h1": "h1:bXAPYSbdYbS5VTy92NIUbeDI1qyggi+JYh5op9IFlcQ=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/axiomhq/hyperloglog/@v/v0.0.0-20240319100328-84253e514e02.zip",
+      "source_zip_sha256": "94d387d574deadfc4e719503149fafdcddaf04c06a323966781a41026d2ba493",
+      "verified_h1": "h1:bXAPYSbdYbS5VTy92NIUbeDI1qyggi+JYh5op9IFlcQ=",
+      "source_archive": "modules/github.com/axiomhq/hyperloglog/@v/v0.0.0-20240319100328-84253e514e02.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/axiomhq/hyperloglog/v0.0.0-20240319100328-84253e514e02/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/caddyserver/certmagic",
+      "version": "v0.25.3-0.20260421143802-60d9d8b415d6",
+      "h1": "h1:LYSB6VgWzKtNrcxElw3c97BP40Oc7bizKxA9K1Vi/5k=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/caddyserver/certmagic/@v/v0.25.3-0.20260421143802-60d9d8b415d6.zip",
+      "source_zip_sha256": "84893e0d9edffc2deb8577de98c029ce932aaa876f5e9c189eb17817eb57c0e6",
+      "verified_h1": "h1:LYSB6VgWzKtNrcxElw3c97BP40Oc7bizKxA9K1Vi/5k=",
+      "source_archive": "modules/github.com/caddyserver/certmagic/@v/v0.25.3-0.20260421143802-60d9d8b415d6.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/caddyserver/certmagic/v0.25.3-0.20260421143802-60d9d8b415d6/LICENSE.txt"
+      ]
+    },
+    {
+      "module": "github.com/caddyserver/zerossl",
+      "version": "v0.1.5",
+      "h1": "h1:dkvOjBAEEtY6LIGAHei7sw2UgqSD6TrWweXpV7lvEvE=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/caddyserver/zerossl/@v/v0.1.5.zip",
+      "source_zip_sha256": "96e5fc179f77464888efe39d426151797b003171076ea451e3ca4132b18b7b4e",
+      "verified_h1": "h1:dkvOjBAEEtY6LIGAHei7sw2UgqSD6TrWweXpV7lvEvE=",
+      "source_archive": "modules/github.com/caddyserver/zerossl/@v/v0.1.5.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/caddyserver/zerossl/v0.1.5/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/clipperhouse/uax29/v2",
+      "version": "v2.2.0",
+      "h1": "h1:ChwIKnQN3kcZteTXMgb1wztSgaU+ZemkgWdohwgs8tY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/clipperhouse/uax29/v2/@v/v2.2.0.zip",
+      "source_zip_sha256": "0b26d739ddde86a3bd2c0cc4ce8ca711696a523499a9b26732fb25fc8b9531ab",
+      "verified_h1": "h1:ChwIKnQN3kcZteTXMgb1wztSgaU+ZemkgWdohwgs8tY=",
+      "source_archive": "modules/github.com/clipperhouse/uax29/v2/@v/v2.2.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/clipperhouse/uax29/v2/v2.2.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/coder/websocket",
+      "version": "v1.8.14",
+      "h1": "h1:9L0p0iKiNOibykf283eHkKUHHrpG7f65OE3BhhO7v9g=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/coder/websocket/@v/v1.8.14.zip",
+      "source_zip_sha256": "b729277821461eb21a816c16e29a02029dd6abbb1a43b526c1e0a6b794942de0",
+      "verified_h1": "h1:9L0p0iKiNOibykf283eHkKUHHrpG7f65OE3BhhO7v9g=",
+      "source_archive": "modules/github.com/coder/websocket/@v/v1.8.14.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/coder/websocket/v1.8.14/LICENSE.txt"
+      ]
+    },
+    {
+      "module": "github.com/coreos/go-iptables",
+      "version": "v0.7.1-0.20240112124308-65c67c9f46e6",
+      "h1": "h1:8h5+bWd7R6AYUslN6c6iuZWTKsKxUFDlpnmilO6R2n0=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/coreos/go-iptables/@v/v0.7.1-0.20240112124308-65c67c9f46e6.zip",
+      "source_zip_sha256": "6d0ae6344f1d355f72e6aaba583ce73822861511337ca92cc1c4727fc8ba66dd",
+      "verified_h1": "h1:8h5+bWd7R6AYUslN6c6iuZWTKsKxUFDlpnmilO6R2n0=",
+      "source_archive": "modules/github.com/coreos/go-iptables/@v/v0.7.1-0.20240112124308-65c67c9f46e6.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/coreos/go-iptables/v0.7.1-0.20240112124308-65c67c9f46e6/LICENSE",
+        "licenses/third-party/github.com/coreos/go-iptables/v0.7.1-0.20240112124308-65c67c9f46e6/NOTICE"
+      ]
+    },
+    {
+      "module": "github.com/coreos/go-oidc/v3",
+      "version": "v3.17.0",
+      "h1": "h1:hWBGaQfbi0iVviX4ibC7bk8OKT5qNr4klBaCHVNvehc=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/coreos/go-oidc/v3/@v/v3.17.0.zip",
+      "source_zip_sha256": "fba667f687448a228315d6f0cfd00a5fa9ab8ad9b511e38575a699afc0b30aeb",
+      "verified_h1": "h1:hWBGaQfbi0iVviX4ibC7bk8OKT5qNr4klBaCHVNvehc=",
+      "source_archive": "modules/github.com/coreos/go-oidc/v3/@v/v3.17.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/coreos/go-oidc/v3/v3.17.0/LICENSE",
+        "licenses/third-party/github.com/coreos/go-oidc/v3/v3.17.0/NOTICE"
+      ]
+    },
+    {
+      "module": "github.com/creack/pty",
+      "version": "v1.1.24",
+      "h1": "h1:bJrF4RRfyJnbTJqzRLHzcGaZK1NeM5kTC9jGgovnR1s=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/creack/pty/@v/v1.1.24.zip",
+      "source_zip_sha256": "754e25253e76a5583b80d57d3add3afe68fc4d9f2a490968a9d1eda8c8fd8815",
+      "verified_h1": "h1:bJrF4RRfyJnbTJqzRLHzcGaZK1NeM5kTC9jGgovnR1s=",
+      "source_archive": "modules/github.com/creack/pty/@v/v1.1.24.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/creack/pty/v1.1.24/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/cretz/bine",
+      "version": "v0.2.0",
+      "h1": "h1:8GiDRGlTgz+o8H9DSnsl+5MeBK4HsExxgl6WgzOCuZo=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/cretz/bine/@v/v0.2.0.zip",
+      "source_zip_sha256": "ca84127199d440ffb7937f31dac06f8e362b5def4c9bf09b687429e37575124a",
+      "verified_h1": "h1:8GiDRGlTgz+o8H9DSnsl+5MeBK4HsExxgl6WgzOCuZo=",
+      "source_archive": "modules/github.com/cretz/bine/@v/v0.2.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/cretz/bine/v0.2.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/database64128/netx-go",
+      "version": "v0.1.1",
+      "h1": "h1:dT5LG7Gs7zFZBthFBbzWE6K8wAHjSNAaK7wCYZT7NzM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/database64128/netx-go/@v/v0.1.1.zip",
+      "source_zip_sha256": "802ced24f0bfa5530723625d2d36b012340185d6cef42d5d3cb58e644b2a23d8",
+      "verified_h1": "h1:dT5LG7Gs7zFZBthFBbzWE6K8wAHjSNAaK7wCYZT7NzM=",
+      "source_archive": "modules/github.com/database64128/netx-go/@v/v0.1.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/database64128/netx-go/v0.1.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/database64128/tfo-go/v2",
+      "version": "v2.3.2",
+      "h1": "h1:UhZMKiMq3swZGUiETkLBDzQnZBPSAeBMClpJGlnJ5Fw=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/database64128/tfo-go/v2/@v/v2.3.2.zip",
+      "source_zip_sha256": "4904e23e365ed31913ef986cda7833140702e6aeb27fc341f0e35aac0fe89c69",
+      "verified_h1": "h1:UhZMKiMq3swZGUiETkLBDzQnZBPSAeBMClpJGlnJ5Fw=",
+      "source_archive": "modules/github.com/database64128/tfo-go/v2/@v/v2.3.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/database64128/tfo-go/v2/v2.3.2/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/dgryski/go-camellia",
+      "version": "v0.0.0-20191119043421-69a8a13fb23d",
+      "h1": "h1:CPqTNIigGweVPT4CYb+OO2E6XyRKFOmvTHwWRLgCAlE=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/dgryski/go-camellia/@v/v0.0.0-20191119043421-69a8a13fb23d.zip",
+      "source_zip_sha256": "be22e00ee49e337febae1dc49c0df536b729304f2e8f00473c12fd4e59a2ef28",
+      "verified_h1": "h1:CPqTNIigGweVPT4CYb+OO2E6XyRKFOmvTHwWRLgCAlE=",
+      "source_archive": "modules/github.com/dgryski/go-camellia/@v/v0.0.0-20191119043421-69a8a13fb23d.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/dgryski/go-camellia/v0.0.0-20191119043421-69a8a13fb23d/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/dgryski/go-metro",
+      "version": "v0.0.0-20180109044635-280f6062b5bc",
+      "h1": "h1:8WFBn63wegobsYAX0YjD+8suexZDga5CctH4CCTx2+8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/dgryski/go-metro/@v/v0.0.0-20180109044635-280f6062b5bc.zip",
+      "source_zip_sha256": "3f97b3cdeaee7b4fbf4fa06b7c52e3ee6bca461a100077892e861c6c8fc03722",
+      "verified_h1": "h1:8WFBn63wegobsYAX0YjD+8suexZDga5CctH4CCTx2+8=",
+      "source_archive": "modules/github.com/dgryski/go-metro/@v/v0.0.0-20180109044635-280f6062b5bc.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/dgryski/go-metro/v0.0.0-20180109044635-280f6062b5bc/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/dustin/go-humanize",
+      "version": "v1.0.1",
+      "h1": "h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/dustin/go-humanize/@v/v1.0.1.zip",
+      "source_zip_sha256": "319404ea84c8a4e2d3d83f30988b006e7dd04976de3e1a1a90484ad94679fa46",
+      "verified_h1": "h1:GzkhY7T5VNhEkwH0PVJgjz+fX1rhBrR7pRT3mDkpeCY=",
+      "source_archive": "modules/github.com/dustin/go-humanize/@v/v1.0.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/dustin/go-humanize/v1.0.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/ebitengine/purego",
+      "version": "v0.10.0",
+      "h1": "h1:QIw4xfpWT6GWTzaW5XEKy3HXoqrJGx1ijYHzTF0/ISU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/ebitengine/purego/@v/v0.10.0.zip",
+      "source_zip_sha256": "df60829d7715bf609e78ebb6c945bdb865ccdfec56a71603d6e12346f98065c9",
+      "verified_h1": "h1:QIw4xfpWT6GWTzaW5XEKy3HXoqrJGx1ijYHzTF0/ISU=",
+      "source_archive": "modules/github.com/ebitengine/purego/@v/v0.10.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/ebitengine/purego/v0.10.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/florianl/go-nfqueue/v2",
+      "version": "v2.1.0",
+      "h1": "h1:Fywt30TY/evxyDySpXjxQ1jsRW7nQbLpOhELqpr4068=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/florianl/go-nfqueue/v2/@v/v2.1.0.zip",
+      "source_zip_sha256": "899df093b356670468db3cc9ec01581643511980c8f10b06613d6a1c8033bc2c",
+      "verified_h1": "h1:Fywt30TY/evxyDySpXjxQ1jsRW7nQbLpOhELqpr4068=",
+      "source_archive": "modules/github.com/florianl/go-nfqueue/v2/@v/v2.1.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/florianl/go-nfqueue/v2/v2.1.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/fsnotify/fsnotify",
+      "version": "v1.9.0",
+      "h1": "h1:2Ml+OJNzbYCTzsxtv8vKSFD9PbJjmhYF14k/jKC7S9k=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/fsnotify/fsnotify/@v/v1.9.0.zip",
+      "source_zip_sha256": "94e64824b23591b7aa504e3321d5ec3f57de88f4d49882eaefbbf6820dab746e",
+      "verified_h1": "h1:2Ml+OJNzbYCTzsxtv8vKSFD9PbJjmhYF14k/jKC7S9k=",
+      "source_archive": "modules/github.com/fsnotify/fsnotify/@v/v1.9.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/fsnotify/fsnotify/v1.9.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/fxamacker/cbor/v2",
+      "version": "v2.9.0",
+      "h1": "h1:NpKPmjDBgUfBms6tr6JZkTHtfFGcMKsw3eGcmD/sapM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/fxamacker/cbor/v2/@v/v2.9.0.zip",
+      "source_zip_sha256": "5b0ec6424bd522aeeeab30cbdcad6f40bf976a9a2ddf125ab27b97826140d97a",
+      "verified_h1": "h1:NpKPmjDBgUfBms6tr6JZkTHtfFGcMKsw3eGcmD/sapM=",
+      "source_archive": "modules/github.com/fxamacker/cbor/v2/@v/v2.9.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/fxamacker/cbor/v2/v2.9.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/gaissmai/bart",
+      "version": "v0.26.1",
+      "h1": "h1:+w4rnLGNlA2GDVn382Tfe3jOsK5vOr5n4KmigJ9lbTo=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/gaissmai/bart/@v/v0.26.1.zip",
+      "source_zip_sha256": "7cead7fb3f4be36f3864efaf1344d72ca7ba03ab5a557338c80ca6d4bda59cca",
+      "verified_h1": "h1:+w4rnLGNlA2GDVn382Tfe3jOsK5vOr5n4KmigJ9lbTo=",
+      "source_archive": "modules/github.com/gaissmai/bart/@v/v0.26.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/gaissmai/bart/v0.26.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/go-chi/chi/v5",
+      "version": "v5.2.5",
+      "h1": "h1:Eg4myHZBjyvJmAFjFvWgrqDTXFyOzjj7YIm3L3mu6Ug=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/go-chi/chi/v5/@v/v5.2.5.zip",
+      "source_zip_sha256": "f78c1525f8b3af815bcf3406c0aba1f272eff96413ff51874677bf8a314fcad8",
+      "verified_h1": "h1:Eg4myHZBjyvJmAFjFvWgrqDTXFyOzjj7YIm3L3mu6Ug=",
+      "source_archive": "modules/github.com/go-chi/chi/v5/@v/v5.2.5.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/go-chi/chi/v5/v5.2.5/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/go-chi/render",
+      "version": "v1.0.3",
+      "h1": "h1:AsXqd2a1/INaIfUSKq3G5uA8weYx20FOsM7uSoCyyt4=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/go-chi/render/@v/v1.0.3.zip",
+      "source_zip_sha256": "6d0bfe49b2b06e125acd7b348aba5eb255891018b3cd7ff86b62599c33922be7",
+      "verified_h1": "h1:AsXqd2a1/INaIfUSKq3G5uA8weYx20FOsM7uSoCyyt4=",
+      "source_archive": "modules/github.com/go-chi/render/@v/v1.0.3.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/go-chi/render/v1.0.3/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/go-jose/go-jose/v4",
+      "version": "v4.1.3",
+      "h1": "h1:CVLmWDhDVRa6Mi/IgCgaopNosCaHz7zrMeF9MlZRkrs=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/go-jose/go-jose/v4/@v/v4.1.3.zip",
+      "source_zip_sha256": "ec019b110f6cdc3f55f067f52573be4474d5051b9b7c7fc11eb846b13c56beb4",
+      "verified_h1": "h1:CVLmWDhDVRa6Mi/IgCgaopNosCaHz7zrMeF9MlZRkrs=",
+      "source_archive": "modules/github.com/go-jose/go-jose/v4/@v/v4.1.3.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/go-jose/go-jose/v4/v4.1.3/LICENSE",
+        "licenses/third-party/github.com/go-jose/go-jose/v4/v4.1.3/json/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/go4org/hashtriemap",
+      "version": "v0.0.0-20251130024219-545ba229f689",
+      "h1": "h1:0psnKZ+N2IP43/SZC8SKx6OpFJwLmQb9m9QyV9BC2f8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/go4org/hashtriemap/@v/v0.0.0-20251130024219-545ba229f689.zip",
+      "source_zip_sha256": "700297f21d2b96537dc99217716d2ae148c5e82a01cd5f4c608e69526e6b9f1f",
+      "verified_h1": "h1:0psnKZ+N2IP43/SZC8SKx6OpFJwLmQb9m9QyV9BC2f8=",
+      "source_archive": "modules/github.com/go4org/hashtriemap/@v/v0.0.0-20251130024219-545ba229f689.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/go4org/hashtriemap/v0.0.0-20251130024219-545ba229f689/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/gobwas/httphead",
+      "version": "v0.1.0",
+      "h1": "h1:exrUm0f4YX0L7EBwZHuCF4GDp8aJfVeBrlLQrs6NqWU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/gobwas/httphead/@v/v0.1.0.zip",
+      "source_zip_sha256": "a4646f1d12786fee639c489219e7c667b10f7dc19578a4e7222bd17c5d9bdf8a",
+      "verified_h1": "h1:exrUm0f4YX0L7EBwZHuCF4GDp8aJfVeBrlLQrs6NqWU=",
+      "source_archive": "modules/github.com/gobwas/httphead/@v/v0.1.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/gobwas/httphead/v0.1.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/gobwas/pool",
+      "version": "v0.2.1",
+      "h1": "h1:xfeeEhW7pwmX8nuLVlqbzVc7udMDrwetjEv+TZIz1og=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/gobwas/pool/@v/v0.2.1.zip",
+      "source_zip_sha256": "79b505a9f42b141affca1eedd2edc87ae922482d052e16e3b6e5e3c9dcec89e1",
+      "verified_h1": "h1:xfeeEhW7pwmX8nuLVlqbzVc7udMDrwetjEv+TZIz1og=",
+      "source_archive": "modules/github.com/gobwas/pool/@v/v0.2.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/gobwas/pool/v0.2.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/godbus/dbus/v5",
+      "version": "v5.2.2",
+      "h1": "h1:TUR3TgtSVDmjiXOgAAyaZbYmIeP3DPkld3jgKGV8mXQ=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/godbus/dbus/v5/@v/v5.2.2.zip",
+      "source_zip_sha256": "5c6f37c725a481fb0f1e7866ae273429525d8cc6a6cace87da28e53370f5596a",
+      "verified_h1": "h1:TUR3TgtSVDmjiXOgAAyaZbYmIeP3DPkld3jgKGV8mXQ=",
+      "source_archive": "modules/github.com/godbus/dbus/v5/@v/v5.2.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/godbus/dbus/v5/v5.2.2/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/gofrs/uuid/v5",
+      "version": "v5.5.1",
+      "h1": "h1:z1Ce19/JwNidXpy3tOQc3241lnJLKdKyq/xlNvlD4Ng=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/gofrs/uuid/v5/@v/v5.5.1.zip",
+      "source_zip_sha256": "1f3a1af9f73c5934482bccfeb3bca76779d0ea6668e1f21d7e8771052c6c8ada",
+      "verified_h1": "h1:z1Ce19/JwNidXpy3tOQc3241lnJLKdKyq/xlNvlD4Ng=",
+      "source_archive": "modules/github.com/gofrs/uuid/v5/@v/v5.5.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/gofrs/uuid/v5/v5.5.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/golang/groupcache",
+      "version": "v0.0.0-20241129210726-2c02b8208cf8",
+      "h1": "h1:f+oWsMOmNPc8JmEHVZIycC7hBoQxHH9pNKQORJNozsQ=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/golang/groupcache/@v/v0.0.0-20241129210726-2c02b8208cf8.zip",
+      "source_zip_sha256": "163367355442a630b12b0b452892cd98e99fcfdf7e40b68d358be73479cc1c23",
+      "verified_h1": "h1:f+oWsMOmNPc8JmEHVZIycC7hBoQxHH9pNKQORJNozsQ=",
+      "source_archive": "modules/github.com/golang/groupcache/@v/v0.0.0-20241129210726-2c02b8208cf8.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/golang/groupcache/v0.0.0-20241129210726-2c02b8208cf8/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/google/btree",
+      "version": "v1.1.3",
+      "h1": "h1:CVpQJjYgC4VbzxeGVHfvZrv1ctoYCAI8vbl07Fcxlyg=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/google/btree/@v/v1.1.3.zip",
+      "source_zip_sha256": "11b736bc8252b52fecdf346d3707ccf3a2b6d458ba21b4f843616fc12eeb30b2",
+      "verified_h1": "h1:CVpQJjYgC4VbzxeGVHfvZrv1ctoYCAI8vbl07Fcxlyg=",
+      "source_archive": "modules/github.com/google/btree/@v/v1.1.3.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/google/btree/v1.1.3/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/google/certificate-transparency-go",
+      "version": "v1.3.2",
+      "h1": "h1:9ahSNZF2o7SYMaKaXhAumVEzXB2QaayzII9C8rv7v+A=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/google/certificate-transparency-go/@v/v1.3.2.zip",
+      "source_zip_sha256": "3ed01f6ab05444275466dd46a6c2ce7593c58ffa8c0563528dbc2499e6c1100a",
+      "verified_h1": "h1:9ahSNZF2o7SYMaKaXhAumVEzXB2QaayzII9C8rv7v+A=",
+      "source_archive": "modules/github.com/google/certificate-transparency-go/@v/v1.3.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/google/certificate-transparency-go/v1.3.2/LICENSE",
+        "licenses/third-party/github.com/google/certificate-transparency-go/v1.3.2/third_party/prometheus/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/google/go-containerregistry",
+      "version": "v0.20.7",
+      "h1": "h1:24VGNpS0IwrOZ2ms2P1QE3Xa5X9p4phx0aUgzYzHW6I=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/google/go-containerregistry/@v/v0.20.7.zip",
+      "source_zip_sha256": "66a762a1b62edda4980afb67b6c75dd2fd1a41f02d56af0d9473ad5edd7be266",
+      "verified_h1": "h1:24VGNpS0IwrOZ2ms2P1QE3Xa5X9p4phx0aUgzYzHW6I=",
+      "source_archive": "modules/github.com/google/go-containerregistry/@v/v0.20.7.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/google/go-containerregistry/v0.20.7/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/google/gopacket",
+      "version": "v1.1.19",
+      "h1": "h1:ves8RnFZPGiFnTS0uPQStjwru6uO6h+nlr9j6fL7kF8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/google/gopacket/@v/v1.1.19.zip",
+      "source_zip_sha256": "fc8cbe2239683199e677cb39f9303ae8d4a365f3c8cd8a2dcfa1f14c41bcff88",
+      "verified_h1": "h1:ves8RnFZPGiFnTS0uPQStjwru6uO6h+nlr9j6fL7kF8=",
+      "source_archive": "modules/github.com/google/gopacket/@v/v1.1.19.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/google/gopacket/v1.1.19/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/google/nftables",
+      "version": "v0.2.1-0.20240414091927-5e242ec57806",
+      "h1": "h1:wG8RYIyctLhdFk6Vl1yPGtSRtwGpVkWyZww1OCil2MI=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/google/nftables/@v/v0.2.1-0.20240414091927-5e242ec57806.zip",
+      "source_zip_sha256": "ceb96b39a6f9004d8c217a6ae61b91a69c250bc30fbf3a04cd87cbbfddea73c8",
+      "verified_h1": "h1:wG8RYIyctLhdFk6Vl1yPGtSRtwGpVkWyZww1OCil2MI=",
+      "source_archive": "modules/github.com/google/nftables/@v/v0.2.1-0.20240414091927-5e242ec57806.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/google/nftables/v0.2.1-0.20240414091927-5e242ec57806/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/google/uuid",
+      "version": "v1.6.0",
+      "h1": "h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/google/uuid/@v/v1.6.0.zip",
+      "source_zip_sha256": "d0f02f377217f42702e259684e06441edbf5140dddcc34ba9bea56038b38a6ed",
+      "verified_h1": "h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=",
+      "source_archive": "modules/github.com/google/uuid/@v/v1.6.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/google/uuid/v1.6.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/hashicorp/yamux",
+      "version": "v0.1.2",
+      "h1": "h1:XtB8kyFOyHXYVFnwT5C3+Bdo8gArse7j2AQ0DA0Uey8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/hashicorp/yamux/@v/v0.1.2.zip",
+      "source_zip_sha256": "8ba2b4b2d37260d4aeabf85ac9c26841a287a264c02bc629f40f19d2bd977df4",
+      "verified_h1": "h1:XtB8kyFOyHXYVFnwT5C3+Bdo8gArse7j2AQ0DA0Uey8=",
+      "source_archive": "modules/github.com/hashicorp/yamux/@v/v0.1.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/hashicorp/yamux/v0.1.2/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/hdevalence/ed25519consensus",
+      "version": "v0.2.0",
+      "h1": "h1:37ICyZqdyj0lAZ8P4D1d1id3HqbbG1N3iBb1Tb4rdcU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/hdevalence/ed25519consensus/@v/v0.2.0.zip",
+      "source_zip_sha256": "111cafade3ba9c7c3adf66b6a424386e30829c46c60b80dabe288e1837d30e33",
+      "verified_h1": "h1:37ICyZqdyj0lAZ8P4D1d1id3HqbbG1N3iBb1Tb4rdcU=",
+      "source_archive": "modules/github.com/hdevalence/ed25519consensus/@v/v0.2.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/hdevalence/ed25519consensus/v0.2.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/huin/goupnp",
+      "version": "v1.3.0",
+      "h1": "h1:UvLUlWDNpoUdYzb2TCn+MuTWtcjXKSza2n6CBdQ0xXc=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/huin/goupnp/@v/v1.3.0.zip",
+      "source_zip_sha256": "df663b90b9b3bf16e1cfa810a6c3dd904993e8c1155dbf65566ce0361f163dce",
+      "verified_h1": "h1:UvLUlWDNpoUdYzb2TCn+MuTWtcjXKSza2n6CBdQ0xXc=",
+      "source_archive": "modules/github.com/huin/goupnp/@v/v1.3.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/huin/goupnp/v1.3.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/insomniacslk/dhcp",
+      "version": "v0.0.0-20260220084031-5adc3eb26f91",
+      "h1": "h1:u9i04mGE3iliBh0EFuWaKsmcwrLacqGmq1G3XoaM7gY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/insomniacslk/dhcp/@v/v0.0.0-20260220084031-5adc3eb26f91.zip",
+      "source_zip_sha256": "911962b5821178a49b95922452f66bae6f350ad1c4da84475ea3cd0ad2bba7e9",
+      "verified_h1": "h1:u9i04mGE3iliBh0EFuWaKsmcwrLacqGmq1G3XoaM7gY=",
+      "source_archive": "modules/github.com/insomniacslk/dhcp/@v/v0.0.0-20260220084031-5adc3eb26f91.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/insomniacslk/dhcp/v0.0.0-20260220084031-5adc3eb26f91/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/jackpal/go-nat-pmp",
+      "version": "v1.0.2",
+      "h1": "h1:KzKSgb7qkJvOUTqYl9/Hg/me3pWgBmERKrTGD7BdWus=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/jackpal/go-nat-pmp/@v/v1.0.2.zip",
+      "source_zip_sha256": "f778f0f492597d7158e2d6abbac3850bdf8a669c296790eba85c95152872ddfb",
+      "verified_h1": "h1:KzKSgb7qkJvOUTqYl9/Hg/me3pWgBmERKrTGD7BdWus=",
+      "source_archive": "modules/github.com/jackpal/go-nat-pmp/@v/v1.0.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/jackpal/go-nat-pmp/v1.0.2/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/jsimonetti/rtnetlink",
+      "version": "v1.4.1",
+      "h1": "h1:JfD4jthWBqZMEffc5RjgmlzpYttAVw1sdnmiNaPO3hE=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/jsimonetti/rtnetlink/@v/v1.4.1.zip",
+      "source_zip_sha256": "b27130e80a69c0fab7e071bc90dd30288628ae7e1003dff727e5d49f3d99087d",
+      "verified_h1": "h1:JfD4jthWBqZMEffc5RjgmlzpYttAVw1sdnmiNaPO3hE=",
+      "source_archive": "modules/github.com/jsimonetti/rtnetlink/@v/v1.4.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/jsimonetti/rtnetlink/v1.4.1/LICENSE.md"
+      ]
+    },
+    {
+      "module": "github.com/klauspost/compress",
+      "version": "v1.19.1",
+      "h1": "h1:VsB4HPswih7mmZ8WleSFQ75c/Ui1M4trX5oAsJnhSlk=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/klauspost/compress/@v/v1.19.1.zip",
+      "source_zip_sha256": "a77e019f60dff8bdf00ad137985c808957cc657381daa4281824843bc6b46910",
+      "verified_h1": "h1:VsB4HPswih7mmZ8WleSFQ75c/Ui1M4trX5oAsJnhSlk=",
+      "source_archive": "modules/github.com/klauspost/compress/@v/v1.19.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/gzhttp/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/internal/lz4ref/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/internal/snapref/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/s2/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/s2/cmd/internal/filepathx/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/s2/cmd/internal/readahead/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/snappy/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/snappy/xerial/LICENSE",
+        "licenses/third-party/github.com/klauspost/compress/v1.19.1/zstd/internal/xxhash/LICENSE.txt"
+      ]
+    },
+    {
+      "module": "github.com/klauspost/cpuid/v2",
+      "version": "v2.3.0",
+      "h1": "h1:S4CRMLnYUhGeDFDqkGriYKdfoFlDnMtqTiI/sFzhA9Y=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/klauspost/cpuid/v2/@v/v2.3.0.zip",
+      "source_zip_sha256": "e6766f75ecfadf12fd045e4bdd9383f2a5bd3f9bd4c88a6db72861c84cf41486",
+      "verified_h1": "h1:S4CRMLnYUhGeDFDqkGriYKdfoFlDnMtqTiI/sFzhA9Y=",
+      "source_archive": "modules/github.com/klauspost/cpuid/v2/@v/v2.3.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/klauspost/cpuid/v2/v2.3.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/koron/go-ssdp",
+      "version": "v0.0.4",
+      "h1": "h1:1IDwrghSKYM7yLf7XCzbByg2sJ/JcNOZRXS2jczTwz0=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/koron/go-ssdp/@v/v0.0.4.zip",
+      "source_zip_sha256": "4a4c4a048c0ac4632d8e9f0be4fd64804a2cb872e660be4b79d83a29bc347ad4",
+      "verified_h1": "h1:1IDwrghSKYM7yLf7XCzbByg2sJ/JcNOZRXS2jczTwz0=",
+      "source_archive": "modules/github.com/koron/go-ssdp/@v/v0.0.4.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/koron/go-ssdp/v0.0.4/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/kr/fs",
+      "version": "v0.1.0",
+      "h1": "h1:Jskdu9ieNAYnjxsi0LbQp1ulIKZV1LAFgK1tWhpZgl8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/kr/fs/@v/v0.1.0.zip",
+      "source_zip_sha256": "d376bd98e81aea34585fc3b04bab76363e9e87cde69383964e57e9779f2af81e",
+      "verified_h1": "h1:Jskdu9ieNAYnjxsi0LbQp1ulIKZV1LAFgK1tWhpZgl8=",
+      "source_archive": "modules/github.com/kr/fs/@v/v0.1.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/kr/fs/v0.1.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/libdns/acmedns",
+      "version": "v0.5.0",
+      "h1": "h1:5pRtmUj4Lb/QkNJSl1xgOGBUJTWW7RjpNaIhjpDXjPE=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/libdns/acmedns/@v/v0.5.0.zip",
+      "source_zip_sha256": "8313f998d0aa1e450c64d5987060228055d559a087b925164bebf686acd63d8c",
+      "verified_h1": "h1:5pRtmUj4Lb/QkNJSl1xgOGBUJTWW7RjpNaIhjpDXjPE=",
+      "source_archive": "modules/github.com/libdns/acmedns/@v/v0.5.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/libdns/acmedns/v0.5.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/libdns/alidns",
+      "version": "v1.0.6",
+      "h1": "h1:/Ii428ty6WHFJmE24rZxq2taq++gh7rf9jhgLfp8PmM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/libdns/alidns/@v/v1.0.6.zip",
+      "source_zip_sha256": "d6fa4379b355786ba150ccac23da83f69592e169cd28e1f62554ce04392cb5a5",
+      "verified_h1": "h1:/Ii428ty6WHFJmE24rZxq2taq++gh7rf9jhgLfp8PmM=",
+      "source_archive": "modules/github.com/libdns/alidns/@v/v1.0.6.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/libdns/alidns/v1.0.6/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/libdns/cloudflare",
+      "version": "v0.2.2",
+      "h1": "h1:XWHv+C1dDcApqazlh08Q6pjytYLgR2a+Y3xrXFu0vsI=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/libdns/cloudflare/@v/v0.2.2.zip",
+      "source_zip_sha256": "eedcf4aa400cac994e2b8c4378f683c57199f40e41cb7e75f1a54eb45fdd9c98",
+      "verified_h1": "h1:XWHv+C1dDcApqazlh08Q6pjytYLgR2a+Y3xrXFu0vsI=",
+      "source_archive": "modules/github.com/libdns/cloudflare/@v/v0.2.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/libdns/cloudflare/v0.2.2/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/libdns/libdns",
+      "version": "v1.1.1",
+      "h1": "h1:wPrHrXILoSHKWJKGd0EiAVmiJbFShguILTg9leS/P/U=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/libdns/libdns/@v/v1.1.1.zip",
+      "source_zip_sha256": "3122839648415fd29ffeec46014a54e040611775ad696e0345502b9fe6011263",
+      "verified_h1": "h1:wPrHrXILoSHKWJKGd0EiAVmiJbFShguILTg9leS/P/U=",
+      "source_archive": "modules/github.com/libdns/libdns/@v/v1.1.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/libdns/libdns/v1.1.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/libp2p/go-nat",
+      "version": "v1.0.1-0.20250821073202-01afc089f138",
+      "h1": "h1:YohuNPT/1k3VcThCQlBZ43PCPWPfMRS1zcxWBF2SLK8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/libp2p/go-nat/@v/v1.0.1-0.20250821073202-01afc089f138.zip",
+      "source_zip_sha256": "88d5bf91c45e056adb4bc4763fda3260b70d6c6f70d7bf758eb6b1d5e35aa0df",
+      "verified_h1": "h1:YohuNPT/1k3VcThCQlBZ43PCPWPfMRS1zcxWBF2SLK8=",
+      "source_archive": "modules/github.com/libp2p/go-nat/@v/v1.0.1-0.20250821073202-01afc089f138.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/libp2p/go-nat/v1.0.1-0.20250821073202-01afc089f138/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/libp2p/go-netroute",
+      "version": "v0.2.1",
+      "h1": "h1:V8kVrpD8GK0Riv15/7VN6RbUQ3URNZVosw7H2v9tksU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/libp2p/go-netroute/@v/v0.2.1.zip",
+      "source_zip_sha256": "65067a36378b786df40a578bf4450269c4371cf415123c71c0847df0062b8ebd",
+      "verified_h1": "h1:V8kVrpD8GK0Riv15/7VN6RbUQ3URNZVosw7H2v9tksU=",
+      "source_archive": "modules/github.com/libp2p/go-netroute/@v/v0.2.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/libp2p/go-netroute/v0.2.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/logrusorgru/aurora",
+      "version": "v2.0.3+incompatible",
+      "h1": "h1:tOpm7WcpBTn4fjmVfgpQq0EfczGlG91VSDkswnjF5A8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/logrusorgru/aurora/@v/v2.0.3+incompatible.zip",
+      "source_zip_sha256": "d921c42a82279d0ee2b15068660e600897b4141826a9f9fb06998da3c0c9ab41",
+      "verified_h1": "h1:tOpm7WcpBTn4fjmVfgpQq0EfczGlG91VSDkswnjF5A8=",
+      "source_archive": "modules/github.com/logrusorgru/aurora/@v/v2.0.3+incompatible.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/logrusorgru/aurora/v2.0.3+incompatible/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/mattn/go-runewidth",
+      "version": "v0.0.27",
+      "h1": "h1:Feg/Oou5zI/wnpgDF6omIU0OokC9GxLC/WRknhVlIR0=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/mattn/go-runewidth/@v/v0.0.27.zip",
+      "source_zip_sha256": "78b1690bd2506faeeecff9cce615e5710c12fe25a5393abe3c2503d0ea4ee2ea",
+      "verified_h1": "h1:Feg/Oou5zI/wnpgDF6omIU0OokC9GxLC/WRknhVlIR0=",
+      "source_archive": "modules/github.com/mattn/go-runewidth/@v/v0.0.27.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/mattn/go-runewidth/v0.0.27/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/mdlayher/netlink",
+      "version": "v1.11.2",
+      "h1": "h1:HKh2jqe+omdSWcQ88nrT7INE61B0NXfiSPFdgL4YbNI=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/mdlayher/netlink/@v/v1.11.2.zip",
+      "source_zip_sha256": "2fbb8a5962c22dfdeaecd18bc2a1215e863bfcfa2ba1a28a3703ce0ae014ba4a",
+      "verified_h1": "h1:HKh2jqe+omdSWcQ88nrT7INE61B0NXfiSPFdgL4YbNI=",
+      "source_archive": "modules/github.com/mdlayher/netlink/@v/v1.11.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/mdlayher/netlink/v1.11.2/LICENSE.md"
+      ]
+    },
+    {
+      "module": "github.com/mdlayher/socket",
+      "version": "v0.6.0",
+      "h1": "h1:ScZPaAGyO1icQnbFrhPM8mnXyMu9qukC1K4ZoM2IQKU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/mdlayher/socket/@v/v0.6.0.zip",
+      "source_zip_sha256": "0b6d1f9f64462bcf94a8dc7dc9fc0084f35af3434ab67a724464a95d47bc87af",
+      "verified_h1": "h1:ScZPaAGyO1icQnbFrhPM8mnXyMu9qukC1K4ZoM2IQKU=",
+      "source_archive": "modules/github.com/mdlayher/socket/@v/v0.6.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/mdlayher/socket/v0.6.0/LICENSE.md"
+      ]
+    },
+    {
+      "module": "github.com/metacubex/utls",
+      "version": "v1.8.7",
+      "h1": "h1:Cp+yWkNTFkSihETgGWq34hlVFds5HpYWVOR1xovUVTs=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/metacubex/utls/@v/v1.8.7.zip",
+      "source_zip_sha256": "2c29de950b4778b9d47b0a3cb02b8a50766c2cc3de622a5f12fdf9f5a785711e",
+      "verified_h1": "h1:Cp+yWkNTFkSihETgGWq34hlVFds5HpYWVOR1xovUVTs=",
+      "source_archive": "modules/github.com/metacubex/utls/@v/v1.8.7.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/metacubex/utls/v1.8.7/LICENSE",
+        "licenses/third-party/github.com/metacubex/utls/v1.8.7/dicttls/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/mholt/acmez/v3",
+      "version": "v3.1.6",
+      "h1": "h1:eGVQNObP0pBN4sxqrXeg7MYqTOWyoiYpQqITVWlrevk=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/mholt/acmez/v3/@v/v3.1.6.zip",
+      "source_zip_sha256": "e122eb1244f36260351913a688fca9ff6aa75e17cd62946718e79fd308932acf",
+      "verified_h1": "h1:eGVQNObP0pBN4sxqrXeg7MYqTOWyoiYpQqITVWlrevk=",
+      "source_archive": "modules/github.com/mholt/acmez/v3/@v/v3.1.6.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/mholt/acmez/v3/v3.1.6/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/miekg/dns",
+      "version": "v1.1.72",
+      "h1": "h1:vhmr+TF2A3tuoGNkLDFK9zi36F2LS+hKTRW0Uf8kbzI=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/miekg/dns/@v/v1.1.72.zip",
+      "source_zip_sha256": "092608d919335ff22154862c59abe8b4d651be3ef0b75d22001a07c03106a3b6",
+      "verified_h1": "h1:vhmr+TF2A3tuoGNkLDFK9zi36F2LS+hKTRW0Uf8kbzI=",
+      "source_archive": "modules/github.com/miekg/dns/@v/v1.1.72.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/miekg/dns/v1.1.72/COPYRIGHT",
+        "licenses/third-party/github.com/miekg/dns/v1.1.72/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/mitchellh/go-ps",
+      "version": "v1.0.0",
+      "h1": "h1:i6ampVEEF4wQFF+bkYfwYgY+F/uYJDktmvLPf7qIgjc=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/mitchellh/go-ps/@v/v1.0.0.zip",
+      "source_zip_sha256": "f2f0400b1d5e136419daed275c27a930b0f5447ac12bb8acd3ddbe39547b2834",
+      "verified_h1": "h1:i6ampVEEF4wQFF+bkYfwYgY+F/uYJDktmvLPf7qIgjc=",
+      "source_archive": "modules/github.com/mitchellh/go-ps/@v/v1.0.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/mitchellh/go-ps/v1.0.0/LICENSE.md"
+      ]
+    },
+    {
+      "module": "github.com/openai/openai-go/v3",
+      "version": "v3.26.0",
+      "h1": "h1:bRt6H/ozMNt/dDkN4gobnLqaEGrRGBzmbVs0xxJEnQE=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/openai/openai-go/v3/@v/v3.26.0.zip",
+      "source_zip_sha256": "7ede21b06a6725e7e87414a3406ee3de508b715a247b9e8a63a0dd3db2cdee87",
+      "verified_h1": "h1:bRt6H/ozMNt/dDkN4gobnLqaEGrRGBzmbVs0xxJEnQE=",
+      "source_archive": "modules/github.com/openai/openai-go/v3/@v/v3.26.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/openai/openai-go/v3/v3.26.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/opencontainers/go-digest",
+      "version": "v1.0.0",
+      "h1": "h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/opencontainers/go-digest/@v/v1.0.0.zip",
+      "source_zip_sha256": "615efb31ff6cd71035b8aa38c3659d8b4da46f3cd92ac807cb50449adfe37c86",
+      "verified_h1": "h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=",
+      "source_archive": "modules/github.com/opencontainers/go-digest/@v/v1.0.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/opencontainers/go-digest/v1.0.0/LICENSE",
+        "licenses/third-party/github.com/opencontainers/go-digest/v1.0.0/LICENSE.docs"
+      ]
+    },
+    {
+      "module": "github.com/oschwald/maxminddb-golang",
+      "version": "v1.13.1",
+      "h1": "h1:G3wwjdN9JmIK2o/ermkHM+98oX5fS+k5MbwsmL4MRQE=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/oschwald/maxminddb-golang/@v/v1.13.1.zip",
+      "source_zip_sha256": "717e0e89131541827935e02a76aed474247009bae9653a76b0c0a9152ba49e20",
+      "verified_h1": "h1:G3wwjdN9JmIK2o/ermkHM+98oX5fS+k5MbwsmL4MRQE=",
+      "source_archive": "modules/github.com/oschwald/maxminddb-golang/@v/v1.13.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/oschwald/maxminddb-golang/v1.13.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/pierrec/lz4/v4",
+      "version": "v4.1.26",
+      "h1": "h1:GrpZw1gZttORinvzBdXPUXATeqlJjqUG/D87TKMnhjY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/pierrec/lz4/v4/@v/v4.1.26.zip",
+      "source_zip_sha256": "cf67f99d8d4ed84775a51de3167b70907e5436dd2f501f37deffac46c0a51ae1",
+      "verified_h1": "h1:GrpZw1gZttORinvzBdXPUXATeqlJjqUG/D87TKMnhjY=",
+      "source_archive": "modules/github.com/pierrec/lz4/v4/@v/v4.1.26.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/pierrec/lz4/v4/v4.1.26/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/pion/dtls/v3",
+      "version": "v3.1.5",
+      "h1": "h1:9xJtVsHwMYeSjPp5Hh1FTis4DchnQWtnOa5o+6ygqfc=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/pion/dtls/v3/@v/v3.1.5.zip",
+      "source_zip_sha256": "447358c3191774c809538a061ecb89effb4a7257b22213e19f35a62faa37cdf5",
+      "verified_h1": "h1:9xJtVsHwMYeSjPp5Hh1FTis4DchnQWtnOa5o+6ygqfc=",
+      "source_archive": "modules/github.com/pion/dtls/v3/@v/v3.1.5.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/pion/dtls/v3/v3.1.5/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/pion/logging",
+      "version": "v0.2.4",
+      "h1": "h1:tTew+7cmQ+Mc1pTBLKH2puKsOvhm32dROumOZ655zB8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/pion/logging/@v/v0.2.4.zip",
+      "source_zip_sha256": "b904074dd76009e71b4e4e0e004a2c7862bff0a8690b4f47410c46b172b3830c",
+      "verified_h1": "h1:tTew+7cmQ+Mc1pTBLKH2puKsOvhm32dROumOZ655zB8=",
+      "source_archive": "modules/github.com/pion/logging/@v/v0.2.4.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/pion/logging/v0.2.4/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/pion/transport/v4",
+      "version": "v4.0.2",
+      "h1": "h1:ifYlPqNwsy6aKQ9y8yzxXlHae5431ZrH2avkD/Rn6Tk=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/pion/transport/v4/@v/v4.0.2.zip",
+      "source_zip_sha256": "5c44f0562179e9e2761f7d3c2d68ac030fdbd3be565771e536e88444666d73b5",
+      "verified_h1": "h1:ifYlPqNwsy6aKQ9y8yzxXlHae5431ZrH2avkD/Rn6Tk=",
+      "source_archive": "modules/github.com/pion/transport/v4/@v/v4.0.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/pion/transport/v4/v4.0.2/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/pires/go-proxyproto",
+      "version": "v0.8.1",
+      "h1": "h1:9KEixbdJfhrbtjpz/ZwCdWDD2Xem0NZ38qMYaASJgp0=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/pires/go-proxyproto/@v/v0.8.1.zip",
+      "source_zip_sha256": "a979a2f26160bfcb6f3829dd546d5f53c8b1879e7ad84466e359cf3f6237aa4c",
+      "verified_h1": "h1:9KEixbdJfhrbtjpz/ZwCdWDD2Xem0NZ38qMYaASJgp0=",
+      "source_archive": "modules/github.com/pires/go-proxyproto/@v/v0.8.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/pires/go-proxyproto/v0.8.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/pkg/sftp",
+      "version": "v1.13.10",
+      "h1": "h1:+5FbKNTe5Z9aspU88DPIKJ9z2KZoaGCu6Sr6kKR/5mU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/pkg/sftp/@v/v1.13.10.zip",
+      "source_zip_sha256": "390185d4b33cb550ebd27381b4aa80f245a9bda1ccb4dac65685bf94eeb81470",
+      "verified_h1": "h1:+5FbKNTe5Z9aspU88DPIKJ9z2KZoaGCu6Sr6kKR/5mU=",
+      "source_archive": "modules/github.com/pkg/sftp/@v/v1.13.10.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/pkg/sftp/v1.13.10/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/quic-go/qpack",
+      "version": "v0.6.0",
+      "h1": "h1:g7W+BMYynC1LbYLSqRt8PBg5Tgwxn214ZZR34VIOjz8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/quic-go/qpack/@v/v0.6.0.zip",
+      "source_zip_sha256": "3ac037cd1747420bc00bd6a793b4b197a2359fc354de12dc2187477417564914",
+      "verified_h1": "h1:g7W+BMYynC1LbYLSqRt8PBg5Tgwxn214ZZR34VIOjz8=",
+      "source_archive": "modules/github.com/quic-go/qpack/@v/v0.6.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/quic-go/qpack/v0.6.0/LICENSE.md"
+      ]
+    },
+    {
+      "module": "github.com/remyoudompheng/bigfft",
+      "version": "v0.0.0-20230129092748-24d4a6f8daec",
+      "h1": "h1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/remyoudompheng/bigfft/@v/v0.0.0-20230129092748-24d4a6f8daec.zip",
+      "source_zip_sha256": "9be16c32c384d55d0f7bd7b03f1ff1e9a4e4b91b000f0aa87a567a01b9b82398",
+      "verified_h1": "h1:W09IVJc94icq4NjY3clb7Lk8O1qJ8BdBEF8z0ibU0rE=",
+      "source_archive": "modules/github.com/remyoudompheng/bigfft/@v/v0.0.0-20230129092748-24d4a6f8daec.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/remyoudompheng/bigfft/v0.0.0-20230129092748-24d4a6f8daec/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/safchain/ethtool",
+      "version": "v0.3.0",
+      "h1": "h1:gimQJpsI6sc1yIqP/y8GYgiXn/NjgvpM0RNoWLVVmP0=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/safchain/ethtool/@v/v0.3.0.zip",
+      "source_zip_sha256": "bfa1a3fe314a3f2ac4c4385a6c4694708e4881bfd86c34668eca92656e398590",
+      "verified_h1": "h1:gimQJpsI6sc1yIqP/y8GYgiXn/NjgvpM0RNoWLVVmP0=",
+      "source_archive": "modules/github.com/safchain/ethtool/@v/v0.3.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/safchain/ethtool/v0.3.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/bbolt",
+      "version": "v0.0.0-20260915102804-500ee1e84832",
+      "h1": "h1:KDXMGbzqLmDdKcld0T3wuMuqf1iezZq+DemgtZ/vhtQ=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/bbolt/@v/v0.0.0-20260915102804-500ee1e84832.zip",
+      "source_zip_sha256": "851d37235ef87da3f68204dbcba165fe6e2de1264a5328b0df72f2e34c8dec05",
+      "verified_h1": "h1:KDXMGbzqLmDdKcld0T3wuMuqf1iezZq+DemgtZ/vhtQ=",
+      "source_archive": "modules/github.com/sagernet/bbolt/@v/v0.0.0-20260915102804-500ee1e84832.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/bbolt/v0.0.0-20260915102804-500ee1e84832/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/cors",
+      "version": "v1.2.1",
+      "h1": "h1:Cv5Z8y9YSD6Gm+qSpNrL3LO4lD3eQVvbFYJSG7JCMHQ=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/cors/@v/v1.2.1.zip",
+      "source_zip_sha256": "5f4124cdeddbc6b55d65899df6b47782a59afe0e8ca54800286cc2a45f61703f",
+      "verified_h1": "h1:Cv5Z8y9YSD6Gm+qSpNrL3LO4lD3eQVvbFYJSG7JCMHQ=",
+      "source_archive": "modules/github.com/sagernet/cors/@v/v1.2.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/cors/v1.2.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/cronet-go",
+      "version": "v0.0.0-20260912104727-0d28acc44093",
+      "h1": "h1:CsvsLVIli53L6nzgEpyRjjWnRRhTds4D3eh5sEnF5Sw=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/cronet-go/@v/v0.0.0-20260912104727-0d28acc44093.zip",
+      "source_zip_sha256": "f7e101df96b4777c452546bcdd958952f0bc6b6a9ea16917d01b0113a676dfad",
+      "verified_h1": "h1:CsvsLVIli53L6nzgEpyRjjWnRRhTds4D3eh5sEnF5Sw=",
+      "source_archive": "modules/github.com/sagernet/cronet-go/@v/v0.0.0-20260912104727-0d28acc44093.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/cronet-go/v0.0.0-20260912104727-0d28acc44093/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/cronet-go/all",
+      "version": "v0.0.0-20260912104727-0d28acc44093",
+      "h1": "h1:1lRUqrLcBz0Q0r/xvyiXS5hZwH5pOq6Lwb4dqbSqJfs=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/cronet-go/all/@v/v0.0.0-20260912104727-0d28acc44093.zip",
+      "source_zip_sha256": "b53adbda07244e36d5e9a302d28a322fc652045f7fb537eb243e87730e688f24",
+      "verified_h1": "h1:1lRUqrLcBz0Q0r/xvyiXS5hZwH5pOq6Lwb4dqbSqJfs=",
+      "source_archive": "modules/github.com/sagernet/cronet-go/all/@v/v0.0.0-20260912104727-0d28acc44093.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/cronet-go/all/v0.0.0-20260912104727-0d28acc44093/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/cronet-go/lib/linux_amd64",
+      "version": "v0.0.0-20260912104006-c10c03c318db",
+      "h1": "h1:yNdO+HC5OkgKgwqVYd49FRVt5A2jfxsyrSKrf2uM0aM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/cronet-go/lib/linux_amd64/@v/v0.0.0-20260912104006-c10c03c318db.zip",
+      "source_zip_sha256": "92cc0cfc8769cd5e50b2473caf6f36156a85fd2f9a4c1d72d8c91679f7e13385",
+      "verified_h1": "h1:yNdO+HC5OkgKgwqVYd49FRVt5A2jfxsyrSKrf2uM0aM=",
+      "source_archive": "modules/github.com/sagernet/cronet-go/lib/linux_amd64/@v/v0.0.0-20260912104006-c10c03c318db.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/cronet-go/lib/linux_amd64/v0.0.0-20260912104006-c10c03c318db/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/fswatch",
+      "version": "v0.1.2",
+      "h1": "h1:/TT7k4mkce1qFPxamLO842WjqBgbTBiXP2mlUjp9PFk=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/fswatch/@v/v0.1.2.zip",
+      "source_zip_sha256": "657ff3190c4c9583c855c0c1d9cd73ea56eb3933b29b2ce1a549cab1af065aac",
+      "verified_h1": "h1:/TT7k4mkce1qFPxamLO842WjqBgbTBiXP2mlUjp9PFk=",
+      "source_archive": "modules/github.com/sagernet/fswatch/@v/v0.1.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/fswatch/v0.1.2/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/gliderssh",
+      "version": "v0.3.4-0.20261023092853-e0cad6d28647",
+      "h1": "h1:k4Yg+5FnI1CIYc25zxHJJ1A5JDr/VULxw0Bs5U7fpsY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/gliderssh/@v/v0.3.4-0.20261023092853-e0cad6d28647.zip",
+      "source_zip_sha256": "cbe7eb5bdc792eabacf49ff6e3bc52ba1099d5ae35fca67c09c71b6f3b1e8efb",
+      "verified_h1": "h1:k4Yg+5FnI1CIYc25zxHJJ1A5JDr/VULxw0Bs5U7fpsY=",
+      "source_archive": "modules/github.com/sagernet/gliderssh/@v/v0.3.4-0.20261023092853-e0cad6d28647.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/gliderssh/v0.3.4-0.20261023092853-e0cad6d28647/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/gvisor",
+      "version": "v0.0.0-20260727.0-sing-box-mod.1",
+      "h1": "h1:IdQ7yTKkB2wv8txwshxUroPlO4npOYAV71xb7xQ7Lys=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/gvisor/@v/v0.0.0-20260727.0-sing-box-mod.1.zip",
+      "source_zip_sha256": "4948bbbcd3d1f409e3a7c6c6a9a7ff3a872e54a852239bc9d18f25894d072329",
+      "verified_h1": "h1:IdQ7yTKkB2wv8txwshxUroPlO4npOYAV71xb7xQ7Lys=",
+      "source_archive": "modules/github.com/sagernet/gvisor/@v/v0.0.0-20260727.0-sing-box-mod.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/gvisor/v0.0.0-20260727.0-sing-box-mod.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/netlink",
+      "version": "v0.0.0-20260814022025-64455d367bbf",
+      "h1": "h1:b/3rm+KvxzuYRcnMdLq/hmcqX6/2B8k24l6SDHL2Piw=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/netlink/@v/v0.0.0-20260814022025-64455d367bbf.zip",
+      "source_zip_sha256": "0e3e454ff092407426a72b635b62b2ce113e06f6868bb68acad07a69e205bf65",
+      "verified_h1": "h1:b/3rm+KvxzuYRcnMdLq/hmcqX6/2B8k24l6SDHL2Piw=",
+      "source_archive": "modules/github.com/sagernet/netlink/@v/v0.0.0-20260814022025-64455d367bbf.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/netlink/v0.0.0-20260814022025-64455d367bbf/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/nftables",
+      "version": "v0.3.0-mod.4",
+      "h1": "h1:vnOtcDYeSXv2e5RoRuGH0lrpttQFJ8iC4ICS2nhlDSo=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/nftables/@v/v0.3.0-mod.4.zip",
+      "source_zip_sha256": "5771be1d9de33519fe36158c2e9fb9925df9480ca782467addf561a3e33c3a40",
+      "verified_h1": "h1:vnOtcDYeSXv2e5RoRuGH0lrpttQFJ8iC4ICS2nhlDSo=",
+      "source_archive": "modules/github.com/sagernet/nftables/@v/v0.3.0-mod.4.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/nftables/v0.3.0-mod.4/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/quic-go",
+      "version": "v0.61.0-sing-box-mod.12",
+      "h1": "h1:9/USaaiONHFeqBePb+4C/A0MBM2dmxED49UGBpHLHS4=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/quic-go/@v/v0.61.0-sing-box-mod.12.zip",
+      "source_zip_sha256": "8629241e0de0e90c52eb51835925eb41fe525e933022ba28bc7b54ec9e29109b",
+      "verified_h1": "h1:9/USaaiONHFeqBePb+4C/A0MBM2dmxED49UGBpHLHS4=",
+      "source_archive": "modules/github.com/sagernet/quic-go/@v/v0.61.0-sing-box-mod.12.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/quic-go/v0.61.0-sing-box-mod.12/LICENSE",
+        "licenses/third-party/github.com/sagernet/quic-go/v0.61.0-sing-box-mod.12/assets/LICENSE.md"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing",
+      "version": "v0.9.7-0.20261023115459-5dc452e537bf",
+      "h1": "h1:qWlGERjsI0F1I9e1W5Z/ARk/9KEN7xIas6e2QHEypUM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing/@v/v0.9.7-0.20261023115459-5dc452e537bf.zip",
+      "source_zip_sha256": "1aeff50174f020b86dfc3444a365bb2f5fcef5f0338c02764ada5f64a7afa4dd",
+      "verified_h1": "h1:qWlGERjsI0F1I9e1W5Z/ARk/9KEN7xIas6e2QHEypUM=",
+      "source_archive": "modules/github.com/sagernet/sing/@v/v0.9.7-0.20261023115459-5dc452e537bf.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing/v0.9.7-0.20261023115459-5dc452e537bf/LICENSE",
+        "licenses/third-party/github.com/sagernet/sing/v0.9.7-0.20261023115459-5dc452e537bf/contrab/freelru/LICENSE",
+        "licenses/third-party/github.com/sagernet/sing/v0.9.7-0.20261023115459-5dc452e537bf/contrab/freelru/NOTICE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-box",
+      "version": "v1.14.4",
+      "h1": "",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-box/@v/v1.14.4.zip",
+      "source_zip_sha256": "3950866e3bc7f6466827e264f1e37e5ca778ecf34b6e8d0f89721274afb45381",
+      "verified_h1": "h1:KV6J8v1zMUu7BZA93nD9HGMmQnNC46VTuYaKEHkP+gA=",
+      "source_archive": "modules/github.com/sagernet/sing-box/@v/v1.14.4.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-box/v1.14.4/LICENSE",
+        "licenses/third-party/github.com/sagernet/sing-box/v1.14.4/common/ja3/LICENSE",
+        "licenses/third-party/github.com/sagernet/sing-box/v1.14.4/common/windivert/assets/LICENSE.txt"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-cloudflared",
+      "version": "v0.1.4-0.20261021152903-2d40d788fcf6",
+      "h1": "h1:cedQ/AnIVZXNS0RbV5E6xXbLan7Qu8rOj7+B1kvb7fs=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-cloudflared/@v/v0.1.4-0.20261021152903-2d40d788fcf6.zip",
+      "source_zip_sha256": "68e041fdeb085c3f1edad5af9aa4827de26200afd47cf45f3622aac05af7b50a",
+      "verified_h1": "h1:cedQ/AnIVZXNS0RbV5E6xXbLan7Qu8rOj7+B1kvb7fs=",
+      "source_archive": "modules/github.com/sagernet/sing-cloudflared/@v/v0.1.4-0.20261021152903-2d40d788fcf6.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-cloudflared/v0.1.4-0.20261021152903-2d40d788fcf6/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-mux",
+      "version": "v0.3.10-0.20260929204512-caf09fe32475",
+      "h1": "h1:aG0DqHEOjax7DyfE1GTAXZotOg3QGVCz3/8rCSua2kg=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-mux/@v/v0.3.10-0.20260929204512-caf09fe32475.zip",
+      "source_zip_sha256": "38c6e7dc80d93082da3cdd62c24b5e2c5e94f9fdb8e73a35353286efab797db7",
+      "verified_h1": "h1:aG0DqHEOjax7DyfE1GTAXZotOg3QGVCz3/8rCSua2kg=",
+      "source_archive": "modules/github.com/sagernet/sing-mux/@v/v0.3.10-0.20260929204512-caf09fe32475.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-mux/v0.3.10-0.20260929204512-caf09fe32475/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-openconnect",
+      "version": "v0.1.1-0.20260929151225-cbd68c45de58",
+      "h1": "h1:WOPVlvbw3zGl4IzpRcfqB901blgDKuiplVrpptf/TOY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-openconnect/@v/v0.1.1-0.20260929151225-cbd68c45de58.zip",
+      "source_zip_sha256": "9111ca5f02f11f99a22f1fc7e8b97b45b7b8af7a233dd3d380948d8344e13840",
+      "verified_h1": "h1:WOPVlvbw3zGl4IzpRcfqB901blgDKuiplVrpptf/TOY=",
+      "source_archive": "modules/github.com/sagernet/sing-openconnect/@v/v0.1.1-0.20260929151225-cbd68c45de58.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-openconnect/v0.1.1-0.20260929151225-cbd68c45de58/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-openvpn",
+      "version": "v0.1.1-0.20261020061838-432d37b47c92",
+      "h1": "h1:bMFGGGy7Kp+3ffTfPshTN3vmcyiDJP+ZTNCdP8B4KYo=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-openvpn/@v/v0.1.1-0.20261020061838-432d37b47c92.zip",
+      "source_zip_sha256": "c0732f083a028c0d84a8dc9b05ead912a007955914e152a92a768b7424440578",
+      "verified_h1": "h1:bMFGGGy7Kp+3ffTfPshTN3vmcyiDJP+ZTNCdP8B4KYo=",
+      "source_archive": "modules/github.com/sagernet/sing-openvpn/@v/v0.1.1-0.20261020061838-432d37b47c92.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-openvpn/v0.1.1-0.20261020061838-432d37b47c92/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-quic",
+      "version": "v0.7.2-0.20261020082049-7e0a5869a5f4",
+      "h1": "h1:QuhAb8QW0pKYmSvfj/nK91libunBwVJiWb852yidlxI=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-quic/@v/v0.7.2-0.20261020082049-7e0a5869a5f4.zip",
+      "source_zip_sha256": "2388d5c5cd8e5768487da19642a848550987efd2398fba6bc55be363767829db",
+      "verified_h1": "h1:QuhAb8QW0pKYmSvfj/nK91libunBwVJiWb852yidlxI=",
+      "source_archive": "modules/github.com/sagernet/sing-quic/@v/v0.7.2-0.20261020082049-7e0a5869a5f4.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-quic/v0.7.2-0.20261020082049-7e0a5869a5f4/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-shadowsocks",
+      "version": "v0.2.9-0.20260929204512-65740e0f0e3e",
+      "h1": "h1:LKgE/uuqp/D2kgxYViOz8vf4slaCUfpFywXjtuwD5gU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-shadowsocks/@v/v0.2.9-0.20260929204512-65740e0f0e3e.zip",
+      "source_zip_sha256": "a559e290eb6362a1fe35c9f8478d7a5420517b3abe236253ef3e1db455311c4a",
+      "verified_h1": "h1:LKgE/uuqp/D2kgxYViOz8vf4slaCUfpFywXjtuwD5gU=",
+      "source_archive": "modules/github.com/sagernet/sing-shadowsocks/@v/v0.2.9-0.20260929204512-65740e0f0e3e.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-shadowsocks/v0.2.9-0.20260929204512-65740e0f0e3e/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-shadowsocks2",
+      "version": "v0.2.2-0.20260929152114-a69d1086332b",
+      "h1": "h1:VH65QNqSHat2b+N3Rlzo5Qe44gRmQGwzY5atuy3D0A8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-shadowsocks2/@v/v0.2.2-0.20260929152114-a69d1086332b.zip",
+      "source_zip_sha256": "9cabba1c449cb3f5280ea1a89240849d894123ad7fac2e2272819b35fde5cf8d",
+      "verified_h1": "h1:VH65QNqSHat2b+N3Rlzo5Qe44gRmQGwzY5atuy3D0A8=",
+      "source_archive": "modules/github.com/sagernet/sing-shadowsocks2/@v/v0.2.2-0.20260929152114-a69d1086332b.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-shadowsocks2/v0.2.2-0.20260929152114-a69d1086332b/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-shadowtls",
+      "version": "v0.2.2-0.20260928201441-a9c0127d5c99",
+      "h1": "h1:l/tdZjaoDp3iqEG4NVrFHtphy1+Qjt9bpWAgNbF8iGg=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-shadowtls/@v/v0.2.2-0.20260928201441-a9c0127d5c99.zip",
+      "source_zip_sha256": "a728d8e8394b096fdbe8ac28e0076017321edfe9000f61e17c43e9d30781e5e4",
+      "verified_h1": "h1:l/tdZjaoDp3iqEG4NVrFHtphy1+Qjt9bpWAgNbF8iGg=",
+      "source_archive": "modules/github.com/sagernet/sing-shadowtls/@v/v0.2.2-0.20260928201441-a9c0127d5c99.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-shadowtls/v0.2.2-0.20260928201441-a9c0127d5c99/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-snell",
+      "version": "v0.0.0-20260904135315-bc5a12ac736f",
+      "h1": "h1:tbTCI+iis5sTmua7a6Q7vebcSRURok/LGgnEafnQAsc=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-snell/@v/v0.0.0-20260904135315-bc5a12ac736f.zip",
+      "source_zip_sha256": "3f2602328866e0262ca1c302702c7a9b0e62d8f320fdbbc18c896d302e25d6ba",
+      "verified_h1": "h1:tbTCI+iis5sTmua7a6Q7vebcSRURok/LGgnEafnQAsc=",
+      "source_archive": "modules/github.com/sagernet/sing-snell/@v/v0.0.0-20260904135315-bc5a12ac736f.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-snell/v0.0.0-20260904135315-bc5a12ac736f/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-tun",
+      "version": "v0.9.7-0.20261023115432-040db71fcd33",
+      "h1": "h1:0+op+qbxh/M/JsqIG8tkEwPM+5pZtBeicf1ciMxp4OI=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-tun/@v/v0.9.7-0.20261023115432-040db71fcd33.zip",
+      "source_zip_sha256": "f100d921073f3c8068b45d374517084b9cb3b4915c5304db2b7da971e11384ed",
+      "verified_h1": "h1:0+op+qbxh/M/JsqIG8tkEwPM+5pZtBeicf1ciMxp4OI=",
+      "source_archive": "modules/github.com/sagernet/sing-tun/@v/v0.9.7-0.20261023115432-040db71fcd33.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-tun/v0.9.7-0.20261023115432-040db71fcd33/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-usbip",
+      "version": "v0.0.0-20260817040617-28bd42667eca",
+      "h1": "h1:5wA+IE0Fq1CGVLOgSpm0gKKZ03HzugcJ2JyhmDqeX6A=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-usbip/@v/v0.0.0-20260817040617-28bd42667eca.zip",
+      "source_zip_sha256": "c3cb3fe1d9999fda98a232f813425d7376541f498b1c98e0fd2fe717b19aa7da",
+      "verified_h1": "h1:5wA+IE0Fq1CGVLOgSpm0gKKZ03HzugcJ2JyhmDqeX6A=",
+      "source_archive": "modules/github.com/sagernet/sing-usbip/@v/v0.0.0-20260817040617-28bd42667eca.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-usbip/v0.0.0-20260817040617-28bd42667eca/LICENSE",
+        "licenses/third-party/github.com/sagernet/sing-usbip/v0.0.0-20260817040617-28bd42667eca/internal/usbipvhci/assets/LICENSE.txt"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/sing-vmess",
+      "version": "v0.2.9-0.20261019223527-a0c58542bd9d",
+      "h1": "h1:K93710Sq6/TFl3GVs+NclQ3I+KPXFLluSsUFC0Sm0N8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/sing-vmess/@v/v0.2.9-0.20261019223527-a0c58542bd9d.zip",
+      "source_zip_sha256": "b1ed0cbabfcbf275d7aa1430d157913bc0b4b720e845ffc02a1f18ebf51b0924",
+      "verified_h1": "h1:K93710Sq6/TFl3GVs+NclQ3I+KPXFLluSsUFC0Sm0N8=",
+      "source_archive": "modules/github.com/sagernet/sing-vmess/@v/v0.2.9-0.20261019223527-a0c58542bd9d.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/sing-vmess/v0.2.9-0.20261019223527-a0c58542bd9d/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/smux",
+      "version": "v1.5.50-sing-box-mod.1",
+      "h1": "h1:XkJcivBC9V4wBjiGXIXZ229aZCU1hzcbp6kSkkyQ478=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/smux/@v/v1.5.50-sing-box-mod.1.zip",
+      "source_zip_sha256": "43df443a40c24b561fb7509a8d0074443368f860e73cec2046e80654d1aec06f",
+      "verified_h1": "h1:XkJcivBC9V4wBjiGXIXZ229aZCU1hzcbp6kSkkyQ478=",
+      "source_archive": "modules/github.com/sagernet/smux/@v/v1.5.50-sing-box-mod.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/smux/v1.5.50-sing-box-mod.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/tailscale",
+      "version": "v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9",
+      "h1": "h1:Phb4IDqGdP2Wg8VDComdDy2uMg1ZN3gs0kpJHp6C8O8=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/tailscale/@v/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9.zip",
+      "source_zip_sha256": "6585cf36d6ff04b13cd5c6efff7fb6f91a368af1b6ca6a0d174e095e07c022d4",
+      "verified_h1": "h1:Phb4IDqGdP2Wg8VDComdDy2uMg1ZN3gs0kpJHp6C8O8=",
+      "source_archive": "modules/github.com/sagernet/tailscale/@v/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/LICENSE",
+        "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/PATENTS",
+        "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/derp/xdp/headers/LICENSE.BSD-2-Clause",
+        "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/internal/godown/github.com/go-json-experiment/json/LICENSE",
+        "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/license_test.go",
+        "licenses/third-party/github.com/sagernet/tailscale/v1.102.1-sing-box-1.14-mod.5.0.20261019070639-79c1732442a9/tempfork/spf13/cobra/LICENSE.txt"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/wireguard-go",
+      "version": "v0.0.8-0.20261022215841-e4d85ef2ed38",
+      "h1": "h1:VruOdZAjG+nQi//y9YYL8Pf18+SymIkzBoxNt5gUzuY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/wireguard-go/@v/v0.0.8-0.20261022215841-e4d85ef2ed38.zip",
+      "source_zip_sha256": "15a63e48271cb99f96604f0408eb83557c4a0ca88c3a2f558d79dc87234933c7",
+      "verified_h1": "h1:VruOdZAjG+nQi//y9YYL8Pf18+SymIkzBoxNt5gUzuY=",
+      "source_archive": "modules/github.com/sagernet/wireguard-go/@v/v0.0.8-0.20261022215841-e4d85ef2ed38.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/wireguard-go/v0.0.8-0.20261022215841-e4d85ef2ed38/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sagernet/ws",
+      "version": "v0.0.0-20231204124109-acfe8907c854",
+      "h1": "h1:6uUiZcDRnZSAegryaUGwPC/Fj13JSHwiTftrXhMmYOc=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sagernet/ws/@v/v0.0.0-20231204124109-acfe8907c854.zip",
+      "source_zip_sha256": "b68f73fdda63af79356083de31029bafee27492c5f0013a23fb563e37fe60b66",
+      "verified_h1": "h1:6uUiZcDRnZSAegryaUGwPC/Fj13JSHwiTftrXhMmYOc=",
+      "source_archive": "modules/github.com/sagernet/ws/@v/v0.0.0-20231204124109-acfe8907c854.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sagernet/ws/v0.0.0-20231204124109-acfe8907c854/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/secure-systems-lab/go-securesystemslib",
+      "version": "v0.11.0",
+      "h1": "h1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/secure-systems-lab/go-securesystemslib/@v/v0.11.0.zip",
+      "source_zip_sha256": "bcc6c768b802666b5ad3aea122e15b34049655e5e8934c1e2a3e65b1fb59e692",
+      "verified_h1": "h1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=",
+      "source_archive": "modules/github.com/secure-systems-lab/go-securesystemslib/@v/v0.11.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/secure-systems-lab/go-securesystemslib/v0.11.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sigstore/protobuf-specs",
+      "version": "v0.5.0",
+      "h1": "h1:F8YTI65xOHw70NrvPwJ5PhAzsvTnuJMGLkA4FIkofAY=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sigstore/protobuf-specs/@v/v0.5.0.zip",
+      "source_zip_sha256": "0eb8b14e1e4392ee93e6ab48fabea3f59d42cdf87e62111384c5d2cc02e1639f",
+      "verified_h1": "h1:F8YTI65xOHw70NrvPwJ5PhAzsvTnuJMGLkA4FIkofAY=",
+      "source_archive": "modules/github.com/sigstore/protobuf-specs/@v/v0.5.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sigstore/protobuf-specs/v0.5.0/COPYRIGHT.txt",
+        "licenses/third-party/github.com/sigstore/protobuf-specs/v0.5.0/LICENSE",
+        "licenses/third-party/github.com/sigstore/protobuf-specs/v0.5.0/gen/pb-python/LICENSE",
+        "licenses/third-party/github.com/sigstore/protobuf-specs/v0.5.0/gen/pb-ruby/LICENSE",
+        "licenses/third-party/github.com/sigstore/protobuf-specs/v0.5.0/gen/pb-typescript/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/sigstore/sigstore",
+      "version": "v1.10.6",
+      "h1": "h1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/sigstore/sigstore/@v/v1.10.6.zip",
+      "source_zip_sha256": "8288f5bbf7f6544286851b61f1ecdc0763931b3369a4e363dd286e1f354f9ec2",
+      "verified_h1": "h1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=",
+      "source_archive": "modules/github.com/sigstore/sigstore/@v/v1.10.6.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/sigstore/sigstore/v1.10.6/COPYRIGHT.txt",
+        "licenses/third-party/github.com/sigstore/sigstore/v1.10.6/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/smallstep/pkcs7",
+      "version": "v0.1.1",
+      "h1": "h1:x+rPdt2W088V9Vkjho4KtoggyktZJlMduZAtRHm68LU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/smallstep/pkcs7/@v/v0.1.1.zip",
+      "source_zip_sha256": "bc9cd16c7d8306edc4a7b0ca0d841236e6f9e7481ec6ccc5c460a86468cd7b42",
+      "verified_h1": "h1:x+rPdt2W088V9Vkjho4KtoggyktZJlMduZAtRHm68LU=",
+      "source_archive": "modules/github.com/smallstep/pkcs7/@v/v0.1.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/smallstep/pkcs7/v0.1.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/spf13/cobra",
+      "version": "v1.10.2",
+      "h1": "h1:DMTTonx5m65Ic0GOoRY2c16WCbHxOOw6xxezuLaBpcU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/spf13/cobra/@v/v1.10.2.zip",
+      "source_zip_sha256": "a00aae6fcd631e0fde52c98604452ff70e1b73c3b8a560d68db15aff5e26872d",
+      "verified_h1": "h1:DMTTonx5m65Ic0GOoRY2c16WCbHxOOw6xxezuLaBpcU=",
+      "source_archive": "modules/github.com/spf13/cobra/@v/v1.10.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/spf13/cobra/v1.10.2/LICENSE.txt"
+      ]
+    },
+    {
+      "module": "github.com/spf13/pflag",
+      "version": "v1.0.10",
+      "h1": "h1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/spf13/pflag/@v/v1.0.10.zip",
+      "source_zip_sha256": "a246b8c9d3daa87d6c634cdfee1bdf7fa53d5817eeef4fa0c6da43edd12de4ca",
+      "verified_h1": "h1:4EBh2KAYBwaONj6b2Ye1GiHfwjqyROoF4RwYO+vPwFk=",
+      "source_archive": "modules/github.com/spf13/pflag/@v/v1.0.10.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/spf13/pflag/v1.0.10/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/tailscale/hujson",
+      "version": "v0.0.0-20260302212456-ecc657c15afd",
+      "h1": "h1:Rf9uhF1+VJ7ZHqxrG8pJ6YacmHvVCmByDmGbAWCc/gA=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tailscale/hujson/@v/v0.0.0-20260302212456-ecc657c15afd.zip",
+      "source_zip_sha256": "9f9c320dd90c86880b26107b931d6c056e99642d4c4e50fafcdf7de8ea0989e6",
+      "verified_h1": "h1:Rf9uhF1+VJ7ZHqxrG8pJ6YacmHvVCmByDmGbAWCc/gA=",
+      "source_archive": "modules/github.com/tailscale/hujson/@v/v0.0.0-20260302212456-ecc657c15afd.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tailscale/hujson/v0.0.0-20260302212456-ecc657c15afd/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/tailscale/netlink",
+      "version": "v1.1.1-0.20240822203006-4d49adab4de7",
+      "h1": "h1:uFsXVBE9Qr4ZoF094vE6iYTLDl0qCiKzYXlL6UeWObU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tailscale/netlink/@v/v1.1.1-0.20240822203006-4d49adab4de7.zip",
+      "source_zip_sha256": "a5195ef600f8d9a0fb8501eea85e4fe0321a74bd57dec88f07b8569d0ee4f55e",
+      "verified_h1": "h1:uFsXVBE9Qr4ZoF094vE6iYTLDl0qCiKzYXlL6UeWObU=",
+      "source_archive": "modules/github.com/tailscale/netlink/@v/v1.1.1-0.20240822203006-4d49adab4de7.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tailscale/netlink/v1.1.1-0.20240822203006-4d49adab4de7/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/tailscale/peercred",
+      "version": "v0.0.0-20250107143737-35a0c7bd7edc",
+      "h1": "h1:24heQPtnFR+yfntqhI3oAu9i27nEojcQ4NuBQOo5ZFA=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tailscale/peercred/@v/v0.0.0-20250107143737-35a0c7bd7edc.zip",
+      "source_zip_sha256": "87d0f4f3b1d59ea45c9a87b775b615bebd721a5870dafedc63cc860ec4aac281",
+      "verified_h1": "h1:24heQPtnFR+yfntqhI3oAu9i27nEojcQ4NuBQOo5ZFA=",
+      "source_archive": "modules/github.com/tailscale/peercred/@v/v0.0.0-20250107143737-35a0c7bd7edc.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tailscale/peercred/v0.0.0-20250107143737-35a0c7bd7edc/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/tailscale/web-client-prebuilt",
+      "version": "v0.0.0-20250124233751-d4cd19a26976",
+      "h1": "h1:UBPHPtv8+nEAy2PD8RyAhOYvau1ek0HDJqLS/Pysi14=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tailscale/web-client-prebuilt/@v/v0.0.0-20250124233751-d4cd19a26976.zip",
+      "source_zip_sha256": "1d02f0804bb41e0743b7d889b8e2dbd8466a89793f03997f4c1fd10f9e8974c3",
+      "verified_h1": "h1:UBPHPtv8+nEAy2PD8RyAhOYvau1ek0HDJqLS/Pysi14=",
+      "source_archive": "modules/github.com/tailscale/web-client-prebuilt/@v/v0.0.0-20250124233751-d4cd19a26976.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tailscale/web-client-prebuilt/v0.0.0-20250124233751-d4cd19a26976/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/theupdateframework/go-tuf/v2",
+      "version": "v2.4.2",
+      "h1": "h1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/theupdateframework/go-tuf/v2/@v/v2.4.2.zip",
+      "source_zip_sha256": "2dbb43998311a484bac172503b6c62df8bb7c7e5a6333c7b63356ca3aadf0a8d",
+      "verified_h1": "h1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=",
+      "source_archive": "modules/github.com/theupdateframework/go-tuf/v2/@v/v2.4.2.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/theupdateframework/go-tuf/v2/v2.4.2/LICENSE",
+        "licenses/third-party/github.com/theupdateframework/go-tuf/v2/v2.4.2/NOTICE"
+      ]
+    },
+    {
+      "module": "github.com/tidwall/gjson",
+      "version": "v1.18.0",
+      "h1": "h1:FIDeeyB800efLX89e5a8Y0BNH+LOngJyGrIWxG2FKQY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tidwall/gjson/@v/v1.18.0.zip",
+      "source_zip_sha256": "ab8092b3e42f83f003466757c63ec819a45d1e83caa63c6c131cebbe760f1df2",
+      "verified_h1": "h1:FIDeeyB800efLX89e5a8Y0BNH+LOngJyGrIWxG2FKQY=",
+      "source_archive": "modules/github.com/tidwall/gjson/@v/v1.18.0.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tidwall/gjson/v1.18.0/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/tidwall/match",
+      "version": "v1.1.1",
+      "h1": "h1:+Ho715JplO36QYgwN9PGYNhgZvoUSc9X2c80KVTi+GA=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tidwall/match/@v/v1.1.1.zip",
+      "source_zip_sha256": "2ba41f7f27330d49e0e432cbf96bf90720a33e4a97be58fe53f63a7e66f04d37",
+      "verified_h1": "h1:+Ho715JplO36QYgwN9PGYNhgZvoUSc9X2c80KVTi+GA=",
+      "source_archive": "modules/github.com/tidwall/match/@v/v1.1.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tidwall/match/v1.1.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/tidwall/pretty",
+      "version": "v1.2.1",
+      "h1": "h1:qjsOFOWWQl+N3RsoF5/ssm1pHmJJwhjlSbZ51I6wMl4=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tidwall/pretty/@v/v1.2.1.zip",
+      "source_zip_sha256": "9327579bf9e610de753eeb7c35c8cf1e3f56e6e5623cbf65e47bc8076023d1ab",
+      "verified_h1": "h1:qjsOFOWWQl+N3RsoF5/ssm1pHmJJwhjlSbZ51I6wMl4=",
+      "source_archive": "modules/github.com/tidwall/pretty/@v/v1.2.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tidwall/pretty/v1.2.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/tidwall/sjson",
+      "version": "v1.2.5",
+      "h1": "h1:kLy8mja+1c9jlljvWTlSazM7cKDRfJuR/bOJhcY5NcY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tidwall/sjson/@v/v1.2.5.zip",
+      "source_zip_sha256": "fc40fda87c7de55362f6386e069d674772f25c9d76411ee823acb9ac78b20565",
+      "verified_h1": "h1:kLy8mja+1c9jlljvWTlSazM7cKDRfJuR/bOJhcY5NcY=",
+      "source_archive": "modules/github.com/tidwall/sjson/@v/v1.2.5.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tidwall/sjson/v1.2.5/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/tjfoc/gmsm",
+      "version": "v1.4.1",
+      "h1": "h1:aMe1GlZb+0bLjn+cKTPEvvn9oUEBlJitaZiiBwsbgho=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/tjfoc/gmsm/@v/v1.4.1.zip",
+      "source_zip_sha256": "ba1f3ccf698a62bcb28c594d995f21587021ad759e777aa64367c8a7332cc10b",
+      "verified_h1": "h1:aMe1GlZb+0bLjn+cKTPEvvn9oUEBlJitaZiiBwsbgho=",
+      "source_archive": "modules/github.com/tjfoc/gmsm/@v/v1.4.1.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/tjfoc/gmsm/v1.4.1/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/u-root/uio",
+      "version": "v0.0.0-20240224005618-d2acac8f3701",
+      "h1": "h1:pyC9PaHYZFgEKFdlp3G8RaCKgVpHZnecvArXvPXcFkM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/u-root/uio/@v/v0.0.0-20240224005618-d2acac8f3701.zip",
+      "source_zip_sha256": "f6e8f912e968744999d508c3df54f0308aaf337052a8d0bd3edd72583adfd9cd",
+      "verified_h1": "h1:pyC9PaHYZFgEKFdlp3G8RaCKgVpHZnecvArXvPXcFkM=",
+      "source_archive": "modules/github.com/u-root/uio/@v/v0.0.0-20240224005618-d2acac8f3701.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/u-root/uio/v0.0.0-20240224005618-d2acac8f3701/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/vishvananda/netns",
+      "version": "v0.0.5",
+      "h1": "h1:DfiHV+j8bA32MFM7bfEunvT8IAqQ/NzSJHtcmW5zdEY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/vishvananda/netns/@v/v0.0.5.zip",
+      "source_zip_sha256": "07804b88c922c2a6780efe392ffef9d126eac584384eb3eb17bcadd34cfa9422",
+      "verified_h1": "h1:DfiHV+j8bA32MFM7bfEunvT8IAqQ/NzSJHtcmW5zdEY=",
+      "source_archive": "modules/github.com/vishvananda/netns/@v/v0.0.5.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/vishvananda/netns/v0.0.5/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/x448/float16",
+      "version": "v0.8.4",
+      "h1": "h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/x448/float16/@v/v0.8.4.zip",
+      "source_zip_sha256": "73b24a41037ea999ab66851e3798a0973dbb1f214925915b01f0820f7b2f1500",
+      "verified_h1": "h1:qLwI1I70+NjRFUR3zs1JPUCgaCXSh3SW62uAKT1mSBM=",
+      "source_archive": "modules/github.com/x448/float16/@v/v0.8.4.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/x448/float16/v0.8.4/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/youmark/pkcs8",
+      "version": "v0.0.0-20240726163527-a2c0da244d78",
+      "h1": "h1:ilQV1hzziu+LLM3zUTJ0trRztfwgjqKnBWNtSRkbmwM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/youmark/pkcs8/@v/v0.0.0-20240726163527-a2c0da244d78.zip",
+      "source_zip_sha256": "cdcf5e96850f9f60bc96ab512e4bd06ee19dd2dbe855260c3589c6c79a1bcfb5",
+      "verified_h1": "h1:ilQV1hzziu+LLM3zUTJ0trRztfwgjqKnBWNtSRkbmwM=",
+      "source_archive": "modules/github.com/youmark/pkcs8/@v/v0.0.0-20240726163527-a2c0da244d78.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/youmark/pkcs8/v0.0.0-20240726163527-a2c0da244d78/LICENSE"
+      ]
+    },
+    {
+      "module": "github.com/zeebo/blake3",
+      "version": "v0.2.4",
+      "h1": "h1:KYQPkhpRtcqh0ssGYcKLG1JYvddkEA8QwCM/yBqhaZI=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/github.com/zeebo/blake3/@v/v0.2.4.zip",
+      "source_zip_sha256": "65aaa3487c097fa0140f52041e8e6fe8214c244a29223fd4caaa60986192a08f",
+      "verified_h1": "h1:KYQPkhpRtcqh0ssGYcKLG1JYvddkEA8QwCM/yBqhaZI=",
+      "source_archive": "modules/github.com/zeebo/blake3/@v/v0.2.4.zip",
+      "notice_files": [
+        "licenses/third-party/github.com/zeebo/blake3/v0.2.4/LICENSE"
+      ]
+    },
+    {
+      "module": "go.uber.org/multierr",
+      "version": "v1.11.0",
+      "h1": "h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/go.uber.org/multierr/@v/v1.11.0.zip",
+      "source_zip_sha256": "2249b5d2fdce61f6ee661a679d8552599af084a761cbbc871da77641bddce0c3",
+      "verified_h1": "h1:blXXJkSxSSfBVBlC76pxqeO+LN3aDfLQo+309xJstO0=",
+      "source_archive": "modules/go.uber.org/multierr/@v/v1.11.0.zip",
+      "notice_files": [
+        "licenses/third-party/go.uber.org/multierr/v1.11.0/LICENSE.txt"
+      ]
+    },
+    {
+      "module": "go.uber.org/zap",
+      "version": "v1.27.1",
+      "h1": "h1:08RqriUEv8+ArZRYSTXy1LeBScaMpVSTBhCeaZYfMYc=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/go.uber.org/zap/@v/v1.27.1.zip",
+      "source_zip_sha256": "38760227142d38369069374c005707bc6b3c270a75f34fa3f17c48c863143cdc",
+      "verified_h1": "h1:08RqriUEv8+ArZRYSTXy1LeBScaMpVSTBhCeaZYfMYc=",
+      "source_archive": "modules/go.uber.org/zap/@v/v1.27.1.zip",
+      "notice_files": [
+        "licenses/third-party/go.uber.org/zap/v1.27.1/LICENSE"
+      ]
+    },
+    {
+      "module": "go.uber.org/zap/exp",
+      "version": "v0.3.0",
+      "h1": "h1:6JYzdifzYkGmTdRR59oYH+Ng7k49H9qVpWwNSsGJj3U=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/go.uber.org/zap/exp/@v/v0.3.0.zip",
+      "source_zip_sha256": "1a71ce6ea8df554dc002af9d18d6f1083a9b2782ee0c971b929314e86e8aebd3",
+      "verified_h1": "h1:6JYzdifzYkGmTdRR59oYH+Ng7k49H9qVpWwNSsGJj3U=",
+      "source_archive": "modules/go.uber.org/zap/exp/@v/v0.3.0.zip",
+      "notice_files": [
+        "licenses/third-party/go.uber.org/zap/exp/v0.3.0/LICENSE"
+      ]
+    },
+    {
+      "module": "go4.org/mem",
+      "version": "v0.0.0-20240501181205-ae6ca9944745",
+      "h1": "h1:Tl++JLUCe4sxGu8cTpDzRLd3tN7US4hOxG5YpKCzkek=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/go4.org/mem/@v/v0.0.0-20240501181205-ae6ca9944745.zip",
+      "source_zip_sha256": "9b5037a57122457fdc5c2c0a31e3996b44cf9dfcdee5c53ed72adfd88d077795",
+      "verified_h1": "h1:Tl++JLUCe4sxGu8cTpDzRLd3tN7US4hOxG5YpKCzkek=",
+      "source_archive": "modules/go4.org/mem/@v/v0.0.0-20240501181205-ae6ca9944745.zip",
+      "notice_files": [
+        "licenses/third-party/go4.org/mem/v0.0.0-20240501181205-ae6ca9944745/LICENSE"
+      ]
+    },
+    {
+      "module": "go4.org/netipx",
+      "version": "v0.0.0-20231129151722-fdeea329fbba",
+      "h1": "h1:0b9z3AuHCjxk0x/opv64kcgZLBseWJUpBw5I82+2U4M=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/go4.org/netipx/@v/v0.0.0-20231129151722-fdeea329fbba.zip",
+      "source_zip_sha256": "e15f57de368c92b826010181906f26112ba3a0d7fde7d94c8a8c60c525dc4044",
+      "verified_h1": "h1:0b9z3AuHCjxk0x/opv64kcgZLBseWJUpBw5I82+2U4M=",
+      "source_archive": "modules/go4.org/netipx/@v/v0.0.0-20231129151722-fdeea329fbba.zip",
+      "notice_files": [
+        "licenses/third-party/go4.org/netipx/v0.0.0-20231129151722-fdeea329fbba/LICENSE"
+      ]
+    },
+    {
+      "module": "golang.org/x/crypto",
+      "version": "v0.54.0",
+      "h1": "h1:YLIA59K4fiNzHzjnZt2tUJQjQtUWfWbeHBqKtk3eScw=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/crypto/@v/v0.54.0.zip",
+      "source_zip_sha256": "ecf4030c1c6b55b897826b95f01d7416cf2785b4675b0f9ac218ddf754a03abb",
+      "verified_h1": "h1:YLIA59K4fiNzHzjnZt2tUJQjQtUWfWbeHBqKtk3eScw=",
+      "source_archive": "modules/golang.org/x/crypto/@v/v0.54.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/crypto/v0.54.0/LICENSE",
+        "licenses/third-party/golang.org/x/crypto/v0.54.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/crypto",
+      "version": "v0.58.0",
+      "h1": "h1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/crypto/@v/v0.58.0.zip",
+      "source_zip_sha256": "b0a45594cda20ddb4264d84aeff9b588b8570bf6a2833c51a0b821734a298d95",
+      "verified_h1": "h1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=",
+      "source_archive": "modules/golang.org/x/crypto/@v/v0.58.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/crypto/v0.58.0/LICENSE",
+        "licenses/third-party/golang.org/x/crypto/v0.58.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/exp",
+      "version": "v0.0.0-20260410095643-746e56fc9e2f",
+      "h1": "h1:W3F4c+6OLc6H2lb//N1q4WpJkhzJCK5J6kUi1NTVXfM=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/exp/@v/v0.0.0-20260410095643-746e56fc9e2f.zip",
+      "source_zip_sha256": "de285d08489fcd4d420a8561501e75b5124db0a48121dfc26e811959f518db4e",
+      "verified_h1": "h1:W3F4c+6OLc6H2lb//N1q4WpJkhzJCK5J6kUi1NTVXfM=",
+      "source_archive": "modules/golang.org/x/exp/@v/v0.0.0-20260410095643-746e56fc9e2f.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/exp/v0.0.0-20260410095643-746e56fc9e2f/LICENSE",
+        "licenses/third-party/golang.org/x/exp/v0.0.0-20260410095643-746e56fc9e2f/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/mod",
+      "version": "v0.37.0",
+      "h1": "h1:vF1DjpVEshcIqoEaauuHebaLk1O1forxjxBaVn884JQ=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/mod/@v/v0.37.0.zip",
+      "source_zip_sha256": "91e8e4e9b74a8706dae808b66538d4ab22befd00c11f34134eb97ff572d52e85",
+      "verified_h1": "h1:vF1DjpVEshcIqoEaauuHebaLk1O1forxjxBaVn884JQ=",
+      "source_archive": "modules/golang.org/x/mod/@v/v0.37.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/mod/v0.37.0/LICENSE",
+        "licenses/third-party/golang.org/x/mod/v0.37.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/net",
+      "version": "v0.57.0",
+      "h1": "h1:K5+3DljvIuDG9/Jv9rvyMywYNFCQ9RSUY6OOTTkT+tE=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/net/@v/v0.57.0.zip",
+      "source_zip_sha256": "f8d652c629374b43846ef4f2efd419e8d1c81779eb728306d09f0de1cc1bab80",
+      "verified_h1": "h1:K5+3DljvIuDG9/Jv9rvyMywYNFCQ9RSUY6OOTTkT+tE=",
+      "source_archive": "modules/golang.org/x/net/@v/v0.57.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/net/v0.57.0/LICENSE",
+        "licenses/third-party/golang.org/x/net/v0.57.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/net",
+      "version": "v0.61.0",
+      "h1": "h1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/net/@v/v0.61.0.zip",
+      "source_zip_sha256": "f6843a98d608298e48a6ca287292c9a6fae066284050ce174d5ffb781c9b3dcf",
+      "verified_h1": "h1:RR+6j/BTBCrggOLugxa+66R8FvoN6MHlzDlZIbN9YFw=",
+      "source_archive": "modules/golang.org/x/net/@v/v0.61.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/net/v0.61.0/LICENSE",
+        "licenses/third-party/golang.org/x/net/v0.61.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/oauth2",
+      "version": "v0.36.0",
+      "h1": "h1:peZ/1z27fi9hUOFCAZaHyrpWG5lwe0RJEEEeH0ThlIs=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/oauth2/@v/v0.36.0.zip",
+      "source_zip_sha256": "15bf65ff103e5dafc809d78cd037a1d1e88ccb8451824e851156002a13304504",
+      "verified_h1": "h1:peZ/1z27fi9hUOFCAZaHyrpWG5lwe0RJEEEeH0ThlIs=",
+      "source_archive": "modules/golang.org/x/oauth2/@v/v0.36.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/oauth2/v0.36.0/LICENSE"
+      ]
+    },
+    {
+      "module": "golang.org/x/sync",
+      "version": "v0.22.0",
+      "h1": "h1:SZjpbeLmrCk4xhRSZFNZW5gFUeCeFgjekvI/+gfScek=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/sync/@v/v0.22.0.zip",
+      "source_zip_sha256": "4bc67d258ce7867cfc1a43765c43d98b4c49b90c46dd0b86f896a5a4909fade0",
+      "verified_h1": "h1:SZjpbeLmrCk4xhRSZFNZW5gFUeCeFgjekvI/+gfScek=",
+      "source_archive": "modules/golang.org/x/sync/@v/v0.22.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/sync/v0.22.0/LICENSE",
+        "licenses/third-party/golang.org/x/sync/v0.22.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/sys",
+      "version": "v0.47.0",
+      "h1": "h1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/sys/@v/v0.47.0.zip",
+      "source_zip_sha256": "cdac013ddced0262926ec29ffcda645da39670e61c7e5b761e572b6b1809bb1b",
+      "verified_h1": "h1:o7XGOvZQCADBQQ4Y7VNq2dRWQR7JmOUW8Kxx4ZsNgWs=",
+      "source_archive": "modules/golang.org/x/sys/@v/v0.47.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/sys/v0.47.0/LICENSE",
+        "licenses/third-party/golang.org/x/sys/v0.47.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/sys",
+      "version": "v0.49.0",
+      "h1": "h1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/sys/@v/v0.49.0.zip",
+      "source_zip_sha256": "e73a06591ca0d7016ce3ccb45c36a8ed7128468aecc1a357f94d815c760c6b31",
+      "verified_h1": "h1:XbzkgYJHdqh/8m2Uu0W/dQv8nktxx4BFHp1M0gROTXA=",
+      "source_archive": "modules/golang.org/x/sys/@v/v0.49.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/sys/v0.49.0/LICENSE",
+        "licenses/third-party/golang.org/x/sys/v0.49.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/term",
+      "version": "v0.45.0",
+      "h1": "h1:NwWyBmoJCbfTHpxrWoZ9C6/VxOf7ic219I8xZZFdrf0=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/term/@v/v0.45.0.zip",
+      "source_zip_sha256": "b3a3af689728b43012ae1b21482571a35c033c545e98e021606bd4fcf1f79108",
+      "verified_h1": "h1:NwWyBmoJCbfTHpxrWoZ9C6/VxOf7ic219I8xZZFdrf0=",
+      "source_archive": "modules/golang.org/x/term/@v/v0.45.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/term/v0.45.0/LICENSE",
+        "licenses/third-party/golang.org/x/term/v0.45.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/term",
+      "version": "v0.47.0",
+      "h1": "h1:cpyOwQkr2Nzxe2p6KnrTG7Ei2wtzjsuSjhpXXepZ/BM=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/term/@v/v0.47.0.zip",
+      "source_zip_sha256": "d990d5ab94dfa41ba980645b721bba7490064337a01bb03e6cacace70e8df0bf",
+      "verified_h1": "h1:cpyOwQkr2Nzxe2p6KnrTG7Ei2wtzjsuSjhpXXepZ/BM=",
+      "source_archive": "modules/golang.org/x/term/@v/v0.47.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/term/v0.47.0/LICENSE",
+        "licenses/third-party/golang.org/x/term/v0.47.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/text",
+      "version": "v0.40.0",
+      "h1": "h1:Ub2Z6/xjgF1WrYQz2nuITOEegKFtiIy+rieRJ5lHZKs=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/text/@v/v0.40.0.zip",
+      "source_zip_sha256": "07757384728d0f52dd85c1f3f163405e6396b2b0fb7eb7d6b610f2a711d69ee3",
+      "verified_h1": "h1:Ub2Z6/xjgF1WrYQz2nuITOEegKFtiIy+rieRJ5lHZKs=",
+      "source_archive": "modules/golang.org/x/text/@v/v0.40.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/text/v0.40.0/LICENSE",
+        "licenses/third-party/golang.org/x/text/v0.40.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/text",
+      "version": "v0.43.0",
+      "h1": "h1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/text/@v/v0.43.0.zip",
+      "source_zip_sha256": "b75131f628f6e2e4892fd638d33127e952a5027775e0162b94ba069cb4e13863",
+      "verified_h1": "h1:1QivrlhwAsnMOcqgOdl9my7s9OyZl8O5/UGUTJVXoWc=",
+      "source_archive": "modules/golang.org/x/text/@v/v0.43.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/text/v0.43.0/LICENSE",
+        "licenses/third-party/golang.org/x/text/v0.43.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.org/x/time",
+      "version": "v0.15.0",
+      "h1": "h1:bbrp8t3bGUeFOx08pvsMYRTCVSMk89u4tKbNOZbp88U=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.org/x/time/@v/v0.15.0.zip",
+      "source_zip_sha256": "8cfb20e915fa5d6c3fd264304233f8d71a3385e48a37819239c532ad9da27f84",
+      "verified_h1": "h1:bbrp8t3bGUeFOx08pvsMYRTCVSMk89u4tKbNOZbp88U=",
+      "source_archive": "modules/golang.org/x/time/@v/v0.15.0.zip",
+      "notice_files": [
+        "licenses/third-party/golang.org/x/time/v0.15.0/LICENSE",
+        "licenses/third-party/golang.org/x/time/v0.15.0/PATENTS"
+      ]
+    },
+    {
+      "module": "golang.zx2c4.com/wireguard/wgctrl",
+      "version": "v0.0.0-20241231184526-a9ab2273dd10",
+      "h1": "h1:3GDAcqdIg1ozBNLgPy4SLT84nfcBjr6rhGtXYtrkWLU=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/golang.zx2c4.com/wireguard/wgctrl/@v/v0.0.0-20241231184526-a9ab2273dd10.zip",
+      "source_zip_sha256": "891d7800e23b98615e60cbe3016ffa05bd58826673b62bf3c30d2d13d7bdc954",
+      "verified_h1": "h1:3GDAcqdIg1ozBNLgPy4SLT84nfcBjr6rhGtXYtrkWLU=",
+      "source_archive": "modules/golang.zx2c4.com/wireguard/wgctrl/@v/v0.0.0-20241231184526-a9ab2273dd10.zip",
+      "notice_files": [
+        "licenses/third-party/golang.zx2c4.com/wireguard/wgctrl/v0.0.0-20241231184526-a9ab2273dd10/LICENSE.md"
+      ]
+    },
+    {
+      "module": "google.golang.org/genproto/googleapis/api",
+      "version": "v0.0.0-20250825161204-c5933d9347a5",
+      "h1": "h1:BIRfGDEjiHRrk0QKZe3Xv2ieMhtgRGeLcZQ0mIVn4EY=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20250825161204-c5933d9347a5.zip",
+      "source_zip_sha256": "9b43ceecff1f028782383478dffa49bd752d77323a57911a22f845c20c2b9d4c",
+      "verified_h1": "h1:BIRfGDEjiHRrk0QKZe3Xv2ieMhtgRGeLcZQ0mIVn4EY=",
+      "source_archive": "modules/google.golang.org/genproto/googleapis/api/@v/v0.0.0-20250825161204-c5933d9347a5.zip",
+      "notice_files": [
+        "licenses/third-party/google.golang.org/genproto/googleapis/api/v0.0.0-20250825161204-c5933d9347a5/LICENSE"
+      ]
+    },
+    {
+      "module": "google.golang.org/genproto/googleapis/rpc",
+      "version": "v0.0.0-20251202230838-ff82c1b0f217",
+      "h1": "h1:gRkg/vSppuSQoDjxyiGfN4Upv/h/DQmIR10ZU8dh4Ww=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20251202230838-ff82c1b0f217.zip",
+      "source_zip_sha256": "29f02d8e0e2f6e9cc0ee24abc29989e5e44d168eec35c12046efee3fea201aef",
+      "verified_h1": "h1:gRkg/vSppuSQoDjxyiGfN4Upv/h/DQmIR10ZU8dh4Ww=",
+      "source_archive": "modules/google.golang.org/genproto/googleapis/rpc/@v/v0.0.0-20251202230838-ff82c1b0f217.zip",
+      "notice_files": [
+        "licenses/third-party/google.golang.org/genproto/googleapis/rpc/v0.0.0-20251202230838-ff82c1b0f217/LICENSE"
+      ]
+    },
+    {
+      "module": "google.golang.org/grpc",
+      "version": "v1.79.1",
+      "h1": "h1:zGhSi45ODB9/p3VAawt9a+O/MULLl9dpizzNNpq7flY=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/google.golang.org/grpc/@v/v1.79.1.zip",
+      "source_zip_sha256": "df09b5b9369cb149e9219224e9622736bd67c435380e9f09cb0723660fd58d44",
+      "verified_h1": "h1:zGhSi45ODB9/p3VAawt9a+O/MULLl9dpizzNNpq7flY=",
+      "source_archive": "modules/google.golang.org/grpc/@v/v1.79.1.zip",
+      "notice_files": [
+        "licenses/third-party/google.golang.org/grpc/v1.79.1/LICENSE",
+        "licenses/third-party/google.golang.org/grpc/v1.79.1/NOTICE.txt"
+      ]
+    },
+    {
+      "module": "google.golang.org/protobuf",
+      "version": "v1.36.11",
+      "h1": "h1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/google.golang.org/protobuf/@v/v1.36.11.zip",
+      "source_zip_sha256": "14983d36c56a814ed91b6d652f2b8f895baba1b84eb43b28a0b132c8637cd274",
+      "verified_h1": "h1:fV6ZwhNocDyBLK0dj+fg8ektcVegBBuEolpbTQyBNVE=",
+      "source_archive": "modules/google.golang.org/protobuf/@v/v1.36.11.zip",
+      "notice_files": [
+        "licenses/third-party/google.golang.org/protobuf/v1.36.11/LICENSE",
+        "licenses/third-party/google.golang.org/protobuf/v1.36.11/PATENTS"
+      ]
+    },
+    {
+      "module": "lukechampine.com/blake3",
+      "version": "v1.3.0",
+      "h1": "h1:sJ3XhFINmHSrYCgl958hscfIa3bw8x4DqMP3u1YvoYE=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/lukechampine.com/blake3/@v/v1.3.0.zip",
+      "source_zip_sha256": "2fb0c0a64de6f558aadf0fc161caaf1d477adaed6b8ee60648e0fb44376de32b",
+      "verified_h1": "h1:sJ3XhFINmHSrYCgl958hscfIa3bw8x4DqMP3u1YvoYE=",
+      "source_archive": "modules/lukechampine.com/blake3/@v/v1.3.0.zip",
+      "notice_files": [
+        "licenses/third-party/lukechampine.com/blake3/v1.3.0/LICENSE"
+      ]
+    },
+    {
+      "module": "modernc.org/libc",
+      "version": "v1.75.6",
+      "h1": "h1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/modernc.org/libc/@v/v1.75.6.zip",
+      "source_zip_sha256": "bf778c45a5cee169be73bf8cebbe281a1c3434406dcb3cba0deda81bd2e20350",
+      "verified_h1": "h1:yKk8qo+Di4gkmvRboK8ocCqH22FiUCR6jRy2OwtCRus=",
+      "source_archive": "modules/modernc.org/libc/@v/v1.75.6.zip",
+      "notice_files": [
+        "licenses/third-party/modernc.org/libc/v1.75.6/LICENSE",
+        "licenses/third-party/modernc.org/libc/v1.75.6/LICENSE-3RD-PARTY.md",
+        "licenses/third-party/modernc.org/libc/v1.75.6/testdata/nsz.repo.hu/libc-test/COPYRIGHT",
+        "licenses/third-party/modernc.org/libc/v1.75.6/testdata/nsz.repo.hu/libc-test/src/math/crlibm/COPYING"
+      ]
+    },
+    {
+      "module": "modernc.org/mathutil",
+      "version": "v1.7.1",
+      "h1": "h1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/modernc.org/mathutil/@v/v1.7.1.zip",
+      "source_zip_sha256": "5be0da18eb557a1198bfe370e37022f2dbdb9cdc5d63130fc8e8330ab240bd2e",
+      "verified_h1": "h1:GCZVGXdaN8gTqB1Mf/usp1Y/hSqgI2vAGGP4jZMCxOU=",
+      "source_archive": "modules/modernc.org/mathutil/@v/v1.7.1.zip",
+      "notice_files": [
+        "licenses/third-party/modernc.org/mathutil/v1.7.1/LICENSE",
+        "licenses/third-party/modernc.org/mathutil/v1.7.1/mersenne/LICENSE"
+      ]
+    },
+    {
+      "module": "modernc.org/memory",
+      "version": "v1.12.1",
+      "h1": "h1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/modernc.org/memory/@v/v1.12.1.zip",
+      "source_zip_sha256": "e25588f100d976fb75ff91edb8b4ea6ed837d67ff5aa5d42e6a8893fb30790ac",
+      "verified_h1": "h1:nFMiWrpStgZczNl6XI9GnIk/rWhYIyHGUaR04pGbp9g=",
+      "source_archive": "modules/modernc.org/memory/@v/v1.12.1.zip",
+      "notice_files": [
+        "licenses/third-party/modernc.org/memory/v1.12.1/LICENSE",
+        "licenses/third-party/modernc.org/memory/v1.12.1/LICENSE-GO",
+        "licenses/third-party/modernc.org/memory/v1.12.1/LICENSE-LOGO",
+        "licenses/third-party/modernc.org/memory/v1.12.1/LICENSE-MMAP-GO"
+      ]
+    },
+    {
+      "module": "modernc.org/sqlite",
+      "version": "v1.58.0",
+      "h1": "h1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara-edge_0.1.1_amd64.deb:usr/bin/ara-edge",
+        "ara-edge_0.1.1_armhf.deb:usr/bin/ara-edge",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_amd64.deb:usr/bin/ara-agent",
+        "ara_0.1.1_armhf.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara-agent"
+      ],
+      "source_url": "https://proxy.golang.org/modernc.org/sqlite/@v/v1.58.0.zip",
+      "source_zip_sha256": "d9cd046a0a79a06aaacfc8f5334303efe0350572f5e09ca596063b97a4b0c94c",
+      "verified_h1": "h1:38u40/bwkfM7f0Myhosl+SEMltSDxnGdQf8o6Kjmys0=",
+      "source_archive": "modules/modernc.org/sqlite/@v/v1.58.0.zip",
+      "notice_files": [
+        "licenses/third-party/modernc.org/sqlite/v1.58.0/LICENSE",
+        "licenses/third-party/modernc.org/sqlite/v1.58.0/LICENSE-SQLITE",
+        "licenses/third-party/modernc.org/sqlite/v1.58.0/LICENSE-SQLITE_VEC"
+      ]
+    },
+    {
+      "module": "rsc.io/qr",
+      "version": "v0.2.0",
+      "h1": "h1:6vBLea5/NRMVTz8V66gipeLycZMl/+UlFmk8DvqQ6WY=",
+      "binaries": [
+        "ara-control_0.1.1_amd64.deb:usr/bin/ara-control",
+        "ara-control_0.1.1_armhf.deb:usr/bin/ara-control",
+        "ara_0.1.1_amd64.deb:usr/bin/ara",
+        "ara_0.1.1_armhf.deb:usr/bin/ara"
+      ],
+      "source_url": "https://proxy.golang.org/rsc.io/qr/@v/v0.2.0.zip",
+      "source_zip_sha256": "8eb213702cd69a31bf7ce2783a0e82d0fa80dfb98178bfb0201f79452a4067c9",
+      "verified_h1": "h1:6vBLea5/NRMVTz8V66gipeLycZMl/+UlFmk8DvqQ6WY=",
+      "source_archive": "modules/rsc.io/qr/@v/v0.2.0.zip",
+      "notice_files": [
+        "licenses/third-party/rsc.io/qr/v0.2.0/LICENSE"
+      ]
+    },
+    {
+      "module": "zombiezen.com/go/capnproto2",
+      "version": "v2.18.2+incompatible",
+      "h1": "h1:v3BD1zbruvffn7zjJUU5Pn8nZAB11bhZSQC4W+YnnKo=",
+      "binaries": [
+        "ara-engine_0.1.1_amd64.deb:usr/lib/ara/sing-box",
+        "ara-engine_0.1.1_armhf.deb:usr/lib/ara/sing-box"
+      ],
+      "source_url": "https://proxy.golang.org/zombiezen.com/go/capnproto2/@v/v2.18.2+incompatible.zip",
+      "source_zip_sha256": "b0109f13110df4d243b5d1cc49b875bcc07c4c9713eeecc42e16a2b5022f4082",
+      "verified_h1": "h1:v3BD1zbruvffn7zjJUU5Pn8nZAB11bhZSQC4W+YnnKo=",
+      "source_archive": "modules/zombiezen.com/go/capnproto2/@v/v2.18.2+incompatible.zip",
+      "notice_files": [
+        "licenses/third-party/zombiezen.com/go/capnproto2/v2.18.2+incompatible/LICENSE"
+      ]
+    }
+  ],
+  "toolchains": [
+    {
+      "version": "go1.26.10",
+      "source_url": "https://go.dev/dl/go1.26.10.src.tar.gz",
+      "sha256": "fd63e883ba2f2bfca93c1646b31ebef63e2b1e4d2b317c9789d976a68d81f36f",
+      "source_archive": "toolchains/go1.26.10.src.tar.gz",
+      "notice_files": [
+        "licenses/third-party/go/go1.26.10/go/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/compile/internal/ssa/_gen/vendor/golang.org/x/tools/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/compile/internal/ssa/_gen/vendor/golang.org/x/tools/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/github.com/google/pprof/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/github.com/google/pprof/third_party/svgpan/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/github.com/ianlancetaylor/demangle/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/arch/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/arch/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/build/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/build/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/mod/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/mod/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/sync/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/sync/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/sys/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/sys/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/telemetry/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/telemetry/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/term/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/term/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/text/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/text/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/tools/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/golang.org/x/tools/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/cmd/vendor/rsc.io/markdown/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/crypto/internal/boring/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/runtime/testdata/testgoroutineleakprofile/goker/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/vendor/golang.org/x/crypto/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/vendor/golang.org/x/crypto/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/vendor/golang.org/x/net/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/vendor/golang.org/x/net/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/vendor/golang.org/x/sys/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/vendor/golang.org/x/sys/PATENTS",
+        "licenses/third-party/go/go1.26.10/go/src/vendor/golang.org/x/text/LICENSE",
+        "licenses/third-party/go/go1.26.10/go/src/vendor/golang.org/x/text/PATENTS"
+      ]
+    },
+    {
+      "version": "go1.27.3",
+      "source_url": "https://go.dev/dl/go1.27.3.src.tar.gz",
+      "sha256": "6e7749035cf360f06b2575d162ea79df9fda8ef671889e5c375f8e50777f26bb",
+      "source_archive": "toolchains/go1.27.3.src.tar.gz",
+      "notice_files": [
+        "licenses/third-party/go/go1.27.3/go/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/compile/internal/ssa/_gen/vendor/golang.org/x/tools/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/compile/internal/ssa/_gen/vendor/golang.org/x/tools/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/github.com/google/pprof/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/github.com/google/pprof/third_party/svgpan/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/github.com/ianlancetaylor/demangle/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/arch/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/arch/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/build/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/build/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/mod/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/mod/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/sync/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/sync/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/sys/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/sys/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/telemetry/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/telemetry/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/term/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/term/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/text/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/text/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/tools/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/golang.org/x/tools/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/cmd/vendor/rsc.io/markdown/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/crypto/internal/boring/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/runtime/testdata/testgoroutineleakprofile/goker/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/vendor/golang.org/x/crypto/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/vendor/golang.org/x/crypto/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/vendor/golang.org/x/net/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/vendor/golang.org/x/net/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/vendor/golang.org/x/sys/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/vendor/golang.org/x/sys/PATENTS",
+        "licenses/third-party/go/go1.27.3/go/src/vendor/golang.org/x/text/LICENSE",
+        "licenses/third-party/go/go1.27.3/go/src/vendor/golang.org/x/text/PATENTS"
+      ]
+    }
+  ]
+}

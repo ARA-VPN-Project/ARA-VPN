@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="660" viewBox="0 0 1440 660" role="img" aria-labelledby="title desc">
+<title id="title">ARA VPN — ваш интернет, ваш маршрут</title><desc id="desc">Своя сеть для доступа к нужным сервисам: устройство подключается ко входной ноде, правила выбирают локальный или зарубежный выход.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f7faff"/><stop offset="1" stop-color="#eef2f8"/></linearGradient><linearGradient id="blue" x2="1" y2="1"><stop stop-color="#1769ff"/><stop offset="1" stop-color="#3353db"/></linearGradient></defs>
+<rect width="1440" height="660" rx="32" fill="url(#bg)"/>
+<g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif">
+<rect x="60" y="54" width="56" height="56" rx="17" fill="url(#blue)"/><path d="M75 94l13-29 13 29m-21-9h16" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="132" y="91" font-size="30" font-weight="750" fill="#141e31">ARA VPN</text><text x="60" y="173" font-size="14" letter-spacing="2.5" font-weight="700" fill="#4b648b">СВОЯ СЕТЬ · СВОИ ПРАВИЛА</text>
+<text x="56" y="254" font-size="67" letter-spacing="-2.5" font-weight="750" fill="#111c30">Ваш интернет.</text><text x="56" y="333" font-size="67" letter-spacing="-2.5" font-weight="750" fill="#2463e8">Ваш маршрут.</text>
+<text x="60" y="391" font-size="23" fill="#53637b">Доступ к нужным сервисам.</text><text x="60" y="426" font-size="23" fill="#53637b">Проходные ноды, понятные правила,</text><text x="60" y="461" font-size="23" fill="#53637b">одна подписка для пользователя.</text>
+<rect x="60" y="531" width="129" height="38" rx="19" fill="white"/><text x="124" y="556" text-anchor="middle" font-size="15" font-weight="600" fill="#315078">Debian-first</text>
+<rect x="200" y="531" width="114" height="38" rx="19" fill="white"/><text x="257" y="556" text-anchor="middle" font-size="15" font-weight="600" fill="#315078">Web + CLI</text><rect x="325" y="531" width="126" height="38" rx="19" fill="white"/><text x="388" y="556" text-anchor="middle" font-size="15" font-weight="600" fill="#315078">Self-hosted</text>
+<rect x="668" y="124" width="714" height="438" rx="28" fill="white" stroke="#dde5ef"/>
+<text x="702" y="169" font-size="13" font-weight="700" letter-spacing="1.8" fill="#72839a">ОДИН ВХОД. НУЖНЫЙ ВЫХОД.</text>
+<path d="M862 335h54q26 0 26-26v-64q0-26 26-26h42M862 335h54q26 0 26 26v70q0 26 26 26h42" fill="none" stroke="#cbd9f3" stroke-width="3"/>
+<path d="M862 335h54q26 0 26-26v-64q0-26 26-26h42" fill="none" stroke="#3072ec" stroke-width="3" stroke-dasharray="5 7"/>
+<circle cx="942" cy="335" r="7" fill="#2463e8" stroke="white" stroke-width="3"/>
+<rect x="706" y="273" width="162" height="125" rx="20" fill="#edf4ff" stroke="#c8dbff"/>
+<rect x="728" y="293" width="28" height="34" rx="7" fill="none" stroke="#2463e8" stroke-width="2"/><path d="M735 303h14m-14 7h14m-14 7h8" stroke="#2463e8" stroke-width="2"/>
+<text x="727" y="355" font-size="19" font-weight="700" fill="#192d4b">Ваш вход</text><text x="727" y="379" font-size="14" fill="#657990">Дома или на VPS</text>
+<rect x="1009" y="188" width="338" height="106" rx="18" fill="#f7f9fc" stroke="#e2e9f2"/><rect x="1030" y="211" width="31" height="22" rx="4" fill="#fff"/><path d="M1030 215h31" stroke="#d94b57" stroke-width="7"/><path d="M1030 229h31" stroke="#3157a4" stroke-width="7"/>
+<text x="1074" y="230" font-size="20" font-weight="700" fill="#192d4b">Зарубежный выход</text><text x="1030" y="265" font-size="15" fill="#657990">Сервисы из выбранных правил</text>
+<rect x="1009" y="405" width="338" height="106" rx="18" fill="#f7f9fc" stroke="#e2e9f2"/><circle cx="1045" cy="439" r="12" fill="none" stroke="#6683a8" stroke-width="2"/><path d="M1033 439h24m-12-12q-9 12 0 24m0-24q9 12 0 24" fill="none" stroke="#6683a8" stroke-width="1.5"/>
+<text x="1074" y="445" font-size="20" font-weight="700" fill="#192d4b">Локальный выход</text><text x="1030" y="482" font-size="15" fill="#657990">Остальной трафик — по вашей политике</text>
+<text x="709" y="536" font-size="13" fill="#8390a3">Схема сценария. Точный путь задаёт администратор.</text>
+</g></svg>

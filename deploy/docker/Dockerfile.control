@@ -1,0 +1,37 @@
+# ARA control plane (server side). Same pinned builder; runtime runs as a
+# fixed uid/gid (4200) with persistent state in a mounted volume. The
+# container never accesses the Docker socket.
+#
+# R16: state path is explicit and volume-backed so control.db/identity
+# survive container recreation; the management listener inside the
+# container binds 0.0.0.0 WITH the explicit --allow-non-loopback override,
+# because the container network namespace differs from the host —
+# exposure is controlled solely by the compose port publication
+# (127.0.0.1:<host-port>:8080) and any network policy the operator adds.
+FROM --platform=$BUILDPLATFORM golang:1.27.3-bookworm AS build
+ARG TARGETARCH
+ARG TARGETVARIANT
+WORKDIR /src
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN export GOARCH="$TARGETARCH" GOARM="${TARGETVARIANT#v}" CGO_ENABLED=0 GOOS=linux \
+    && go build -trimpath -ldflags="-s -w" \
+    -o /out/ara-control ./cmd/ara-control && \
+    go build -trimpath -ldflags="-s -w" \
+    -o /out/ara ./cmd/ara
+
+FROM debian:bookworm-slim
+RUN groupadd -g 4200 ara && useradd -r -u 4200 -g ara -d /var/lib/ara -s /usr/sbin/nologin ara \
+    && mkdir -p /var/lib/ara/state && chown -R 4200:4200 /var/lib/ara
+COPY --from=build /out/ara-control /usr/local/bin/ara-control
+COPY --from=build /out/ara /usr/local/bin/ara
+# Preserve ARA and third-party licensing in the runtime image.
+COPY LICENSE NOTICE TRADEMARKS.md SOURCES.md /usr/share/doc/ara/
+COPY licenses/ /usr/share/doc/ara/licenses/
+USER 4200:4200
+WORKDIR /var/lib/ara
+VOLUME ["/var/lib/ara/state"]
+# no EXPOSE for management: publication is an explicit compose decision
+ENTRYPOINT ["/usr/local/bin/ara-control"]
+CMD ["--state-dir", "/var/lib/ara/state", "--listen", "0.0.0.0:8080", "--allow-non-loopback"]

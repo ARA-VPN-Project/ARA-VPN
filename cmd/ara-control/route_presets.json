@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "google",
+    "title": "Google · YouTube · Gemini",
+    "pack": "stream ai google attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "google.com",
+      "googleapis.com",
+      "gstatic.com",
+      "googleusercontent.com",
+      "youtube.com",
+      "youtu.be",
+      "youtube-nocookie.com",
+      "googlevideo.com",
+      "ytimg.com",
+      "ggpht.com",
+      "youtubeeducation.com",
+      "google.ru",
+      "google.de",
+      "google.nl",
+      "google.co.uk",
+      "google.fr",
+      "google.com.tr",
+      "google.com.ua",
+      "google.co.jp",
+      "google.co.in",
+      "google.com.au",
+      "google.ca",
+      "gvt1.com",
+      "gvt2.com",
+      "1e100.net",
+      "googlehosted.com"
+    ],
+    "exact": [],
+    "examples": [
+      "accounts.google.com",
+      "oauth2.googleapis.com",
+      "youtubei.googleapis.com",
+      "youtubeembeddedplayer.googleapis.com",
+      "gemini.google.com",
+      "drive.google.com",
+      "meet.google.com",
+      "play.google.com",
+      "storage.googleapis.com"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "appspot.com",
+      "googlemail.com",
+      "gmail.com",
+      "gvt3.com",
+      "gvt5.com",
+      "gvt6.com",
+      "gvt7.com",
+      "gvt9.com",
+      "google.net",
+      "youtube.tv",
+      "youtubekids.com",
+      "yt.be",
+      "gemini.google",
+      "deepmind.google",
+      "deepmind.com",
+      "generativeai.google",
+      "notebooklm.google",
+      "antigravity.google",
+      "ai.google.dev",
+      "googleplay.com"
+    ],
+    "extra_exact": [
+      "stitch.withgoogle.com"
+    ]
+  },
+  {
+    "id": "google-cloud",
+    "title": "Google Cloud · Firebase",
+    "pack": "google",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "appspot.com",
+      "firebaseapp.com",
+      "firebaseio.com",
+      "web.app",
+      "googlecloud.com"
+    ],
+    "exact": [],
+    "examples": [
+      "project.web.app"
+    ],
+    "optional": true
+  },
+  {
+    "id": "telegram",
+    "title": "Telegram",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "telegram.org",
+      "t.me",
+      "telegram-cdn.org",
+      "tdesktop.com",
+      "telegra.ph",
+      "telesco.pe",
+      "telegram.me"
+    ],
+    "exact": [],
+    "cidr": [
+      "91.105.192.0/23",
+      "91.108.4.0/22",
+      "91.108.8.0/22",
+      "91.108.12.0/22",
+      "91.108.16.0/22",
+      "91.108.20.0/22",
+      "91.108.56.0/22",
+      "149.154.160.0/20",
+      "185.76.151.0/24",
+      "2001:67c:4e8::/48",
+      "2001:b28:f23c::/48",
+      "2001:b28:f23d::/48",
+      "2001:b28:f23f::/48",
+      "2a0a:f280::/32"
+    ],
+    "examples": [
+      "web.telegram.org"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "telegram.dog",
+      "telegram.space",
+      "cdn-telegram.org",
+      "graph.org",
+      "fragment.com",
+      "comments.app",
+      "contest.com",
+      "quiz.directory",
+      "tg.dev",
+      "ton.org",
+      "toncenter.com",
+      "usercontent.dev"
+    ]
+  },
+  {
+    "id": "whatsapp",
+    "title": "WhatsApp",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "whatsapp.com",
+      "whatsapp.net",
+      "wa.me"
+    ],
+    "exact": [],
+    "examples": [
+      "web.whatsapp.com",
+      "static.whatsapp.net"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "whatsapp.org"
+    ]
+  },
+  {
+    "id": "meta",
+    "title": "Instagram · Facebook · Threads",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "instagram.com",
+      "cdninstagram.com",
+      "igcdn.com",
+      "facebook.com",
+      "facebook.net",
+      "fbcdn.net",
+      "threads.net",
+      "threads.com",
+      "fb.com",
+      "fb.me",
+      "messenger.com"
+    ],
+    "exact": [],
+    "examples": [
+      "www.instagram.com",
+      "accountscenter.facebook.com"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "ig.me",
+      "fbcdn.com",
+      "fbsbx.com",
+      "fbsbx.net"
+    ]
+  },
+  {
+    "id": "x",
+    "title": "X · Twitter",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "x.com",
+      "twitter.com",
+      "twimg.com",
+      "t.co"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false,
+    "extra_suffix": [
+      "twvid.com",
+      "x.ai",
+      "grok.com",
+      "tweetdeck.com",
+      "twitteroauth.com"
+    ]
+  },
+  {
+    "id": "grok",
+    "title": "Grok",
+    "pack": "stream ai",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "x.ai",
+      "grok.com"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "discord",
+    "title": "Discord",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "discord.com",
+      "discord.gg",
+      "discordapp.com",
+      "discordapp.net",
+      "discordcdn.com",
+      "discord.media",
+      "discord.gift",
+      "discordstatus.com"
+    ],
+    "exact": [],
+    "examples": [
+      "cdn.discordapp.com",
+      "media.discordapp.net",
+      "gateway.discord.gg"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "discord-activities.com",
+      "discordactivities.com",
+      "dis.gd"
+    ],
+    "extra_exact": [
+      "discord-attachments-uploads-prd.storage.googleapis.com"
+    ]
+  },
+  {
+    "id": "tiktok",
+    "title": "TikTok",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "tiktok.com",
+      "tiktokcdn.com",
+      "tiktokv.com",
+      "muscdn.com"
+    ],
+    "exact": [],
+    "examples": [
+      "www.tiktok.com"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "tiktokcdn-us.com",
+      "tiktokcdn-eu.com",
+      "tiktokv.us",
+      "tiktokv.eu",
+      "tiktokd.net",
+      "tiktokd.org",
+      "tiktokrow-cdn.com",
+      "tiktok-row.net",
+      "tiktokstaticb.com",
+      "ttcdn-us.com",
+      "ttlivecdn.com"
+    ]
+  },
+  {
+    "id": "signal",
+    "title": "Signal",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "signal.org",
+      "signal.art",
+      "signal.group",
+      "signal.me",
+      "signal.link"
+    ],
+    "exact": [],
+    "examples": [
+      "turn3.voip.signal.org",
+      "sfu.voip.signal.org"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "signal.tube",
+      "signalusers.org",
+      "whispersystems.org"
+    ]
+  },
+  {
+    "id": "viber",
+    "title": "Viber",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "viber.com"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false,
+    "extra_suffix": [
+      "viber.co",
+      "viber.me",
+      "vbcdn.com",
+      "vbcdn.net"
+    ]
+  },
+  {
+    "id": "snapchat",
+    "title": "Snapchat",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "snapchat.com",
+      "snapchat.net",
+      "sc-cdn.net",
+      "snap.com"
+    ],
+    "exact": [],
+    "examples": [
+      "accounts.snapchat.com"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "sc-static.net",
+      "sc-prod.net",
+      "snapar.com",
+      "snapkit.com"
+    ]
+  },
+  {
+    "id": "linkedin",
+    "title": "LinkedIn",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "linkedin.com",
+      "licdn.com",
+      "lnkd.in"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "openai",
+    "title": "OpenAI · ChatGPT · Sora · Codex",
+    "pack": "ai attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "openai.com",
+      "chatgpt.com",
+      "chat.com",
+      "sora.com",
+      "oaistatsig.com",
+      "oaistatic.com",
+      "oaiusercontent.com",
+      "chatgpt.livekit.cloud",
+      "openaimerge.com"
+    ],
+    "exact": [
+      "cdn.workos.com",
+      "forwarder.workos.com",
+      "frontend-apps-multi-region.workos.com",
+      "setup.workos.com",
+      "images.workoscdn.com",
+      "workos.imgix.net",
+      "challenges.cloudflare.com",
+      "js.stripe.com"
+    ],
+    "examples": [
+      "chat.openai.com",
+      "auth.openai.com",
+      "auth0.openai.com",
+      "files.oaiusercontent.com",
+      "ws.chatgpt.com"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "chatgpt.site",
+      "openai.org"
+    ],
+    "extra_exact": [
+      "host.livekit.cloud",
+      "turn.livekit.cloud",
+      "cdn.workos.com",
+      "forwarder.workos.com",
+      "frontend-apps-multi-region.workos.com",
+      "setup.workos.com",
+      "images.workoscdn.com",
+      "workos.imgix.net",
+      "challenges.cloudflare.com"
+    ]
+  },
+  {
+    "id": "openai-support",
+    "title": "OpenAI · Intercom / SendGrid / Sentry",
+    "pack": "extra",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "ct.sendgrid.net",
+      "intercom.io",
+      "intercomcdn.com"
+    ],
+    "exact": [
+      "o207216.ingest.sentry.io",
+      "o33249.ingest.sentry.io",
+      "rum.browser-intake-datadoghq.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "claude",
+    "title": "Claude · Anthropic",
+    "pack": "ai attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "anthropic.com",
+      "claude.ai",
+      "claude.com",
+      "claudeusercontent.com",
+      "clau.de",
+      "claudemcpcontent.com"
+    ],
+    "exact": [],
+    "examples": [
+      "api.anthropic.com",
+      "platform.claude.com",
+      "bridge.claudeusercontent.com"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "claude.app",
+      "claude.dev",
+      "claude.new",
+      "claude.site",
+      "claudemcpclient.com",
+      "ant.dev",
+      "claudepages.dev"
+    ]
+  },
+  {
+    "id": "perplexity",
+    "title": "Perplexity",
+    "pack": "ai attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "perplexity.ai"
+    ],
+    "exact": [],
+    "examples": [
+      "api.perplexity.ai"
+    ],
+    "optional": false,
+    "extra_suffix": [
+      "perplexity.com",
+      "pplx.ai"
+    ],
+    "extra_exact": [
+      "ppl-ai-file-upload.s3.amazonaws.com",
+      "pplx-res.cloudinary.com"
+    ]
+  },
+  {
+    "id": "copilot",
+    "title": "Microsoft Copilot",
+    "pack": "ai attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "copilot.microsoft.com",
+      "copilot.cloud.microsoft"
+    ],
+    "exact": [
+      "login.live.com",
+      "login.microsoftonline.com"
+    ],
+    "examples": [
+      "copilot.cloud.microsoft"
+    ],
+    "optional": false,
+    "extra_exact": [
+      "designer.microsoft.com"
+    ]
+  },
+  {
+    "id": "mistral",
+    "title": "Mistral · Le Chat",
+    "pack": "ai",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "mistral.ai"
+    ],
+    "exact": [],
+    "examples": [
+      "chat.mistral.ai",
+      "api.mistral.ai"
+    ],
+    "optional": false
+  },
+  {
+    "id": "deepseek",
+    "title": "DeepSeek",
+    "pack": "extra",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "deepseek.com"
+    ],
+    "exact": [],
+    "examples": [
+      "chat.deepseek.com",
+      "api.deepseek.com"
+    ],
+    "optional": true
+  },
+  {
+    "id": "kimi",
+    "title": "Kimi · Moonshot",
+    "pack": "extra",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "kimi.com",
+      "moonshot.ai",
+      "moonshot.cn",
+      "kimi.ai"
+    ],
+    "exact": [],
+    "examples": [
+      "api.moonshot.ai",
+      "platform.kimi.ai"
+    ],
+    "optional": true
+  },
+  {
+    "id": "apple",
+    "title": "Apple · iCloud · Music · App Store",
+    "pack": "attachment",
+    "action": "FOREIGN_POOL",
+    "strict_foreign": true,
+    "suffix": [
+      "apple.com",
+      "icloud.com",
+      "icloud.com.cn",
+      "mzstatic.com",
+      "apple-cloudkit.com",
+      "apple-livephotoskit.com",
+      "cdn-apple.com",
+      "icloud-content.com",
+      "apple-dns.net",
+      "networking.apple",
+      "apzones.com"
+    ],
+    "exact": [],
+    "examples": [
+      "itunes.apple.com",
+      "account.apple.com",
+      "idmsa.apple.com",
+      "humb.apple.com",
+      "apple-pay-gateway.apple.com",
+      "pos-device.apple.com"
+    ],
+    "optional": true,
+    "extra_suffix": [
+      "applemusic.com",
+      "musickit.net",
+      "aaplimg.com",
+      "shazam.com",
+      "beats.com",
+      "itunes.com",
+      "applepodcasts.com"
+    ],
+    "extra_exact": [
+      "appldnld.apple.com.edgesuite.net",
+      "token.safebrowsing.apple",
+      "apple-relay.cloudflare.com",
+      "apple-relay.fastly-edge.com"
+    ]
+  },
+  {
+    "id": "ru",
+    "title": "Госуслуги · Сбер · Яндекс · Кинопоиск",
+    "pack": "local",
+    "action": "DIRECT",
+    "suffix": [
+      "gosuslugi.ru",
+      "sberbank.ru",
+      "sber.ru",
+      "yandex.ru",
+      "yandex.net",
+      "kinopoisk.ru",
+      "yastatic.net"
+    ],
+    "exact": [],
+    "examples": [
+      "kp.yandex.net",
+      "online.sberbank.ru"
+    ],
+    "optional": true
+  },
+  {
+    "id": "media",
+    "title": "BBC · DW · Meduza · RFE/RL",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "bbc.com",
+      "bbc.co.uk",
+      "bbci.co.uk",
+      "dw.com",
+      "meduza.io",
+      "rferl.org",
+      "svoboda.org",
+      "currenttime.tv"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true,
+    "extra_suffix": [
+      "theins.ru",
+      "novayagazeta.eu",
+      "zona.media",
+      "themoscowtimes.com",
+      "doxa.team",
+      "agents.media",
+      "istories.media",
+      "echofm.online",
+      "bellingcat.com"
+    ]
+  },
+  {
+    "id": "z-ai",
+    "title": "Z.AI",
+    "pack": "ai attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "z.ai"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "bluesky",
+    "title": "Bluesky",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "bsky.app",
+      "bsky.social",
+      "bsky.network"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "line",
+    "title": "LINE",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "line.me",
+      "line-apps.com",
+      "line-cdn.net",
+      "line-scdn.net",
+      "lin.ee"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "freedom-bank",
+    "title": "Freedom Bank Kazakhstan",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "bankffin.kz",
+      "freedombank.kz"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "remote-access",
+    "title": "AnyDesk · TeamViewer · Tailscale · ZeroTier",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "anydesk.com",
+      "teamviewer.com",
+      "tailscale.com",
+      "zerotier.com"
+    ],
+    "exact": [
+      "remotedesktop.google.com",
+      "remotedesktop-pa.googleapis.com",
+      "instantmessaging-pa.googleapis.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "work-chat",
+    "title": "Zoom · Slack · Microsoft Teams",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "zoom.us",
+      "zoom.com",
+      "slack.com",
+      "slack-edge.com",
+      "slack-imgs.com",
+      "slackb.com"
+    ],
+    "exact": [
+      "teams.microsoft.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "github",
+    "title": "GitHub · GitHub Copilot",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "github.com",
+      "github.io",
+      "github.dev",
+      "githubassets.com",
+      "githubusercontent.com",
+      "githubcopilot.com",
+      "githubnext.com",
+      "githubstatus.com",
+      "ghcr.io"
+    ],
+    "exact": [
+      "github-cloud.s3.amazonaws.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "gitlab",
+    "title": "GitLab",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "gitlab.com",
+      "gitlab-static.net",
+      "gitlab.io",
+      "gitlab.net"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "cursor",
+    "title": "Cursor",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "cursor.com",
+      "cursor.sh",
+      "cursorapi.com",
+      "cursor-cdn.com",
+      "cursorvm.com"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "docker",
+    "title": "Docker",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "docker.io",
+      "docker.com",
+      "dhi.io"
+    ],
+    "exact": [
+      "cdn.auth0.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "homebrew",
+    "title": "Homebrew",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "brew.sh"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "vscode",
+    "title": "Visual Studio Code",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "code.visualstudio.com",
+      "vscode.dev",
+      "vscode-cdn.net",
+      "vscode-unpkg.net",
+      "gallery.vsassets.io",
+      "gallerycdn.vsassets.io"
+    ],
+    "exact": [
+      "marketplace.visualstudio.com",
+      "download.visualstudio.microsoft.com",
+      "vscode.download.prss.microsoft.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "nodejs",
+    "title": "Node.js · npm",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "npmjs.com",
+      "npmjs.org",
+      "nodejs.org",
+      "unpkg.com",
+      "jsdelivr.net"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "python",
+    "title": "Python · pip · uv",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "pypi.org",
+      "pythonhosted.org",
+      "python.org",
+      "astral.sh"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "powershell",
+    "title": "PowerShell · NuGet",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "powershellgallery.com",
+      "nuget.org"
+    ],
+    "exact": [
+      "cdn.oneget.org"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "windows-update",
+    "title": "Windows Update · WinGet",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "windowsupdate.com",
+      "windowsupdate.microsoft.com",
+      "update.microsoft.com",
+      "download.microsoft.com",
+      "delivery.mp.microsoft.com",
+      "prod.do.dsp.mp.microsoft.com",
+      "api.cdp.microsoft.com"
+    ],
+    "exact": [
+      "cdn.winget.microsoft.com",
+      "storeedgefd.dsx.mp.microsoft.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "microsoft365",
+    "title": "Microsoft 365 · Office",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "officecdn.microsoft.com",
+      "cdn.office.net",
+      "static.microsoft"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "jetbrains",
+    "title": "JetBrains",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "jetbrains.com"
+    ],
+    "exact": [
+      "api.jetbrains.ai"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "rust",
+    "title": "Rust · Cargo",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "rust-lang.org",
+      "crates.io"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "go",
+    "title": "Go",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "go.dev",
+      "golang.org"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "kubernetes",
+    "title": "Kubernetes · Helm",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "kubernetes.io"
+    ],
+    "exact": [
+      "registry.k8s.io",
+      "pkgs.k8s.io",
+      "helm.sh",
+      "charts.helm.sh"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "hashicorp",
+    "title": "HashiCorp · Terraform",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "terraform.io",
+      "hashicorp.com"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "linux-repositories",
+    "title": "Debian · Ubuntu · OpenWrt",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "debian.org",
+      "ubuntu.com",
+      "openwrt.org"
+    ],
+    "exact": [
+      "packages.microsoft.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "network-equipment",
+    "title": "MikroTik · Ubiquiti",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "mikrotik.com",
+      "ui.com",
+      "ubnt.com"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "monitoring-backup",
+    "title": "Zabbix · Veeam",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "zabbix.com",
+      "veeam.com"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "cloud-management",
+    "title": "Cloudflare · AWS · DigitalOcean · Hetzner",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "cloudflare.com",
+      "digitalocean.com",
+      "hetzner.com"
+    ],
+    "exact": [
+      "portal.azure.com",
+      "console.aws.amazon.com",
+      "console.cloud.google.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "twitch",
+    "title": "Twitch",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "twitch.tv",
+      "twitchcdn.net",
+      "twitchsvc.net",
+      "ttvnw.net",
+      "jtvnw.net",
+      "live-video.net",
+      "ext-twitch.tv"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "spotify",
+    "title": "Spotify",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "spotify.com",
+      "spotifycdn.com",
+      "spotifycdn.net",
+      "scdn.co",
+      "pscdn.co",
+      "spoti.fi"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "netflix",
+    "title": "Netflix",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "netflix.com",
+      "netflix.net",
+      "nflximg.com",
+      "nflximg.net",
+      "nflxso.net",
+      "nflxvideo.net",
+      "nflxsearch.net",
+      "nflxext.com"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "reddit",
+    "title": "Reddit",
+    "pack": "stream attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "reddit.com",
+      "redd.it",
+      "redditmedia.com",
+      "redditstatic.com"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": false
+  },
+  {
+    "id": "roblox",
+    "title": "Roblox",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "roblox.com",
+      "rbxcdn.com",
+      "robloxdev.com",
+      "rbxinfra.net"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "it-forums",
+    "title": "Stack Overflow · IT docs",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "stackoverflow.com",
+      "stackexchange.com",
+      "serverfault.com",
+      "superuser.com",
+      "askubuntu.com",
+      "spiceworks.com"
+    ],
+    "exact": [
+      "learn.microsoft.com",
+      "docs.docker.com",
+      "docs.github.com",
+      "help.mikrotik.com"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "security-tools",
+    "title": "CISA · NVD · OSV · AbuseIPDB · Censys",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "virustotal.com",
+      "abuseipdb.com",
+      "shodan.io",
+      "censys.io",
+      "urlscan.io",
+      "cve.org",
+      "mitre.org",
+      "cisa.gov"
+    ],
+    "exact": [
+      "api.osv.dev",
+      "nvd.nist.gov"
+    ],
+    "examples": [],
+    "optional": true
+  },
+  {
+    "id": "web-archives",
+    "title": "Internet Archive · AO3 · Medium",
+    "pack": "extra attachment",
+    "action": "FOREIGN_POOL",
+    "suffix": [
+      "medium.com",
+      "archive.org",
+      "archiveofourown.org"
+    ],
+    "exact": [],
+    "examples": [],
+    "optional": true
+  }
+]

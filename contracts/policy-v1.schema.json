@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ara.invalid/contracts/policy-v1.json",
+  "title": "ARA policy document v1",
+  "type": "object",
+  "required": ["schema_version", "revision", "allow_ru_fallback", "rules"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": 1 },
+    "revision": { "type": "integer", "minimum": 0 },
+    "allow_ru_fallback": { "type": "boolean" },
+    "default_action": { "enum": ["RU_EXIT", "FOREIGN_POOL", "FOREIGN_EXIT", "BLOCK"] },
+    "default_exit_id": { "type": "string", "minLength": 1 },
+    "foreign_exit_fallback": { "enum": ["block", "ru", "foreign", "foreign_then_ru"] },
+    "rules": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/rule" }
+    }
+  },
+  "$defs": {
+    "rule": {
+      "type": "object",
+      "required": ["id", "enabled", "action"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "enabled": { "type": "boolean" },
+        "comment": { "type": "string", "maxLength": 512 },
+        "domain_exact": { "type": "array", "items": { "type": "string", "pattern": "^([a-z0-9]([a-z0-9-]*[a-z0-9])?\\.)+[a-z]{2,}$" } },
+        "domain_suffix": { "type": "array", "items": { "type": "string", "pattern": "^([a-z0-9]([a-z0-9-]*[a-z0-9])?\\.)+[a-z]{2,}$" } },
+        "cidr": { "type": "array", "items": { "type": "string" } },
+        "proto": { "enum": ["tcp", "udp"] },
+        "ports": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["from", "to"],
+            "additionalProperties": false,
+            "properties": {
+              "from": { "type": "integer", "minimum": 1, "maximum": 65535 },
+              "to": { "type": "integer", "minimum": 1, "maximum": 65535 }
+            }
+          }
+        },
+        "action": { "enum": ["RU_EXIT", "FOREIGN_POOL", "FOREIGN_EXIT", "DIRECT", "BLOCK"] },
+        "exit_id": { "type": "string", "minLength": 1 },
+        "allow_ru_fallback": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": { "required": ["ports"] },
+          "then": { "required": ["proto"] }
+        },
+        {
+          "if": { "required": ["allow_ru_fallback"] },
+          "then": { "properties": { "action": { "const": "FOREIGN_POOL" } } }
+        },
+        {
+          "if": { "properties": { "action": { "const": "FOREIGN_EXIT" } } },
+          "then": { "required": ["exit_id"] },
+          "else": { "not": { "required": ["exit_id"] } }
+        }
+      ]
+    }
+  }
+}

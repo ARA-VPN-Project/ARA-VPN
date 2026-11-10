@@ -1,0 +1,59 @@
+# ARA edge data plane — builds the pinned ara-edge binary and serves the
+# operator-delivered config. Two supported modes (B41):
+#   - userspace (default): VLESS/TLS + SOCKS termination only; NO extra
+#     capabilities, works with any container runtime;
+#   - TUN adapter mode: requires --cap-add NET_ADMIN and --device
+#     /dev/net/tun in compose (see the ara-edge service there).
+# The serving config arrives via `ara edge sync` / edge-config plan+apply
+# (owner-panel signed dispatch) — never baked into the image.
+FROM --platform=$BUILDPLATFORM golang:1.27.3-bookworm AS build
+ARG TARGETARCH
+ARG TARGETVARIANT
+WORKDIR /src
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN export GOARCH="$TARGETARCH" GOARM="${TARGETVARIANT#v}" CGO_ENABLED=0 GOOS=linux \
+    && go build -trimpath -ldflags="-s -w" \
+    -o /out/ara-edge ./cmd/ara-edge && \
+    go build -trimpath -ldflags="-s -w" \
+    -o /out/ara ./cmd/ara && \
+    go build -trimpath -ldflags="-s -w" \
+    -o /out/ara-testpoint ./cmd/ara-testpoint
+
+# C07/D04: the edge image carries the full data plane — the PINNED engine
+# (sing-box, version-pinned ARG re-scoped into this stage) for transit
+# adapters, the testpoint for authenticated diagnostics, and `ara` for
+# edge sync. The engine download is a MANDATORY build step (no || true):
+# a missing archive fails the build instead of shipping a broken image.
+FROM debian:bookworm-slim
+ARG SINGBOX_VERSION=1.14.4
+ARG TARGETARCH
+ARG TARGETVARIANT
+# G04: the digest build-arg MUST be declared in THIS stage — an ARG from a
+# previous stage is not in scope for RUN commands here.
+ARG SINGBOX_SHA256
+# E04: the archive digest is verified against the trusted SINGBOX_SHA256
+# build-arg; a missing/wrong digest fails the build (no || true).
+RUN set -eu; \
+    case "$TARGETARCH/$TARGETVARIANT" in amd64/*|arm64/*) engine_arch="$TARGETARCH";; arm/v7) engine_arch=armv7;; *) exit 1;; esac; \
+    groupadd -g 4202 ara-edge && useradd -r -u 4202 -g ara-edge -d /var/lib/ara-edge -s /usr/sbin/nologin ara-edge \
+    && mkdir -p /var/lib/ara-edge/state /etc/ara-edge /usr/local/lib/ara && chown -R 4202:4202 /var/lib/ara-edge /etc/ara-edge \
+    && apt-get update && apt-get install -y --no-install-recommends curl ca-certificates \
+    && curl -fsSL -o /tmp/sing-box.tar.gz \
+       "https://github.com/SagerNet/sing-box/releases/download/v${SINGBOX_VERSION}/sing-box-${SINGBOX_VERSION}-linux-${engine_arch}.tar.gz" \
+    && echo "${SINGBOX_SHA256}  /tmp/sing-box.tar.gz" | sha256sum -c - \
+    && cd /tmp && tar -xzf sing-box.tar.gz \
+    && install -m 0755 "sing-box-${SINGBOX_VERSION}-linux-${engine_arch}/sing-box" /usr/local/lib/ara/sing-box \
+    && rm -rf /tmp/sing-box* && apt-get purge -y curl && apt-get autoremove -y
+COPY --from=build /out/ara-edge /usr/local/bin/ara-edge
+COPY --from=build /out/ara /usr/local/bin/ara
+COPY --from=build /out/ara-testpoint /usr/local/bin/ara-testpoint
+COPY deploy/docker/edge-entrypoint.sh /usr/local/bin/edge-entrypoint
+RUN chmod 0755 /usr/local/bin/edge-entrypoint
+# Preserve ARA and third-party licensing in the runtime image.
+COPY LICENSE NOTICE TRADEMARKS.md SOURCES.md /usr/share/doc/ara/
+COPY licenses/ /usr/share/doc/ara/licenses/
+USER 4202:4202
+WORKDIR /var/lib/ara-edge
+ENTRYPOINT ["/usr/local/bin/edge-entrypoint"]

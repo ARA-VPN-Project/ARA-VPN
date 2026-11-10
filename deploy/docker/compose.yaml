@@ -1,0 +1,116 @@
+# ARA lab compose: builds local images, no registry pull, no :latest.
+#
+# STATUS HONESTY (review R16): this compose file has NOT been validated by
+# a real `docker compose config` or container run in this environment —
+# Docker on the lab host would alter host networking and is out of the
+# current permission. These are reviewable artifacts; runtime checks are
+# the explicitly listed follow-up (docs/IMPLEMENTATION_STATUS.md).
+#
+# R16 alignment:
+#   - fixed uid/gid 4200 inside images; named volumes (not tmpfs) hold
+#     state so control.db, identities and quota usage survive recreation;
+#   - client state path is explicit (/var/lib/ara/state);
+#   - management is published ONLY on the host loopback: the trust
+#     boundary is the host — remote administration requires an SSH tunnel
+#     or an authenticated TLS proxy in front, never direct publication.
+services:
+  ara-agent:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile.client
+      args:
+        SINGBOX_SHA256: "${ARA_SINGBOX_SHA256:?set ARA_SINGBOX_SHA256 to the pinned engine digest}"
+    image: ara/client:local-dev
+    read_only: true
+    user: "4200:4200"
+    tmpfs:
+      - /tmp
+    volumes:
+      - ara-agent-state:/var/lib/ara/state
+    # C07/E04 proxy mode is the DEFAULT: the container-internal mixed
+    # inbound must bind 0.0.0.0 for a host-loopback publication to reach
+    # it over the container IP (a container-loopback bind is NOT reachable
+    # via DNAT) — the client profile in this deployment sets
+    # proxy_listen 0.0.0.0:2080; the trust boundary stays the host
+    # loopback publication. No TUN, no capabilities.
+    ports:
+      - "127.0.0.1:12080:2080"
+    # TUN mode variant (explicit, mutually exclusive with the default):
+    #   cap_add: ["NET_ADMIN"]
+    #   devices: ["/dev/net/tun:/dev/net/tun"]
+    #   ports: []   # TUN routes at the IP layer; no inbound publication
+    restart: unless-stopped
+
+  ara-control:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile.control
+    image: ara/control:local-dev
+    environment:
+      # Give each new panel a unique identity. Existing volumes keep theirs.
+      ARA_PANEL_ID: "${ARA_PANEL_ID:-}"
+    read_only: true
+    user: "4200:4200"
+    tmpfs:
+      - /tmp
+    volumes:
+      - ara-control-state:/var/lib/ara/state
+    ports:
+      # host loopback only; the container itself binds 0.0.0.0:8080 with
+      # the explicit --allow-non-loopback override (R16). Remote access =
+      # SSH tunnel / TLS proxy, never a direct 0.0.0.0 publication.
+      - "127.0.0.1:18096:8080"
+    restart: unless-stopped
+
+  # ARA edge data plane (B41): the config is delivered by the owner panel
+  # (edge sync), state is persistent. The TUN-adapter variant needs the
+  # commented devices/cap_add; the default runs userspace-only.
+  ara-edge:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile.edge
+      args:
+        # G04: the trusted engine digest is a REQUIRED build input
+        SINGBOX_SHA256: "${ARA_SINGBOX_SHA256:?set ARA_SINGBOX_SHA256 to the pinned engine digest}"
+    image: ara/edge:local-dev
+    read_only: true
+    user: "4202:4202"
+    tmpfs:
+      - /tmp
+    volumes:
+      - ara-edge-state:/var/lib/ara-edge/state
+      # E04: /etc/ara-edge is a WRITABLE named volume (the pull entrypoint
+      # installs the owner-delivered config there); a REVIEWED config may
+      # be mounted read-only at /reviewed and the entrypoint seeds from it
+      - ara-edge-etc:/etc/ara-edge
+      - ./edge.json:/reviewed/edge.json:ro
+    environment:
+      # C07: the edge pulls its owner-delivered config on start when the
+      # volume is empty; management stays internal
+      OWNER_BASE: "${ARA_OWNER_BASE:-}"
+      # E04: the authenticated testpoint starts only with its token file
+      ARA_TESTPOINT_TOKENS: "${ARA_TESTPOINT_TOKENS:-}"
+      ARA_TESTPOINT_LISTEN: "0.0.0.0:18490"
+    # C07/E04: the edge's serving endpoints are the PUBLISHED VPN surface —
+    # access (VLESS/TLS), the FULL dedicated route allocation range
+    # (RoutePortHashBase: 40000..63999) and the authenticated testpoint
+    # are exposed; management is not.
+    ports:
+      - "8443:443"
+      # G04: publish the route ports the PLAN actually allocates — set
+      # ARA_ROUTE_PUBLISH from the plan's route list (e.g. 40001:40001,40007:40007);
+      # the default covers the full allocator range for lab use.
+      - "${ARA_ROUTE_PUBLISH:-40000-63999:40000-63999}"
+      - "127.0.0.1:18490:18490"
+    # TUN adapter mode (uncomment; requires /dev/net/tun on the host):
+    # cap_add:
+    #   - NET_ADMIN
+    # devices:
+    #   - /dev/net/tun:/dev/net/tun
+    restart: unless-stopped
+
+volumes:
+  ara-agent-state:
+  ara-control-state:
+  ara-edge-state:
+  ara-edge-etc:

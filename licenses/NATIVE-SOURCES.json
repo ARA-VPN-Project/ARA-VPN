@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "sources": [
+    {
+      "name": "NaiveProxy / Chromium network stack used by cronet-go",
+      "commit": "72a06c9fca0e2d228588c7f3074bf7efff3ff686",
+      "source_url": "https://codeload.github.com/SagerNet/naiveproxy/tar.gz/72a06c9fca0e2d228588c7f3074bf7efff3ff686",
+      "archive": "NAIVEPROXY-SOURCES-72a06c9f.tar.gz",
+      "sha256": "396d4ad6f5bf8ff812f915f0e21281748d7009773fa1bf182cd765f130fd9b19",
+      "binding": "naiveproxy gitlink in both cronet-go 0d28acc44093 and binary-library module commit c10c03c318db",
+      "gitlinks_in_native_source_tree": 0,
+      "notice_files": [
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/allocator/partition_allocator/src/partition_alloc/third_party/apple_apsl/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/cityhash/COPYING",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/cityhash_v103/COPYING",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/double_conversion/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/icu/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/nspr/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/superfasthash/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/symbolize/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/base/third_party/xdg_user_dirs/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/build/android/incremental_install/third_party/AndroidHiddenApiBypass/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/components/cronet/license/license_type.py",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/components/cronet/license/license_utils.py",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/net/third_party/mozilla_security_manager/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/net/third_party/mozilla_win/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/net/third_party/quiche/src/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/net/third_party/uri_template/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/abseil-cpp/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/apple_apsl/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/boringssl/src/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/boringssl/src/third_party/benchmark/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/boringssl/src/third_party/fiat/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/brotli/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/cpu_features/src/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/jni_zero/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/libc++/src/LICENSE.TXT",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/libc++abi/src/LICENSE.TXT",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/libunwind/src/LICENSE.TXT",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/llvm-libc/src/LICENSE.TXT",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/modp_b64/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/nasm/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/nasm/zlib/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/protobuf/third_party/utf8_range/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/simdutf/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/zlib/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/zstd/src/COPYING",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/third_party/zstd/src/LICENSE",
+        "licenses/third-party/native/naiveproxy/72a06c9fca0e2d228588c7f3074bf7efff3ff686/src/url/third_party/mozilla/LICENSE.txt"
+      ],
+      "build_instructions": "cronet-go module cmd/build-naive, .github/workflows/naive-build.yml and naiveproxy src/build.sh; retain build scripts and pinned DEPS",
+      "qualification": "source and license collection; not an independently reproduced native binary",
+      "required_modules": {
+        "github.com/sagernet/cronet-go": "v0.0.0-20260912104727-0d28acc44093",
+        "github.com/sagernet/cronet-go/lib/linux_amd64": "v0.0.0-20260912104006-c10c03c318db"
+      }
+    }
+  ]
+}

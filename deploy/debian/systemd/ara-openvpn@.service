@@ -1,0 +1,16 @@
+[Unit]
+Description=ARA VPN OpenVPN backbone (%I)
+After=network-online.target
+Wants=network-online.target
+ConditionPathExists=/etc/ara-edge/backbones/openvpn/%i.conf
+
+[Service]
+ExecStart=/usr/sbin/openvpn --config /etc/ara-edge/backbones/openvpn/%i.conf --dev %i --dev-type tun --route-noexec --route-nopull --script-security 1
+Restart=on-failure
+RestartSec=2s
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectHome=yes
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,13 @@
+[Unit]
+Description=ARA VPN scoped nftables helper
+Requires=ara-node-access.socket
+
+[Service]
+ExecStart=/usr/bin/ara --state-dir /run/ara-node-access/state node access serve
+NoNewPrivileges=yes
+CapabilityBoundingSet=CAP_NET_ADMIN
+RestrictAddressFamilies=AF_UNIX AF_NETLINK
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/run/ara-node-access
+PrivateTmp=yes

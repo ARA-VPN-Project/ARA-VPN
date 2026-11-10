@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ara.invalid/contracts/cli-envelope-v1.json",
+  "title": "ARA CLI --json envelope v1",
+  "description": "Exactly one object on stdout per invocation (docs/CLI_AUTOMATION.md). Exit codes: 0 ok, 2 validation, 3 auth, 4 conflict, 5 unavailable, 6 unsupported, 7 verification/security, 8 partial/rollback.",
+  "type": "object",
+  "required": ["api_version", "ok", "request_id"],
+  "additionalProperties": false,
+  "properties": {
+    "api_version": { "const": "ara.api/v1" },
+    "ok": {
+      "oneOf": [
+        { "const": true, "required": ["api_version", "ok", "request_id", "data"] },
+        { "const": false, "required": ["api_version", "ok", "request_id", "error"] }
+      ]
+    },
+    "request_id": { "type": "string", "minLength": 8 },
+    "data": { "type": "object" },
+    "error": {
+      "type": "object",
+      "required": ["code", "message_key", "retryable"],
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "enum": [
+            "VALIDATION_FAILED", "AUTH_FAILED", "PERMISSION_DENIED", "CONFLICT",
+            "PLAN_STALE", "PLAN_EXPIRED", "UNAVAILABLE", "AGENT_UNAVAILABLE",
+            "UNSUPPORTED_CAPABILITY", "VERIFICATION_FAILED", "POLICY_INVALID",
+            "CERT_INVALID", "ACCESS_UNREACHABLE", "DNS_SCOPE_FAILED",
+            "MTU_SUSPECTED", "PORT_CONFLICT", "QUOTA_EXCEEDED",
+            "NO_EGRESS_AVAILABLE", "ALL_FOREIGN_DOWN_RU_FALLBACK",
+            "UPDATE_SIGNATURE_INVALID", "UPDATE_EXPIRED", "UPDATE_CHANNEL_MISMATCH",
+            "PARTIAL_ROLLBACK_NEEDED", "INTERNAL"
+          ]
+        },
+        "message_key": { "type": "string" },
+        "params": { "type": "object" },
+        "retryable": { "type": "boolean" }
+      }
+    }
+  }
+}

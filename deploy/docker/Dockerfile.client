@@ -1,0 +1,60 @@
+# ARA CLI + agent (client side) — build stage pins the exact Go toolchain
+# recorded in go.mod (go1.27.3). Binaries are static (CGO off) so the
+# runtime image stays minimal.
+#
+# R16: the runtime user has a FIXED uid/gid (4200) so bind mounts and
+# named volumes are usable without dynamic-UID mismatches, and the state
+# path is explicit (--state-dir /var/lib/ara/state), not the ~/.ara
+# default. Proxy client mode: no NET_ADMIN, no /dev/net/tun — only
+# explicitly configured applications route through it.
+FROM --platform=$BUILDPLATFORM golang:1.27.3-bookworm AS build
+ARG TARGETARCH
+ARG TARGETVARIANT
+WORKDIR /src
+COPY go.mod go.sum ./
+RUN go mod download
+COPY . .
+RUN export GOARCH="$TARGETARCH" GOARM="${TARGETVARIANT#v}" CGO_ENABLED=0 GOOS=linux \
+    && go build -trimpath -ldflags="-s -w" \
+    -o /out/ara ./cmd/ara && \
+    go build -trimpath -ldflags="-s -w" \
+    -o /out/ara-agent ./cmd/ara-agent && \
+    go build -trimpath -ldflags="-s -w" \
+    -o /out/ara-testpoint ./cmd/ara-testpoint
+
+FROM debian:bookworm-slim
+RUN groupadd -g 4200 ara && useradd -r -u 4200 -g ara -d /var/lib/ara -s /usr/sbin/nologin ara \
+    && mkdir -p /var/lib/ara/state && chown -R 4200:4200 /var/lib/ara \
+    && apt-get update && apt-get install -y --no-install-recommends curl ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+COPY --from=build /out/ara /usr/local/bin/ara
+COPY --from=build /out/ara-agent /usr/local/bin/ara-agent
+COPY --from=build /out/ara-testpoint /usr/local/bin/ara-testpoint
+# D04: the pinned engine ships under /usr/local/lib/ara — the client
+# profile's engine_path points THERE (never an arbitrary system binary);
+# the DEFAULT proxy mode never needs capabilities, TUN mode is explicit.
+ARG SINGBOX_VERSION=1.14.4
+ARG TARGETARCH
+ARG TARGETVARIANT
+# G04: the digest build-arg MUST be declared in THIS stage — an ARG from a
+# previous stage is not in scope for RUN commands here.
+ARG SINGBOX_SHA256
+# E04: the downloaded archive is verified against the TRUSTED digest
+# (SINGBOX_SHA256 build-arg from the pinned provenance) before install; a
+# missing/wrong digest fails the build. The engine is installed
+# ROOT-OWNED and not writable by the runtime user.
+RUN set -eu; \
+    case "$TARGETARCH/$TARGETVARIANT" in amd64/*|arm64/*) engine_arch="$TARGETARCH";; arm/v7) engine_arch=armv7;; *) exit 1;; esac; \
+    mkdir -p /usr/local/lib/ara \
+    && curl -fsSL -o /tmp/sing-box.tar.gz "https://github.com/SagerNet/sing-box/releases/download/v${SINGBOX_VERSION}/sing-box-${SINGBOX_VERSION}-linux-${engine_arch}.tar.gz" \
+    && echo "${SINGBOX_SHA256}  /tmp/sing-box.tar.gz" | sha256sum -c - \
+    && cd /tmp && tar -xzf sing-box.tar.gz \
+    && install -m 0755 "sing-box-${SINGBOX_VERSION}-linux-${engine_arch}/sing-box" /usr/local/lib/ara/sing-box \
+    && rm -rf /tmp/sing-box* && apt-get purge -y curl && apt-get autoremove -y
+# Preserve ARA and third-party licensing in the runtime image.
+COPY LICENSE NOTICE TRADEMARKS.md SOURCES.md /usr/share/doc/ara/
+COPY licenses/ /usr/share/doc/ara/licenses/
+USER 4200:4200
+WORKDIR /var/lib/ara
+# explicit state path (review R16): no reliance on $HOME/.ara
+ENTRYPOINT ["/usr/local/bin/ara-agent", "--state-dir", "/var/lib/ara/state"]

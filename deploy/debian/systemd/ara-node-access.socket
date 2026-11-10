@@ -1,0 +1,13 @@
+[Unit]
+Description=ARA VPN local node access socket
+
+[Socket]
+ListenStream=/run/ara-node-access/control.sock
+SocketUser=root
+SocketGroup=ara-control
+SocketMode=0660
+DirectoryMode=0755
+RemoveOnStop=yes
+
+[Install]
+WantedBy=sockets.target

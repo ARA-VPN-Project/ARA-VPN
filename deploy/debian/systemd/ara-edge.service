@@ -1,0 +1,42 @@
+[Unit]
+Description=ARA VPN edge data plane
+Documentation=file:///usr/share/doc/ara-edge/README.md
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ara-edge
+Group=ara-edge
+ExecStart=/usr/bin/ara-edge --config /etc/ara-edge/edge.json
+Restart=on-failure
+RestartSec=5
+
+# Hardening: the edge terminates VLESS/SOCKS and dials exits — no TUN, no
+# privileged devices; the config is operator-owned (root-owned file the
+# service reads).
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+ProtectClock=yes
+ProtectHostname=yes
+RestrictNamespaces=yes
+RestrictRealtime=yes
+RestrictSUIDSGID=yes
+LockPersonality=yes
+MemoryDenyWriteExecute=yes
+SystemCallArchitectures=native
+SystemCallFilter=@system-service
+CapabilityBoundingSet=
+AmbientCapabilities=
+PrivateTmp=yes
+PrivateDevices=yes
+ReadWritePaths=/var/lib/ara-edge
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+LimitNOFILE=32768
+
+[Install]
+WantedBy=multi-user.target

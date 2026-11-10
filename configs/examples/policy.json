@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "revision": 0,
+  "allow_ru_fallback": true,
+  "rules": [
+    {
+      "id": "ru-gov",
+      "enabled": true,
+      "comment": "Госсервисы — через российский выход",
+      "domain_suffix": ["gosuslugi.example"],
+      "action": "RU_EXIT"
+    },
+    {
+      "id": "ru-bank",
+      "enabled": true,
+      "comment": "Банк — только RU, только tcp/443",
+      "domain_exact": ["bank.example"],
+      "proto": "tcp",
+      "ports": [{ "from": 443, "to": 443 }],
+      "action": "RU_EXIT"
+    },
+    {
+      "id": "block-ads",
+      "enabled": true,
+      "comment": "Реклама блокируется целиком",
+      "domain_suffix": ["ads.example"],
+      "action": "BLOCK"
+    },
+    {
+      "id": "media-ru-only",
+      "enabled": true,
+      "comment": "Медиасайт смотрим только из RU: строгий foreign без RU fallback",
+      "domain_suffix": ["media.example"],
+      "action": "FOREIGN_POOL",
+      "allow_ru_fallback": false
+    },
+    {
+      "id": "office-cidr",
+      "enabled": true,
+      "comment": "Офисная подсеть (TEST-NET) — через RU",
+      "cidr": ["203.0.113.0/24"],
+      "action": "RU_EXIT"
+    }
+  ]
+}

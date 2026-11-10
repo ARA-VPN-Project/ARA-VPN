@@ -1,0 +1,180 @@
+{
+  "_comment": "Pinned dependency and engine inventory. ARA-authored code: AGPL-3.0-or-later. Exact distributed binary modules and source/license materials: licenses/INVENTORY.json and licenses/NATIVE-SOURCES.json. Publication requires a separate owner instruction.",
+  "generated": "2026-10-27",
+  "release_ready": true,
+  "toolchain": {
+    "go": {
+      "version": "1.27.3",
+      "source": "https://go.dev/dl/ + go.mod toolchain directive",
+      "note": "Lab runs verified with local go1.27.1 (Debian 13) and go1.27.3 (macOS); all code targets the go1.27 language version"
+    }
+  },
+  "dependencies": [
+    {
+      "name": "golang.org/x/net",
+      "version": "v0.61.0",
+      "purpose": "IDNA (RFC 5890/5891) domain normalization via golang.org/x/net/idna",
+      "license": "BSD-3-Clause",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "golang.org/x/sys",
+      "version": "v0.49.0",
+      "purpose": "SO_PEERCRED peer credential checks for the agent Unix socket (linux)",
+      "license": "BSD-3-Clause",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "golang.org/x/text",
+      "version": "v0.43.0",
+      "purpose": "transitive (x/net idna tables)",
+      "license": "BSD-3-Clause",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "modernc.org/sqlite",
+      "version": "v1.58.0",
+      "purpose": "pure-Go SQLite for the control plane local DB (no cgo, cross-compilable)",
+      "license": "BSD-3-Clause (modernc.org/sqlite); bundled SQLite C sources are public domain",
+      "hash_source": "go.sum",
+      "license_note": "exact embedded sqlite3.c version recorded in the module; re-verify before production release"
+    },
+    {
+      "name": "modernc.org/libc",
+      "version": "v1.75.6",
+      "purpose": "transitive (sqlite runtime)",
+      "license": "BSD-3-Clause",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "modernc.org/mathutil",
+      "version": "v1.7.1",
+      "purpose": "transitive",
+      "license": "BSD-3-Clause",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "modernc.org/memory",
+      "version": "v1.12.1",
+      "purpose": "transitive",
+      "license": "BSD-3-Clause",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "github.com/ncruces/go-strftime",
+      "version": "v1.0.0",
+      "purpose": "transitive (sqlite time functions)",
+      "license": "MIT",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "github.com/mattn/go-isatty",
+      "version": "v0.0.24",
+      "purpose": "transitive",
+      "license": "MIT",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "github.com/dustin/go-humanize",
+      "version": "v1.0.1",
+      "purpose": "transitive",
+      "license": "MIT",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "github.com/remyoudompheng/bigfft",
+      "version": "v0.0.0-20230129092748-24d4a6f8daec",
+      "purpose": "transitive",
+      "license": "BSD-3-Clause",
+      "hash_source": "go.sum"
+    },
+    {
+      "name": "github.com/hashicorp/golang-lru/v2",
+      "version": "v2.0.7",
+      "purpose": "transitive (sqlite page cache)",
+      "license": "MPL-2.0",
+      "hash_source": "go.sum",
+      "license_note": "MPL-2.0 is file-level copyleft; verify compatibility with the final distribution model before release"
+    },
+    {
+      "name": "golang.org/x/sync",
+      "version": "v0.24.0",
+      "purpose": "transitive",
+      "license": "BSD-3-Clause",
+      "hash_source": "go.sum"
+    }
+  ],
+  "stdlib_crypto": {
+    "note": "ARA uses Go standard crypto primitives for TLS, randomness, hashes and signatures. ACME and TUF use the pinned libraries listed in this inventory. Transport cryptography is supplied by the separately pinned engine. No project-specific cryptographic algorithm is defined."
+  },
+  "transport_engine_lock": {
+    "status": "ACCEPTED_CURRENT_OWNER_AGREED_NATIVE_SCOPE",
+    "selected_engine": {
+      "name": "sing-box",
+      "version": "1.14.4",
+      "source": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-amd64.tar.gz",
+      "sha256_tarball": "699a1b510aa4396b2176d32d1181920399ebf1e267835da6f3b598d0f7c24968",
+      "linux_armv7": {
+        "source": "https://github.com/SagerNet/sing-box/releases/download/v1.14.4/sing-box-1.14.4-linux-armv7.tar.gz",
+        "sha256_tarball": "fd164ed45ebc784f657a3e1d0e0ad0f68afdcff864ee57122c2cfed3ddb80a00",
+        "sha256_binary": "03a2798795bdd481a17ea76d08d2dcb9b2919d6799e64d5163c522274843d846"
+      },
+      "license": "GPL-3.0-or-later (see LICENSE in release); name/branding restrictions apply",
+      "build_provenance": "go1.26.10 linux/amd64; official GitHub release; no detached signature available for tarball (release notes reference SBOM); provenance verified by SHA-256 match with release page only",
+      "profiles_validated": [
+        "VLESS+TLS (TCP)",
+        "Hysteria2 (UDP)"
+      ],
+      "release_ready": true,
+      "release_ready_reason": "Native amd64 and ARMv7 user-mode accepted within documented scope; Docker runtime and physical ARM qualification remain outside it. Publish exact source assets and notices alongside binaries."
+    },
+    "evaluated_alternatives": [
+      {
+        "name": "xray",
+        "version": "26.10.21",
+        "sha256": "0eec3ed4163c273d8c8bf821f7d219e257921cf584aa3fb970715e458e631978",
+        "license": "MPL-2.0",
+        "status": "TCP profile failed (client reset, cross-tested); not selected",
+        "debug": "results/xray-client-debug-findings.txt"
+      }
+    ]
+  },
+  "rsc.io/qr": {
+    "version": "v0.2.0",
+    "sha256_go_sum": "h1:6vBLea5/NRMVTz8V66gipeLycZMl/+UlFmk8DvqQ6WY=",
+    "license": "BSD-2-Clause",
+    "source": "https://pkg.go.dev/rsc.io/qr",
+    "purpose": "QR encoding for invite links (upstream reference; own codec rejected after cross-check)"
+  },
+  "golang.org/x/crypto": {
+    "version": "v0.58.0",
+    "sha256_go_sum": "h1:COkYLr4k7nDI4r6QtMML2AfzeIswWHAJthLS6K/M/54=",
+    "license": "BSD-3-Clause",
+    "source": "https://pkg.go.dev/golang.org/x/crypto",
+    "purpose": "ACME (RFC 8555) client for the TLS wizard; maintained upstream"
+  },
+  "github.com/theupdateframework/go-tuf/v2": {
+    "version": "v2.4.2",
+    "sha256_go_sum": "h1:w7976/W8uTwlsegP5nRymlpjPgrwSh+AXUf85is6nJk=",
+    "license": "Apache-2.0",
+    "source": "https://github.com/theupdateframework/go-tuf",
+    "purpose": "TUF role-chain verification for updates (blocker fix 2026-10-30)"
+  },
+  "github.com/sigstore/sigstore": {
+    "version": "v1.10.6",
+    "sha256_go_sum": "h1:YWhMQfTrJSK80QB1pbxjYeAwGKx+5UwWPPAY9hrPPZg=",
+    "license": "Apache-2.0",
+    "source": "https://github.com/sigstore/sigstore",
+    "purpose": "signature.Signer/Verifier plumbing required by go-tuf metadata"
+  },
+  "github.com/secure-systems-lab/go-securesystemslib": {
+    "version": "v0.11.0",
+    "sha256_go_sum": "h1:iuCR9kcMFD4QurdKrGvPLoKZLv9YvwPYVr0473BdtFs=",
+    "license": "BSD-3-Clause",
+    "source": "https://github.com/secure-systems-lab/go-securesystemslib",
+    "purpose": "canonical JSON + key handling for go-tuf"
+  },
+  "project_license": "AGPL-3.0-or-later",
+  "license_inventory": "licenses/INVENTORY.json",
+  "readiness_scope": "Accepted owner-agreed native scope; publication is a separate action. See docs/ACCEPTANCE_0.1.1.md and docs/LICENSE_ACCEPTANCE_0.1.1.md."
+}
